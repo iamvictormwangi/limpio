@@ -1,0 +1,13 @@
+@use "./../abstracts/" as *
+
+.#{$class-prefix}list
+  position: relative
+
+  & .#{$class-prefix}list#{$separator}item:not(:first-child)
+    @if $enable-padding == true
+      padding: 0.35rem 1rem
+
+  & .#{$class-prefix}list#{$separator}item:first-child
+    @if $enable-padding == true
+      padding: 0.35rem
+

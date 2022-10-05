@@ -1,0 +1,16 @@
+@use "./../abstracts/" as *
+
+.#{$class-prefix}hamberger
+  cursor: pointer
+
+  .#{$class-prefix}hamberger#{$separator}bar
+    background-color: var(--bg-dark)
+    height: 2px
+    width: 1.7rem !important
+    margin-bottom: 0.5rem !important
+
+    &.#{$class-prefix}hamberger#{$separator}short
+      width: 1.3rem !important
+
+    &.#{$class-prefix}hamberger#{$separator}last
+      margin-bottom: 0 !important

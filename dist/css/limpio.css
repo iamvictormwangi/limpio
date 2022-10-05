@@ -1018,7 +1018,7 @@ html, body {
   cursor: pointer;
 }
 .badge .badge-wrapper {
-  padding: 0.35rem 0.65rem;
+  padding: 0.15rem 0.65rem;
   display: flex;
   align-items: center;
 }
@@ -1276,6 +1276,22 @@ html, body {
 }
 .group .group-item {
   margin-bottom: 0;
+}
+
+.hamberger {
+  cursor: pointer;
+}
+.hamberger .hamberger-bar {
+  background-color: var(--bg-dark);
+  height: 2px;
+  width: 1.7rem !important;
+  margin-bottom: 0.5rem !important;
+}
+.hamberger .hamberger-bar.hamberger-short {
+  width: 1.3rem !important;
+}
+.hamberger .hamberger-bar.hamberger-last {
+  margin-bottom: 0 !important;
 }
 
 .hero {

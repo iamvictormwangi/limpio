@@ -4,27 +4,15 @@
   .#{$class-prefix}gtc#{$separator}#{$i}
     grid-template-columns: repeat(#{$i}, 1fr) !important
 
-@if $enable-slim-mode
-  @each $key, $value in $value-props-slim
-    .#{$class-prefix}gg#{$separator}#{$key}
-      grid-gap: $value !important
+@each $key, $value in $value-props
+  .#{$class-prefix}gg#{$separator}#{$key}
+    grid-gap: $value !important
 
-    .#{$class-prefix}gcg#{$separator}#{$key}
-      grid-column-gap: $value !important
+  .#{$class-prefix}gcg#{$separator}#{$key}
+    grid-column-gap: $value !important
 
-    .#{$class-prefix}grg#{$separator}#{$key}
-      grid-row-gap: $value !important
-
-@else
-  @each $key, $value in $value-props
-    .#{$class-prefix}gg#{$separator}#{$key}
-      grid-gap: $value !important
-
-    .#{$class-prefix}gcg#{$separator}#{$key}
-      grid-column-gap: $value !important
-
-    .#{$class-prefix}grg#{$separator}#{$key}
-      grid-row-gap: $value !important
+  .#{$class-prefix}grg#{$separator}#{$key}
+    grid-row-gap: $value !important
 
 @media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
 
@@ -153,5 +141,4 @@
 
     .#{$class-prefix}#{$desktop-prefix}#{$separator}grg#{$separator}#{$key}
       grid-row-gap: $value !important
-
 

@@ -6,9 +6,15 @@
   .#{$class-prefix}l#{$separator}#{$key}
     left: $value !important
 
+  .#{$class-prefix}l#{$separator}neg#{$separator}#{$key}
+    left: -$value !important
+
 @for $i from 1 through 30
   .#{$class-prefix}l#{$separator}#{$i * 5}\%
     left: #{$i * 5} + '%' !important
+
+  .#{$class-prefix}l#{$separator}neg#{$separator}#{$i * 5}\%
+    left: -#{$i * 5} + '%' !important
 
 .#{$class-prefix}l#{$separator}auto
   left: auto !important
@@ -19,9 +25,15 @@
     .#{$class-prefix}#{$mobile-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
+    .#{$class-prefix}#{$mobile-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+      left: -$value !important
+
   @for $i from 1 through 30
     .#{$class-prefix}#{$mobile-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
+
+    .#{$class-prefix}#{$mobile-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+      left: -#{$i * 5} + '%' !important
 
   .#{$class-prefix}#{$mobile-prefix}#{$separator}l#{$separator}auto
     left: auto !important
@@ -32,9 +44,15 @@
     .#{$class-prefix}#{$tablet-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
+    .#{$class-prefix}#{$tablet-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+      left: -$value !important
+
   @for $i from 1 through 30
     .#{$class-prefix}#{$tablet-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
+
+    .#{$class-prefix}#{$tablet-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+      left: -#{$i * 5} + '%' !important
 
   .#{$class-prefix}#{$tablet-prefix}#{$separator}l#{$separator}auto
     left: auto !important
@@ -45,9 +63,15 @@
     .#{$class-prefix}#{$tablet-up-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
+    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+      left: -$value !important
+
   @for $i from 1 through 30
     .#{$class-prefix}#{$tablet-up-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
+
+    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+      left: -#{$i * 5} + '%' !important
 
   .#{$class-prefix}#{$tablet-up-prefix}#{$separator}l#{$separator}auto
     left: auto !important
@@ -58,9 +82,15 @@
     .#{$class-prefix}#{$tablet-down-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
+    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+      left: -$value !important
+
   @for $i from 1 through 30
     .#{$class-prefix}#{$tablet-down-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
+
+    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+      left: -#{$i * 5} + '%' !important
 
   .#{$class-prefix}#{$tablet-down-prefix}#{$separator}l#{$separator}auto
     left: auto !important
@@ -71,9 +101,15 @@
     .#{$class-prefix}#{$laptop-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
+    .#{$class-prefix}#{$laptop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+      left: -$value !important
+
   @for $i from 1 through 30
     .#{$class-prefix}#{$laptop-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
+
+    .#{$class-prefix}#{$laptop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+      left: -#{$i * 5} + '%' !important
 
   .#{$class-prefix}#{$laptop-prefix}#{$separator}l#{$separator}auto
     left: auto !important
@@ -84,9 +120,15 @@
     .#{$class-prefix}#{$laptop-up-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
+    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+      left: -$value !important
+
   @for $i from 1 through 30
     .#{$class-prefix}#{$laptop-up-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
+
+    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+      left: -#{$i * 5} + '%' !important
 
   .#{$class-prefix}#{$laptop-up-prefix}#{$separator}l#{$separator}auto
     left: auto !important
@@ -97,9 +139,15 @@
     .#{$class-prefix}#{$laptop-down-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
+    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+      left: -$value !important
+
   @for $i from 1 through 30
     .#{$class-prefix}#{$laptop-down-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
+
+    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+      left: -#{$i * 5} + '%' !important
 
   .#{$class-prefix}#{$laptop-down-prefix}#{$separator}l#{$separator}auto
     left: auto !important
@@ -110,9 +158,15 @@
     .#{$class-prefix}#{$desktop-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
+    .#{$class-prefix}#{$desktop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+      left: -$value !important
+
   @for $i from 1 through 30
     .#{$class-prefix}#{$desktop-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
+
+    .#{$class-prefix}#{$desktop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+      left: -#{$i * 5} + '%' !important
 
   .#{$class-prefix}#{$desktop-prefix}#{$separator}l#{$separator}auto
     left: auto !important

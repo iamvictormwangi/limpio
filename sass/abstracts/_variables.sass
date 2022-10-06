@@ -1,3 +1,10 @@
+$enable-shadow                            : false  !default
+$enable-margin                            : true   !default
+$enable-padding                           : true   !default
+$enable-smooth-scroll                     : true   !default
+$enable-eye-care                          : true   !default
+$enable-slim-mode                         : false  !default
+
 $class-prefix                             : '' !default
 
 $separator                                : '-' !default
@@ -5,14 +12,12 @@ $variable-prefix                          : '--limpio'   !default
 
 $mobile-prefix                            : '\\@mobile'  !default
 $tablet-prefix                            : '\\@tablet'  !default
-$laptop-prefix                            : '\\@laptop'  !default
-$desktop-prefix                           : '\\@desktop' !default
-
 $tablet-up-prefix                         : '\\@tablet-up' !default
 $tablet-down-prefix                       : '\\@tablet-down' !default
-
+$laptop-prefix                            : '\\@laptop'  !default
 $laptop-up-prefix                         : '\\@laptop-up' !default
 $laptop-down-prefix                       : '\\@laptop-down' !default
+$desktop-prefix                           : '\\@desktop' !default
 
 $animation-duration                       : 1s !default
 $animation-repeat                         : 1 !default
@@ -24,29 +29,13 @@ $transition-delay                         : 0.05s !default
 $title-font-size                          : 2.5rem !default
 $font-size                                : 1rem !default
 
-$poppins                                  : 'Poppins', sans-serif !default
-$raleway                                  : 'Raleway', sans-serif !default
-$plex-serif                               : 'IBM Plex Serif', serif !default
-$pacifio                                  : 'Pacifico', cursive !default
-$fira-code                                : 'Fira Code', monospace !default
-
 $sans-serif                               : 'Poppins', sans-serif !default
 $sans-serif-alt                           : 'Raleway', sans-serif !default
 $serif                                    : 'IBM Plex Serif', serif !default
+$fira-code                                : 'Fira Code', monospace !default
 
 $input-border-radius                      : 5px
 $button-border-radius                     : 0.25px
-
-$primary                                  : #175E54 !default
-$secondary                                : #ba68c8 !default
-$muted                                    : #535353 !default
-$accent                                   : #59B3A9 !default
-$error                                    : #ef5350 !default
-$warning                                  : #ff9800 !default
-$info                                     : #03a9f4 !default
-$success                                  : #4caf50 !default
-$dark                                     : #0c242b !default
-$light                                    :	#F8F8FF !default
 
 $red                                      : #ff0000 !default
 $cyan                                     : #00ffff !default
@@ -72,9 +61,9 @@ $youtube                                  : #ff0000 !default
 $linkedin                                 : #0a66c2 !default
 $instagram                                : #c32aa3 !default
 $google                                   : #4285f4 !default
-$google-alt                               :#16a61e !default
-$google-alt-alt                           :#dd1812 !default
-$google-alt-alt-alt                       :#fcca03 !default
+$google-alt                               : #16a61e !default
+$google-alt-alt                           : #dd1812 !default
+$google-alt-alt-alt                       : #fcca03 !default
 $googleplus                               : #db4437 !default
 $pinterest                                : #bd081c !default
 $vimeo                                    : #1ab7ea !default
@@ -114,51 +103,6 @@ $redhat                                   : #cc0000 !default
 $ubuntu                                   : #dd4814 !default
 $wordpress                                : #21759b !default
 $xbox                                     : #9bc848 !default
-
-$primary-ltn-1                            : lighten($primary, 2) !default
-$primary-ltn-2                            : lighten($primary, 4) !default
-$primary-ltn-3                            : lighten($primary, 6) !default
-$primary-ltn-4                            : lighten($primary, 9) !default
-$primary-ltn-5                            : lighten($primary, 12) !default
-$primary-ltn-6                            : lighten($primary, 15) !default
-$primary-ltn-7                            : lighten($primary, 20) !default
-$primary-dkn-1                            : darken($primary, 2) !default
-$primary-dkn-2                            : darken($primary, 4) !default
-$primary-dkn-3                            : darken($primary, 6) !default
-$primary-dkn-4                            : darken($primary, 9) !default
-$primary-dkn-5                            : darken($primary, 12) !default
-$primary-dkn-6                            : darken($primary, 15) !default
-$primary-dkn-7                            : darken($primary, 20) !default
-
-$secondary-ltn-1                          : lighten($secondary, 2) !default
-$secondary-ltn-2                          : lighten($secondary, 4) !default
-$secondary-ltn-3                          : lighten($secondary, 6) !default
-$secondary-ltn-4                          : lighten($secondary, 9) !default
-$secondary-ltn-5                          : lighten($secondary, 12) !default
-$secondary-ltn-6                          : lighten($secondary, 15) !default
-$secondary-ltn-7                          : lighten($secondary, 20) !default
-$secondary-dkn-1                          : darken($secondary, 2) !default
-$secondary-dkn-2                          : darken($secondary, 4) !default
-$secondary-dkn-3                          : darken($secondary, 6) !default
-$secondary-dkn-4                          : darken($secondary, 9) !default
-$secondary-dkn-5                          : darken($secondary, 12) !default
-$secondary-dkn-6                          : darken($secondary, 15) !default
-$secondary-dkn-7                          : darken($secondary, 20) !default
-
-$accent-ltn-1                             : lighten($accent, 2) !default
-$accent-ltn-2                             : lighten($accent, 4) !default
-$accent-ltn-3                             : lighten($accent, 6) !default
-$accent-ltn-4                             : lighten($accent, 9) !default
-$accent-ltn-5                             : lighten($accent, 12) !default
-$accent-ltn-6                             : lighten($accent, 15) !default
-$accent-ltn-7                             : lighten($accent, 20) !default
-$accent-dkn-1                             : darken($accent, 2) !default
-$accent-dkn-2                             : darken($accent, 4) !default
-$accent-dkn-3                             : darken($accent, 6) !default
-$accent-dkn-4                             : darken($accent, 9) !default
-$accent-dkn-5                             : darken($accent, 12) !default
-$accent-dkn-6                             : darken($accent, 15) !default
-$accent-dkn-7                             : darken($accent, 20) !default
 
 $red-ltn-1                                : lighten($red, 2) !default
 $red-ltn-2                                : lighten($red, 4) !default
@@ -400,18 +344,14 @@ $teal-dkn-5                               : darken($teal, 12) !default
 $teal-dkn-6                               : darken($teal, 15) !default
 $teal-dkn-7                               : darken($teal, 20) !default
 
-$color-list                               : [ primary, secondary, accent, red, cyan, blue, darkblue, lightblue, purple, yellow, lime, grey, black, white, orange, brown, maroon, green, olive, teal] !default
+$color-list                               : [ red, cyan, blue, darkblue, lightblue, purple, yellow, lime, grey, black, white, orange, brown, maroon, green, olive, teal] !default
 
 $brands                                   : [ facebook, facebookold, twitter, youtube, linkedin, instagram, google, googleplus, pinterest,snapchat, whatsapp, tiktok, apple, amazon, microsoft, medium, skype, anroid, twitch, soundcloud, spotify, reddit, quora, steam, discord, telegram, behance, bing, drupal, ebay, firefox, github, hackernews, heroku, opera, paypal, redhat, ubuntu, wordpress, xbox ] !default
 
 $spacer                                   : 1rem !default
 
-$spacer-alt                               : 1rem !default
-
-$margin-bottom                            : 1rem !default
-
 $border-width                             : 1.5px !default
-$border-color                             : $dark !default
+$border-color                             : $black-ltn-2 !default
 $border-style                             : solid !default
 
 $mobile-min-width                         : 14rem !default
@@ -428,6 +368,10 @@ $desktop-min-width                        : 64.0625rem !default
 $border-list                              : ( 0: 0, 1: 0.1rem, 2: 0.2rem, 3: 0.3rem, 4: 0.4rem, 5: 0.5rem, 6: 0.6rem, 7: 0.7rem, 8: 0.8rem, 9: 0.9rem, 10: 1rem, 11: 1.1rem, 12: 1.2rem, 13: 1.3rem, 14: 1.4rem, 15: 1.5rem, 16: 1.6rem, 17: 1.7rem, 18: 1.8rem, 19: 1.9rem, 20: 2rem, 21: 2.1rem, 22: 2.2rem, 23: 2.3rem, 24: 2.4rem, 25: 2.5rem, 26: 2.6rem, 27: 2.7rem, 28: 2.8rem, 29: 2.9rem, 30: 3rem) !default
 
 $value-props                              : ( 0: 0, 1: 0.25rem, 2: 0.5rem, 3: 0.75rem, 4: 1rem, 5: 1.25rem, 6: 1.5rem, 7: 1.75rem, 8: 2rem, 9: 2.25rem, 10: 2.5rem, 11: 2.75rem, 12: 3rem, 13: 3.25rem, 14: 3.5rem, 15: 3.75rem, 16: 4rem, 17: 4.25rem, 18: 4.5rem, 19: 4.75rem, 20: 5rem, 21: 5.25rem, 22: 5.5rem, 23: 5.75rem, 24: 6rem, 25: 6.25rem, 26: 6.5rem, 27: 6.75rem, 28: 7rem, 29: 7.25rem, 30: 7.5rem, 31: 7.75rem, 32: 8rem, 33: 8.25rem, 34: 8.5rem, 35: 8.75rem, 36: 9rem, 37: 9.25rem, 38: 9.5rem, 39: 9.75rem, 40: 10rem, 41: 10.25rem, 42: 10.5rem, 43: 10.75rem, 44: 11rem, 45: 11.25rem, 46: 11.5rem, 47: 11.75rem, 48: 11rem, 49: 11.25rem, 50: 11.5rem, 51: 12rem, 52: 13rem, 53: 14rem, 54: 15rem, 55: 16rem, 56: 17rem, 57: 18rem, 59: 19rem, 60: 20rem, 61: 22rem, 62: 24rem, 63: 26rem, 64: 28rem, 67: 30rem, 68: 32rem, 69: 34rem, 70: 36rem) !default
+
+@if $enable-slim-mode == true
+
+  $value-props                            : (7xl: 30rem , 6xl:  15rem, 5xl: 10rem , 4xl: 8rem , 3xl: 6rem , 2xl: 4rem, lg:  3.5rem, md: 3rem, sm: 2.5rem, xs: 2rem, 2xs: 1.5rem, 3xs: 1rem, 4xs: 0.8rem, 5xs: 0.6rem, 6xs : 0.4rem, 7xs: 0.2rem) !default
 
 $value-props-slim                         : (7xl: 30rem , 6xl:  15rem, 5xl: 10rem , 4xl: 8rem , 3xl: 6rem , 2xl: 4rem, lg:  3.5rem, md: 3rem, sm: 2.5rem, xs: 2rem, 2xs: 1.5rem, 3xs: 1rem, 4xs: 0.8rem, 5xs: 0.6rem, 6xs : 0.4rem, 7xs: 0.2rem) !default
 
@@ -469,9 +413,3 @@ $text-shadow-5xl                          : 47rem !default
 $text-shadow-6xl                          : 47rem !default
 $text-shadow-7xl                          : 47rem !default
 
-$enable-shadow                            : false !default
-$enable-margin                            : false !default
-$enable-padding                           : true  !default
-$enable-smooth-scroll                     : true  !default
-$enable-eye-care                          : true  !default
-$enable-slim-mode                         : false  !default

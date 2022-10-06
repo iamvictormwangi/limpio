@@ -1,10 +1,11 @@
 @use "./../abstracts/" as *
 
 .#{$class-prefix}btn
-  border: $dark solid 0.1rem
+  border: $border-color $border-style 0.1rem
   border-radius: var(#{$variable-prefix}-button-border-radius)
   cursor: pointer
   text-align: center
+
   @if $enable-padding == true
     padding: 0.35rem 2.5rem
 

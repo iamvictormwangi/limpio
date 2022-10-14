@@ -968,12 +968,13 @@ html, body {
 }
 
 .badge {
-  width: 5rem;
+  width: auto;
   cursor: pointer;
 }
 .badge .badge-wrapper {
-  padding: 0.15rem 0.65rem;
+  padding: 0.35rem 0.65rem;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -1236,7 +1237,7 @@ html, body {
   cursor: pointer;
 }
 .hamberger .hamberger-bar {
-  background-color: var(--bg-dark);
+  background-color: var(--limpio-black);
   height: 2px;
   width: 1.7rem !important;
   margin-bottom: 0.5rem !important;
@@ -1330,29 +1331,29 @@ html, body {
   font-weight: inherit;
 }
 
+.notification * {
+  margin-bottom: 0;
+}
+
 .notification {
-  min-height: 3rem;
   width: 100%;
   z-index: 1000;
-  min-height: 5rem;
+  position: fixed;
+  bottom: 0;
 }
 .notification .notification-wrapper {
-  position: relative;
-  padding: 1rem 0.8rem;
+  padding: 0.25rem 0.8rem;
 }
 .notification .notification-wrapper .notification-title {
   font-weight: inherit;
   font-size: 1.3rem;
-  margin-bottom: 0.5rem;
 }
 .notification .notification-wrapper .notification-subtitle {
   font-weight: inherit;
   font-size: 1.2rem;
-  margin-bottom: 0.5rem;
 }
 .notification .notification-wrapper .notification-text {
   font-size: inherit;
-  margin-bottom: 0.5rem;
 }
 
 .pagination {
@@ -1368,10 +1369,6 @@ html, body {
   -o-flex-wrap: wrap !important;
   flex-wrap: wrap !important;
 }
-.pagination .pagination-item {
-  margin: 0 0.08rem;
-}
-
 .panel * {
   margin-bottom: 0 !important;
 }
@@ -1410,6 +1407,15 @@ html, body {
   width: 15%;
   height: 100%;
   background-color: var(--limpio-dark);
+}
+
+.scroll-tracker {
+  height: 0.3rem;
+  background-color: var(--limpio-dark);
+  width: 4px;
+  border-right-radius: 0.28rem;
+  transition: width linear 0.4s;
+  overflow-x: hidden !important;
 }
 
 .sidebar {
@@ -18805,76 +18811,6 @@ ol ol ol {
   margin-bottom: calc(var(--limpio-spacer) + 5rem) !important;
 }
 
-h3,
-h4,
-h5,
-h6,
-nav,
-main,
-section,
-aside,
-article,
-footer,
-figure,
-details,
-summary,
-p,
-button,
-table,
-label,
-input,
-textarea,
-select,
-img,
-video,
-ul,
-ol,
-.h3,
-.h4,
-.h5,
-.h6,
-.nav,
-.main,
-.section,
-.aside,
-.article,
-.footer,
-.figure,
-.details,
-.summary,
-.p,
-.alert,
-.box,
-.btn,
-.carousel,
-.group,
-.hero,
-.list,
-.msg,
-.modal,
-.notepad,
-.notification,
-.pagination,
-.panel,
-.progress,
-.table,
-.input,
-.label,
-.textarea,
-.select {
-  margin-bottom: var(--limpio-spacer);
-}
-
-.h1,
-.title {
-  margin-bottom: calc(var(--limpio-spacer) + 0.5rem);
-}
-
-.h2,
-.subtitle {
-  margin-bottom: calc(var(--limpio-spacer) + 0.25rem);
-}
-
 .svg {
   cursor: pointer;
   fill: currentColor;
@@ -19700,6 +19636,70 @@ pre, code, .code, .pre {
   font-weight: 1000 !important;
 }
 
+.fw-7xs {
+  font-weight: 100 !important;
+}
+
+.fw-6xs {
+  font-weight: 200 !important;
+}
+
+.fw-5xs {
+  font-weight: 250 !important;
+}
+
+.fw-4xs {
+  font-weight: 300 !important;
+}
+
+.fw-3xs {
+  font-weight: 350 !important;
+}
+
+.fw-2xs {
+  font-weight: 400 !important;
+}
+
+.fw-sm {
+  font-weight: 450 !important;
+}
+
+.fw-md {
+  font-weight: 500 !important;
+}
+
+.fw-lg {
+  font-weight: 550 !important;
+}
+
+.fw-xl {
+  font-weight: 600 !important;
+}
+
+.fw-2xl {
+  font-weight: 650 !important;
+}
+
+.fw-3xl {
+  font-weight: 700 !important;
+}
+
+.fw-4xl {
+  font-weight: 750 !important;
+}
+
+.fw-5xl {
+  font-weight: 800 !important;
+}
+
+.fw-6xl {
+  font-weight: 900 !important;
+}
+
+.fw-7xl {
+  font-weight: 1000 !important;
+}
+
 .fw-normal {
   font-weight: normal !important;
 }
@@ -20056,6 +20056,74 @@ pre, code, .code, .pre {
   letter-spacing: 1.5px !important;
 }
 
+.ltr-sp-7xs {
+  letter-spacing: 0.045px !important;
+}
+
+.ltr-sp-6xs {
+  letter-spacing: 0.07px !important;
+}
+
+.ltr-sp-5xs {
+  letter-spacing: 0.1px !important;
+}
+
+.ltr-sp-4xs {
+  letter-spacing: 0.2px !important;
+}
+
+.ltr-sp-3xs {
+  letter-spacing: 0.3px !important;
+}
+
+.ltr-sp-2xs {
+  letter-spacing: 0.4px !important;
+}
+
+.ltr-sp-xs {
+  letter-spacing: 0.5px !important;
+}
+
+.ltr-sp-sm {
+  letter-spacing: 0.6px !important;
+}
+
+.ltr-sp-md {
+  letter-spacing: 0.7px !important;
+}
+
+.ltr-sp-lg {
+  letter-spacing: 0.8px !important;
+}
+
+.ltr-sp-xl {
+  letter-spacing: 0.9px !important;
+}
+
+.ltr-sp-2xl {
+  letter-spacing: 1px !important;
+}
+
+.ltr-sp-3xl {
+  letter-spacing: 1.1px !important;
+}
+
+.ltr-sp-4xl {
+  letter-spacing: 1.2px !important;
+}
+
+.ltr-sp-5xl {
+  letter-spacing: 1.3px !important;
+}
+
+.ltr-sp-6xl {
+  letter-spacing: 1.4px !important;
+}
+
+.ltr-sp-7xl {
+  letter-spacing: 1.5px !important;
+}
+
 .lb-auto {
   line-break: auto !important;
 }
@@ -20081,83 +20149,147 @@ pre, code, .code, .pre {
 }
 
 .lh-10\% {
-  line-height: 10rem !important;
+  line-height: 10% !important;
 }
 
 .lh-20\% {
-  line-height: 20rem !important;
+  line-height: 20% !important;
 }
 
 .lh-30\% {
-  line-height: 30rem !important;
+  line-height: 30% !important;
 }
 
 .lh-40\% {
-  line-height: 40rem !important;
+  line-height: 40% !important;
 }
 
 .lh-50\% {
-  line-height: 50rem !important;
+  line-height: 50% !important;
 }
 
 .lh-60\% {
-  line-height: 60rem !important;
+  line-height: 60% !important;
 }
 
 .lh-70\% {
-  line-height: 70rem !important;
+  line-height: 70% !important;
 }
 
 .lh-80\% {
-  line-height: 80rem !important;
+  line-height: 80% !important;
 }
 
 .lh-90\% {
-  line-height: 90rem !important;
+  line-height: 90% !important;
 }
 
 .lh-100\% {
-  line-height: 100rem !important;
+  line-height: 100% !important;
 }
 
 .lh-110\% {
-  line-height: 110rem !important;
+  line-height: 110% !important;
 }
 
 .lh-120\% {
-  line-height: 120rem !important;
+  line-height: 120% !important;
 }
 
 .lh-130\% {
-  line-height: 130rem !important;
+  line-height: 130% !important;
 }
 
 .lh-140\% {
-  line-height: 140rem !important;
+  line-height: 140% !important;
 }
 
 .lh-150\% {
-  line-height: 150rem !important;
+  line-height: 150% !important;
 }
 
 .lh-160\% {
-  line-height: 160rem !important;
+  line-height: 160% !important;
 }
 
 .lh-170\% {
-  line-height: 170rem !important;
+  line-height: 170% !important;
 }
 
 .lh-180\% {
-  line-height: 180rem !important;
+  line-height: 180% !important;
 }
 
 .lh-190\% {
-  line-height: 190rem !important;
+  line-height: 190% !important;
 }
 
 .lh-200\% {
-  line-height: 200rem !important;
+  line-height: 200% !important;
+}
+
+.lh-7xs {
+  line-height: 10% !important;
+}
+
+.lh-6xs {
+  line-height: 20% !important;
+}
+
+.lh-5xs {
+  line-height: 30% !important;
+}
+
+.lh-4xs {
+  line-height: 40% !important;
+}
+
+.lh-3xs {
+  line-height: 50% !important;
+}
+
+.lh-2xs {
+  line-height: 60% !important;
+}
+
+.lh-sm {
+  line-height: 70% !important;
+}
+
+.lh-md {
+  line-height: 90% !important;
+}
+
+.lh-lg {
+  line-height: 110% !important;
+}
+
+.lh-xl {
+  line-height: 120% !important;
+}
+
+.lh-2xl {
+  line-height: 130% !important;
+}
+
+.lh-3xl {
+  line-height: 140% !important;
+}
+
+.lh-4xl {
+  line-height: 150% !important;
+}
+
+.lh-5xl {
+  line-height: 160% !important;
+}
+
+.lh-6xl {
+  line-height: 170% !important;
+}
+
+.lh-7xl {
+  line-height: 190% !important;
 }
 
 .ws-normal {

@@ -1369,6 +1369,10 @@ html, body {
   -o-flex-wrap: wrap !important;
   flex-wrap: wrap !important;
 }
+.pagination .pagination-item {
+  margin: 0 0.08rem;
+}
+
 .panel * {
   margin-bottom: 0 !important;
 }
@@ -1605,7 +1609,6 @@ table tr.highlight {
 
 .label {
   font-size: 100%;
-  margin-bottom: 1rem;
 }
 
 .select {
@@ -1749,27 +1752,27 @@ table tr.highlight {
     max-width: 82.5rem;
   }
 }
-.wrapper-7sm {
+.wrapper-7xs {
   max-width: calc(var(--limpio-wrapper-md) - 40rem);
 }
 
-.wrapper-6sm {
+.wrapper-6xs {
   max-width: calc(var(--limpio-wrapper-md) - 35rem);
 }
 
-.wrapper-5sm {
+.wrapper-5xs {
   max-width: calc(var(--limpio-wrapper-md) - 30rem);
 }
 
-.wrapper-4sm {
+.wrapper-4xs {
   max-width: calc(var(--limpio-wrapper-md) - 25rem);
 }
 
-.wrapper-3sm {
+.wrapper-3xs {
   max-width: calc(var(--limpio-wrapper-md) - 20rem);
 }
 
-.wrapper-2sm {
+.wrapper-2xs {
   max-width: calc(var(--limpio-wrapper-md) - 15rem);
 }
 
@@ -4947,10 +4950,6 @@ table tr.highlight {
 
 .bgc-xbox\:fcs:focus {
   background-color: var(--limpio-xbox);
-}
-
-body {
-  background-color: #FDF5DF;
 }
 
 .bd {
@@ -18809,6 +18808,76 @@ ol ol ol {
 
 .spacer-7xl {
   margin-bottom: calc(var(--limpio-spacer) + 5rem) !important;
+}
+
+h3,
+h4,
+h5,
+h6,
+nav,
+main,
+section,
+aside,
+article,
+footer,
+figure,
+details,
+summary,
+p,
+button,
+table,
+label,
+input,
+textarea,
+select,
+img,
+video,
+ul,
+ol,
+.h3,
+.h4,
+.h5,
+.h6,
+.nav,
+.main,
+.section,
+.aside,
+.article,
+.footer,
+.figure,
+.details,
+.summary,
+.p,
+.alert,
+.box,
+.btn,
+.carousel,
+.group,
+.hero,
+.list,
+.msg,
+.modal,
+.notepad,
+.notification,
+.pagination,
+.panel,
+.progress,
+.table,
+.input,
+.label,
+.textarea,
+.select {
+  margin-bottom: var(--limpio-spacer);
+}
+
+.h1,
+.title {
+  margin-bottom: calc(var(--limpio-spacer) + 0.5rem);
+}
+
+.h2,
+.subtitle {
+  margin-bottom: calc(var(--limpio-spacer) + 0.25rem);
 }
 
 .svg {
@@ -116760,5 +116829,3 @@ h6, .h6 {
     width: auto !important;
   }
 }
-
-/*# sourceMappingURL=limpio.css.map */

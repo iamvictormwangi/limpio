@@ -3,14 +3,24 @@
 
 @for $i from 1 to 20
   @if $i < 20
-    .#{$class-prefix}op#{$separator}0\.#{$i * 5}
-      opacity: math.div(($i * 5), 100)
+    @if $i % 2 == 0
+      .#{$class-prefix}op#{$separator}0\.#{$i * 5}
+        opacity: math.div(($i * 5), 100)
 
-    .#{$class-prefix}op#{$separator}0\.#{$i * 5}\:hvr:hover
-      opacity: math.div(($i * 5), 100)
+      .#{$class-prefix}op#{$separator}0\.#{$i * 5}\:hvr:hover
+        opacity: math.div(($i * 5), 100)
 
-    .#{$class-prefix}op#{$separator}0\.#{$i * 5}\:fcs:focus
-      opacity: math.div(($i * 5), 100)
+      .#{$class-prefix}op#{$separator}0\.#{$i * 5}\:fcs:focus
+        opacity: math.div(($i * 5), 100)
+    @else
+      .#{$class-prefix}op#{$separator}0\.#{$i * 5}
+        opacity: math.div(($i * 5), 100)
+
+      .#{$class-prefix}op#{$separator}0\.#{$i * 5}\:hvr:hover
+        opacity: math.div(($i * 5), 100)
+
+      .#{$class-prefix}op#{$separator}0\.#{$i * 5}\:fcs:focus
+        opacity: math.div(($i * 5), 100)
 
   @else
     .#{$class-prefix}op#{$separator}1

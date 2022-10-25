@@ -21,7 +21,7 @@
 
 ```html
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/limpio/dist/css/limpio.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/limpio/dist/limpio.css">
 
 ```
 
@@ -29,7 +29,7 @@
 
 ```html
 
-<link rel="stylesheet" href="https://unpkg/npm/limpio/dist/css/limpio.min.css">
+<link rel="stylesheet" href="https://unpkg/npm/limpio/dist/css/limpio.css">
 
 ```
 
@@ -45,10 +45,9 @@ npm install limpio
 
 ```sh
 
-yarn install limpio
+yarn add limpio
 
 ```
-
 ---
 
 ### Example
@@ -56,7 +55,7 @@ yarn install limpio
 ```html
 
 <header class="wrapper bgc-dark c-light">
-  <h1 class="title tt-capitalize">Hello <span>strong</strong></h1>
+  <h1 class="title tt-capitalize">Hello limpio user</h1>
   <p class="p">Sit quia maiores consectetur laborum maiores Atque corrupti sit placeat</p>
 </header>
 

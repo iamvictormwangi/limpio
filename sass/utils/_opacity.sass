@@ -1,16 +1,16 @@
 @use "./../abstracts/" as *
 @use "sass:math"
 
-@for $i from 1 to 11
-  @if $i < 10
-    .#{$class-prefix}op#{$separator}0\.#{$i}
-      opacity: math.div($i, 10)
+@for $i from 1 to 20
+  @if $i < 20
+    .#{$class-prefix}op#{$separator}0\.#{$i * 5}
+      opacity: math.div(($i * 5), 100)
 
-    .#{$class-prefix}op#{$separator}0\.#{$i}\:hvr:hover
-      opacity: math.div($i, 10)
+    .#{$class-prefix}op#{$separator}0\.#{$i * 5}\:hvr:hover
+      opacity: math.div(($i * 5), 100)
 
-    .#{$class-prefix}op#{$separator}0\.#{$i}\:fcs:focus
-      opacity: math.div($i, 10)
+    .#{$class-prefix}op#{$separator}0\.#{$i * 5}\:fcs:focus
+      opacity: math.div(($i * 5), 100)
 
   @else
     .#{$class-prefix}op#{$separator}1
@@ -26,4 +26,4 @@
 @for $index from 1 to 21
   .#{$class-prefix}op#{$separator}#{$index * 5}
     opacity: #{$index * 5} + '%'
-  
+

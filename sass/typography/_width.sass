@@ -17,6 +17,9 @@
 .#{$class-prefix}w#{$separator}auto
   width: auto !important
 
+.#{$class-prefix}w#{$separator}full#{$separator}width
+  width: 100% !important
+
 @media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
 
   @each $key, $value in $value-props
@@ -33,6 +36,9 @@
 
   .#{$class-prefix}#{$mobile-prefix}#{$separator}w#{$separator}auto
     width: auto !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}w#{$separator}full#{$separator}width
+    width: 100% !important
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
@@ -51,6 +57,9 @@
   .#{$class-prefix}#{$tablet-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}w#{$separator}full#{$separator}width
+    width: 100% !important
+
 @media screen and (min-width: $tablet-min-width)
 
   @each $key, $value in $value-props
@@ -67,6 +76,9 @@
 
   .#{$class-prefix}#{$tablet-up-prefix}#{$separator}w#{$separator}auto
     width: auto !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}w#{$separator}full#{$separator}width
+    width: 100% !important
 
 @media screen and (max-width: $tablet-max-width)
 
@@ -85,6 +97,9 @@
   .#{$class-prefix}#{$tablet-down-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}w#{$separator}full#{$separator}width
+    width: 100% !important
+
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
@@ -101,6 +116,9 @@
 
   .#{$class-prefix}#{$laptop-prefix}#{$separator}w#{$separator}auto
     width: auto !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}w#{$separator}full#{$separator}width
+    width: 100% !important
 
 @media screen and (min-width: $laptop-min-width)
 
@@ -119,6 +137,9 @@
   .#{$class-prefix}#{$laptop-up-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}w#{$separator}full#{$separator}width
+    width: 100% !important
+
 @media screen and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
@@ -136,6 +157,9 @@
   .#{$class-prefix}#{$laptop-down-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}w#{$separator}full#{$separator}width
+    width: 100% !important
+
 @media screen and (min-width: $desktop-min-width)
 
   @each $key, $value in $value-props
@@ -152,4 +176,7 @@
 
   .#{$class-prefix}#{$desktop-prefix}#{$separator}w#{$separator}auto
     width: auto !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}w#{$separator}full#{$separator}width
+    width: 100% !important
 

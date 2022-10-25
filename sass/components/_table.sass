@@ -2,6 +2,7 @@
 
 table, .#{$class-prefix}table
   border-top: 1px solid rgba(0, 0, 0, 0.5)
+  border-spacing: 0
 
   caption
     @if $enable-padding == true
@@ -10,26 +11,33 @@ table, .#{$class-prefix}table
   thead th
     border: 0
     border-bottom: 2px solid rgba(0, 0, 0, 0.5)
+    border-spacing: 0
     text-align: left
 
   tr
     margin-bottom: 0.5rem
+    border: none
+    border-spacing: 0
 
-    th:not(last-child), td:not(last-child)
+    &th:not(last-child), td:not(last-child)
       border-bottom: 1px solid rgba(0, 0, 0, 0.5)
       @if $enable-padding == true
         padding: 16px
       vertical-align: inherit
 
-    tr:last-child
+    &tr:last-child
       th
         border-bottom: 0
 
       tr
         border-bottom: 0
 
+    td
+      border: none
+
   tfoot tr
     text-align: left
+    border-spacing: 0
 
   tfoot td
     color: rgba(0, 0, 0, 0.6)
@@ -43,7 +51,7 @@ table tr:hover
   opacity: 90%
 
 table.#{$class-prefix}table#{$separator}striped tr:nth-of-type(odd)
-  background-color: var(#{$variable-prefix}-light-dkn-2)
+  background-color: var(#{$variable-prefix}-white-dkn-1)
 
 table tr.#{$class-prefix}highlight
-  background-color: var(#{$variable-prefix}-light-dkn-2)
+  background-color: var(#{$variable-prefix}-white-dkn-1)

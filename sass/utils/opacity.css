@@ -1,0 +1,309 @@
+.op-0\.5 {
+  opacity: 0.05;
+}
+
+.op-0\.5\:hvr:hover {
+  opacity: 0.05;
+}
+
+.op-0\.5\:fcs:focus {
+  opacity: 0.05;
+}
+
+.op-0\.10 {
+  opacity: 0.1;
+}
+
+.op-0\.10\:hvr:hover {
+  opacity: 0.1;
+}
+
+.op-0\.10\:fcs:focus {
+  opacity: 0.1;
+}
+
+.op-0\.15 {
+  opacity: 0.15;
+}
+
+.op-0\.15\:hvr:hover {
+  opacity: 0.15;
+}
+
+.op-0\.15\:fcs:focus {
+  opacity: 0.15;
+}
+
+.op-0\.20 {
+  opacity: 0.2;
+}
+
+.op-0\.20\:hvr:hover {
+  opacity: 0.2;
+}
+
+.op-0\.20\:fcs:focus {
+  opacity: 0.2;
+}
+
+.op-0\.25 {
+  opacity: 0.25;
+}
+
+.op-0\.25\:hvr:hover {
+  opacity: 0.25;
+}
+
+.op-0\.25\:fcs:focus {
+  opacity: 0.25;
+}
+
+.op-0\.30 {
+  opacity: 0.3;
+}
+
+.op-0\.30\:hvr:hover {
+  opacity: 0.3;
+}
+
+.op-0\.30\:fcs:focus {
+  opacity: 0.3;
+}
+
+.op-0\.35 {
+  opacity: 0.35;
+}
+
+.op-0\.35\:hvr:hover {
+  opacity: 0.35;
+}
+
+.op-0\.35\:fcs:focus {
+  opacity: 0.35;
+}
+
+.op-0\.40 {
+  opacity: 0.4;
+}
+
+.op-0\.40\:hvr:hover {
+  opacity: 0.4;
+}
+
+.op-0\.40\:fcs:focus {
+  opacity: 0.4;
+}
+
+.op-0\.45 {
+  opacity: 0.45;
+}
+
+.op-0\.45\:hvr:hover {
+  opacity: 0.45;
+}
+
+.op-0\.45\:fcs:focus {
+  opacity: 0.45;
+}
+
+.op-0\.50 {
+  opacity: 0.5;
+}
+
+.op-0\.50\:hvr:hover {
+  opacity: 0.5;
+}
+
+.op-0\.50\:fcs:focus {
+  opacity: 0.5;
+}
+
+.op-0\.55 {
+  opacity: 0.55;
+}
+
+.op-0\.55\:hvr:hover {
+  opacity: 0.55;
+}
+
+.op-0\.55\:fcs:focus {
+  opacity: 0.55;
+}
+
+.op-0\.60 {
+  opacity: 0.6;
+}
+
+.op-0\.60\:hvr:hover {
+  opacity: 0.6;
+}
+
+.op-0\.60\:fcs:focus {
+  opacity: 0.6;
+}
+
+.op-0\.65 {
+  opacity: 0.65;
+}
+
+.op-0\.65\:hvr:hover {
+  opacity: 0.65;
+}
+
+.op-0\.65\:fcs:focus {
+  opacity: 0.65;
+}
+
+.op-0\.70 {
+  opacity: 0.7;
+}
+
+.op-0\.70\:hvr:hover {
+  opacity: 0.7;
+}
+
+.op-0\.70\:fcs:focus {
+  opacity: 0.7;
+}
+
+.op-0\.75 {
+  opacity: 0.75;
+}
+
+.op-0\.75\:hvr:hover {
+  opacity: 0.75;
+}
+
+.op-0\.75\:fcs:focus {
+  opacity: 0.75;
+}
+
+.op-0\.80 {
+  opacity: 0.8;
+}
+
+.op-0\.80\:hvr:hover {
+  opacity: 0.8;
+}
+
+.op-0\.80\:fcs:focus {
+  opacity: 0.8;
+}
+
+.op-0\.85 {
+  opacity: 0.85;
+}
+
+.op-0\.85\:hvr:hover {
+  opacity: 0.85;
+}
+
+.op-0\.85\:fcs:focus {
+  opacity: 0.85;
+}
+
+.op-0\.90 {
+  opacity: 0.9;
+}
+
+.op-0\.90\:hvr:hover {
+  opacity: 0.9;
+}
+
+.op-0\.90\:fcs:focus {
+  opacity: 0.9;
+}
+
+.op-0\.95 {
+  opacity: 0.95;
+}
+
+.op-0\.95\:hvr:hover {
+  opacity: 0.95;
+}
+
+.op-0\.95\:fcs:focus {
+  opacity: 0.95;
+}
+
+.op-5 {
+  opacity: 5%;
+}
+
+.op-10 {
+  opacity: 10%;
+}
+
+.op-15 {
+  opacity: 15%;
+}
+
+.op-20 {
+  opacity: 20%;
+}
+
+.op-25 {
+  opacity: 25%;
+}
+
+.op-30 {
+  opacity: 30%;
+}
+
+.op-35 {
+  opacity: 35%;
+}
+
+.op-40 {
+  opacity: 40%;
+}
+
+.op-45 {
+  opacity: 45%;
+}
+
+.op-50 {
+  opacity: 50%;
+}
+
+.op-55 {
+  opacity: 55%;
+}
+
+.op-60 {
+  opacity: 60%;
+}
+
+.op-65 {
+  opacity: 65%;
+}
+
+.op-70 {
+  opacity: 70%;
+}
+
+.op-75 {
+  opacity: 75%;
+}
+
+.op-80 {
+  opacity: 80%;
+}
+
+.op-85 {
+  opacity: 85%;
+}
+
+.op-90 {
+  opacity: 90%;
+}
+
+.op-95 {
+  opacity: 95%;
+}
+
+.op-100 {
+  opacity: 100%;
+}
+
+/*# sourceMappingURL=opacity.css.map */

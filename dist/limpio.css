@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Fira+Code&family=IBM+Plex+Serif&family=Pacifico&family=Poppins&family=Raleway&display=swap");
+/*!
+ * * Limpio  v1.0.0 (https://limpio.dev)
+ * * Copyright 2022 Victor Mwangi
+ * * Licensed under MIT (https://github.com/limpio.dev/limpio/LICENSE)
+ * */
 :root {
   --limpio-animation-duration: 1s;
   --limpio-animation-repeat: 1;
@@ -47,20 +52,6 @@
   --limpio-steam: #171a21;
   --limpio-discord: #5865f2;
   --limpio-telegram: #0088cc;
-  --limpio-behance: #005cff;
-  --limpio-bing: #ffb900;
-  --limpio-drupal: #3d9ae8;
-  --limpio-ebay: #89c507;
-  --limpio-firefox: #e66000;
-  --limpio-github: #171515;
-  --limpio-hackernews: #ff6600;
-  --limpio-heroku: #6567a5;
-  --limpio-opera: #cc0f16;
-  --limpio-paypal: #1e477a;
-  --limpio-redhat: #cc0000;
-  --limpio-ubuntu: #dd4814;
-  --limpio-wordpress: #21759b;
-  --limpio-xbox: #9bc848;
   --limpio-red-ltn-1: #ff0a0a;
   --limpio-red-ltn-2: #ff1414;
   --limpio-red-ltn-3: #ff1f1f;
@@ -1244,10 +1235,13 @@ html, body {
   width: 1.7rem !important;
   margin-bottom: 0.5rem !important;
 }
-.hamberger .hamberger-bar.hamberger-short {
+.hamberger .hamberger-bar.hamberger-bar-short {
   width: 1.3rem !important;
 }
-.hamberger .hamberger-bar.hamberger-last {
+.hamberger .hamberger-bar.hamberger-bar-short {
+  width: 1.7rem !important;
+}
+.hamberger .hamberger-bar.hamberger-bar-last {
   margin-bottom: 0 !important;
 }
 
@@ -4796,66 +4790,6 @@ table tr.highlight {
   background-color: var(--limpio-telegram);
 }
 
-.bgc-behance {
-  background-color: var(--limpio-behance);
-}
-
-.bgc-behance\:hvr:hover {
-  background-color: var(--limpio-behance);
-}
-
-.bgc-behance\:fcs:focus {
-  background-color: var(--limpio-behance);
-}
-
-.bgc-bing {
-  background-color: var(--limpio-bing);
-}
-
-.bgc-bing\:hvr:hover {
-  background-color: var(--limpio-bing);
-}
-
-.bgc-bing\:fcs:focus {
-  background-color: var(--limpio-bing);
-}
-
-.bgc-drupal {
-  background-color: var(--limpio-drupal);
-}
-
-.bgc-drupal\:hvr:hover {
-  background-color: var(--limpio-drupal);
-}
-
-.bgc-drupal\:fcs:focus {
-  background-color: var(--limpio-drupal);
-}
-
-.bgc-ebay {
-  background-color: var(--limpio-ebay);
-}
-
-.bgc-ebay\:hvr:hover {
-  background-color: var(--limpio-ebay);
-}
-
-.bgc-ebay\:fcs:focus {
-  background-color: var(--limpio-ebay);
-}
-
-.bgc-firefox {
-  background-color: var(--limpio-firefox);
-}
-
-.bgc-firefox\:hvr:hover {
-  background-color: var(--limpio-firefox);
-}
-
-.bgc-firefox\:fcs:focus {
-  background-color: var(--limpio-firefox);
-}
-
 .bgc-github {
   background-color: var(--limpio-github);
 }
@@ -4878,90 +4812,6 @@ table tr.highlight {
 
 .bgc-hackernews\:fcs:focus {
   background-color: var(--limpio-hackernews);
-}
-
-.bgc-heroku {
-  background-color: var(--limpio-heroku);
-}
-
-.bgc-heroku\:hvr:hover {
-  background-color: var(--limpio-heroku);
-}
-
-.bgc-heroku\:fcs:focus {
-  background-color: var(--limpio-heroku);
-}
-
-.bgc-opera {
-  background-color: var(--limpio-opera);
-}
-
-.bgc-opera\:hvr:hover {
-  background-color: var(--limpio-opera);
-}
-
-.bgc-opera\:fcs:focus {
-  background-color: var(--limpio-opera);
-}
-
-.bgc-paypal {
-  background-color: var(--limpio-paypal);
-}
-
-.bgc-paypal\:hvr:hover {
-  background-color: var(--limpio-paypal);
-}
-
-.bgc-paypal\:fcs:focus {
-  background-color: var(--limpio-paypal);
-}
-
-.bgc-redhat {
-  background-color: var(--limpio-redhat);
-}
-
-.bgc-redhat\:hvr:hover {
-  background-color: var(--limpio-redhat);
-}
-
-.bgc-redhat\:fcs:focus {
-  background-color: var(--limpio-redhat);
-}
-
-.bgc-ubuntu {
-  background-color: var(--limpio-ubuntu);
-}
-
-.bgc-ubuntu\:hvr:hover {
-  background-color: var(--limpio-ubuntu);
-}
-
-.bgc-ubuntu\:fcs:focus {
-  background-color: var(--limpio-ubuntu);
-}
-
-.bgc-wordpress {
-  background-color: var(--limpio-wordpress);
-}
-
-.bgc-wordpress\:hvr:hover {
-  background-color: var(--limpio-wordpress);
-}
-
-.bgc-wordpress\:fcs:focus {
-  background-color: var(--limpio-wordpress);
-}
-
-.bgc-xbox {
-  background-color: var(--limpio-xbox);
-}
-
-.bgc-xbox\:hvr:hover {
-  background-color: var(--limpio-xbox);
-}
-
-.bgc-xbox\:fcs:focus {
-  background-color: var(--limpio-xbox);
 }
 
 .bd {
@@ -7988,66 +7838,6 @@ table tr.highlight {
   border-color: var(--limpio-telegram);
 }
 
-.bdc-behance {
-  border-color: var(--limpio-behance);
-}
-
-.bdc-behance\:hvr:hover {
-  border-color: var(--limpio-behance);
-}
-
-.bdc-behance\:fcs:focus {
-  border-color: var(--limpio-behance);
-}
-
-.bdc-bing {
-  border-color: var(--limpio-bing);
-}
-
-.bdc-bing\:hvr:hover {
-  border-color: var(--limpio-bing);
-}
-
-.bdc-bing\:fcs:focus {
-  border-color: var(--limpio-bing);
-}
-
-.bdc-drupal {
-  border-color: var(--limpio-drupal);
-}
-
-.bdc-drupal\:hvr:hover {
-  border-color: var(--limpio-drupal);
-}
-
-.bdc-drupal\:fcs:focus {
-  border-color: var(--limpio-drupal);
-}
-
-.bdc-ebay {
-  border-color: var(--limpio-ebay);
-}
-
-.bdc-ebay\:hvr:hover {
-  border-color: var(--limpio-ebay);
-}
-
-.bdc-ebay\:fcs:focus {
-  border-color: var(--limpio-ebay);
-}
-
-.bdc-firefox {
-  border-color: var(--limpio-firefox);
-}
-
-.bdc-firefox\:hvr:hover {
-  border-color: var(--limpio-firefox);
-}
-
-.bdc-firefox\:fcs:focus {
-  border-color: var(--limpio-firefox);
-}
-
 .bdc-github {
   border-color: var(--limpio-github);
 }
@@ -8070,90 +7860,6 @@ table tr.highlight {
 
 .bdc-hackernews\:fcs:focus {
   border-color: var(--limpio-hackernews);
-}
-
-.bdc-heroku {
-  border-color: var(--limpio-heroku);
-}
-
-.bdc-heroku\:hvr:hover {
-  border-color: var(--limpio-heroku);
-}
-
-.bdc-heroku\:fcs:focus {
-  border-color: var(--limpio-heroku);
-}
-
-.bdc-opera {
-  border-color: var(--limpio-opera);
-}
-
-.bdc-opera\:hvr:hover {
-  border-color: var(--limpio-opera);
-}
-
-.bdc-opera\:fcs:focus {
-  border-color: var(--limpio-opera);
-}
-
-.bdc-paypal {
-  border-color: var(--limpio-paypal);
-}
-
-.bdc-paypal\:hvr:hover {
-  border-color: var(--limpio-paypal);
-}
-
-.bdc-paypal\:fcs:focus {
-  border-color: var(--limpio-paypal);
-}
-
-.bdc-redhat {
-  border-color: var(--limpio-redhat);
-}
-
-.bdc-redhat\:hvr:hover {
-  border-color: var(--limpio-redhat);
-}
-
-.bdc-redhat\:fcs:focus {
-  border-color: var(--limpio-redhat);
-}
-
-.bdc-ubuntu {
-  border-color: var(--limpio-ubuntu);
-}
-
-.bdc-ubuntu\:hvr:hover {
-  border-color: var(--limpio-ubuntu);
-}
-
-.bdc-ubuntu\:fcs:focus {
-  border-color: var(--limpio-ubuntu);
-}
-
-.bdc-wordpress {
-  border-color: var(--limpio-wordpress);
-}
-
-.bdc-wordpress\:hvr:hover {
-  border-color: var(--limpio-wordpress);
-}
-
-.bdc-wordpress\:fcs:focus {
-  border-color: var(--limpio-wordpress);
-}
-
-.bdc-xbox {
-  border-color: var(--limpio-xbox);
-}
-
-.bdc-xbox\:hvr:hover {
-  border-color: var(--limpio-xbox);
-}
-
-.bdc-xbox\:fcs:focus {
-  border-color: var(--limpio-xbox);
 }
 
 .bd-0 {
@@ -13284,66 +12990,6 @@ table tr.highlight {
   color: var(--limpio-telegram);
 }
 
-.c-behance {
-  color: var(--limpio-behance);
-}
-
-.c-behance\:hvr:hover {
-  color: var(--limpio-behance);
-}
-
-.c-behance\:fcs:focus {
-  color: var(--limpio-behance);
-}
-
-.c-bing {
-  color: var(--limpio-bing);
-}
-
-.c-bing\:hvr:hover {
-  color: var(--limpio-bing);
-}
-
-.c-bing\:fcs:focus {
-  color: var(--limpio-bing);
-}
-
-.c-drupal {
-  color: var(--limpio-drupal);
-}
-
-.c-drupal\:hvr:hover {
-  color: var(--limpio-drupal);
-}
-
-.c-drupal\:fcs:focus {
-  color: var(--limpio-drupal);
-}
-
-.c-ebay {
-  color: var(--limpio-ebay);
-}
-
-.c-ebay\:hvr:hover {
-  color: var(--limpio-ebay);
-}
-
-.c-ebay\:fcs:focus {
-  color: var(--limpio-ebay);
-}
-
-.c-firefox {
-  color: var(--limpio-firefox);
-}
-
-.c-firefox\:hvr:hover {
-  color: var(--limpio-firefox);
-}
-
-.c-firefox\:fcs:focus {
-  color: var(--limpio-firefox);
-}
-
 .c-github {
   color: var(--limpio-github);
 }
@@ -13366,90 +13012,6 @@ table tr.highlight {
 
 .c-hackernews\:fcs:focus {
   color: var(--limpio-hackernews);
-}
-
-.c-heroku {
-  color: var(--limpio-heroku);
-}
-
-.c-heroku\:hvr:hover {
-  color: var(--limpio-heroku);
-}
-
-.c-heroku\:fcs:focus {
-  color: var(--limpio-heroku);
-}
-
-.c-opera {
-  color: var(--limpio-opera);
-}
-
-.c-opera\:hvr:hover {
-  color: var(--limpio-opera);
-}
-
-.c-opera\:fcs:focus {
-  color: var(--limpio-opera);
-}
-
-.c-paypal {
-  color: var(--limpio-paypal);
-}
-
-.c-paypal\:hvr:hover {
-  color: var(--limpio-paypal);
-}
-
-.c-paypal\:fcs:focus {
-  color: var(--limpio-paypal);
-}
-
-.c-redhat {
-  color: var(--limpio-redhat);
-}
-
-.c-redhat\:hvr:hover {
-  color: var(--limpio-redhat);
-}
-
-.c-redhat\:fcs:focus {
-  color: var(--limpio-redhat);
-}
-
-.c-ubuntu {
-  color: var(--limpio-ubuntu);
-}
-
-.c-ubuntu\:hvr:hover {
-  color: var(--limpio-ubuntu);
-}
-
-.c-ubuntu\:fcs:focus {
-  color: var(--limpio-ubuntu);
-}
-
-.c-wordpress {
-  color: var(--limpio-wordpress);
-}
-
-.c-wordpress\:hvr:hover {
-  color: var(--limpio-wordpress);
-}
-
-.c-wordpress\:fcs:focus {
-  color: var(--limpio-wordpress);
-}
-
-.c-xbox {
-  color: var(--limpio-xbox);
-}
-
-.c-xbox\:hvr:hover {
-  color: var(--limpio-xbox);
-}
-
-.c-xbox\:fcs:focus {
-  color: var(--limpio-xbox);
 }
 
 .cur-help {
@@ -15424,159 +14986,6 @@ ol ol ol {
 
 .op-100 {
   opacity: 100%;
-}
-
-.otl-red {
-  border: red solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-red:hover {
-  background-color: red;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-cyan {
-  border: cyan solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-cyan:hover {
-  background-color: cyan;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-blue {
-  border: blue solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-blue:hover {
-  background-color: blue;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-darkblue {
-  border: darkblue solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-darkblue:hover {
-  background-color: darkblue;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-lightblue {
-  border: lightblue solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-lightblue:hover {
-  background-color: lightblue;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-purple {
-  border: purple solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-purple:hover {
-  background-color: purple;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-yellow {
-  border: yellow solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-yellow:hover {
-  background-color: yellow;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-lime {
-  border: lime solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-lime:hover {
-  background-color: lime;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-grey {
-  border: grey solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-grey:hover {
-  background-color: grey;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-black {
-  border: black solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-black:hover {
-  background-color: black;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-white {
-  border: white solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-white:hover {
-  background-color: white;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-orange {
-  border: orange solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-orange:hover {
-  background-color: orange;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-brown {
-  border: brown solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-brown:hover {
-  background-color: brown;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-maroon {
-  border: maroon solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-maroon:hover {
-  background-color: maroon;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-green {
-  border: green solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-green:hover {
-  background-color: green;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-olive {
-  border: olive solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-olive:hover {
-  background-color: olive;
-  border: var(--dark) solid 0.1rem;
-}
-
-.otl-teal {
-  border: teal solid 0.1rem;
-  transition: border background-color 0.15s ease-in;
-}
-.otl-teal:hover {
-  background-color: teal;
-  border: var(--dark) solid 0.1rem;
 }
 
 .ov-auto {

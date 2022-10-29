@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Fira+Code&family=IBM+Plex+Serif&family=Pacifico&family=Poppins&family=Raleway&display=swap");
 /*!
- * * Limpio  v1.0.0 (https://limpio.dev)
+ * * Limpio  v0.3.0 (https://limpio.dev)
  * * Copyright 2022 Victor Mwangi
  * * Licensed under MIT (https://github.com/limpio.dev/limpio/LICENSE)
  * */
@@ -18352,7 +18352,6 @@ main,
 section,
 aside,
 article,
-footer,
 figure,
 details,
 summary,
@@ -18376,7 +18375,6 @@ ol,
 .section,
 .aside,
 .article,
-.footer,
 .figure,
 .details,
 .summary,

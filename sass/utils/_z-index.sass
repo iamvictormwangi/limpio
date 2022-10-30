@@ -51,3 +51,6 @@
 .#{$class-prefix}zi#{$separator}7xl
   z-index: 1500 !important
 
+@for $i from 1 to 16
+  .#{$class-prefix}zi#{$separator}#{$i * 100}
+    z-index: #{$i * 100} !important

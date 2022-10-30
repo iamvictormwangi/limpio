@@ -20097,6 +20097,66 @@ h6, .h6 {
   z-index: 1500 !important;
 }
 
+.zi-100 {
+  z-index: 100 !important;
+}
+
+.zi-200 {
+  z-index: 200 !important;
+}
+
+.zi-300 {
+  z-index: 300 !important;
+}
+
+.zi-400 {
+  z-index: 400 !important;
+}
+
+.zi-500 {
+  z-index: 500 !important;
+}
+
+.zi-600 {
+  z-index: 600 !important;
+}
+
+.zi-700 {
+  z-index: 700 !important;
+}
+
+.zi-800 {
+  z-index: 800 !important;
+}
+
+.zi-900 {
+  z-index: 900 !important;
+}
+
+.zi-1000 {
+  z-index: 1000 !important;
+}
+
+.zi-1100 {
+  z-index: 1100 !important;
+}
+
+.zi-1200 {
+  z-index: 1200 !important;
+}
+
+.zi-1300 {
+  z-index: 1300 !important;
+}
+
+.zi-1400 {
+  z-index: 1400 !important;
+}
+
+.zi-1500 {
+  z-index: 1500 !important;
+}
+
 .b-0 {
   bottom: 0 !important;
 }
@@ -90103,7 +90163,7 @@ h6, .h6 {
 
 .sticky-top, .sticky-bottom {
   position: sticky !important;
-  z-index: 1000 !important;
+  z-index: 500 !important;
 }
 
 .sticky-top {
@@ -90116,7 +90176,7 @@ h6, .h6 {
 
 .fixed-top, .fixed-bottom {
   position: fixed !important;
-  z-index: 1000 !important;
+  z-index: 500 !important;
 }
 
 .fixed-top {
@@ -90145,7 +90205,7 @@ h6, .h6 {
   }
   .\@mobile-sticky-top, .\@mobile-sticky-bottom {
     position: sticky !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@mobile-sticky-top {
     top: 0 !important;
@@ -90155,7 +90215,7 @@ h6, .h6 {
   }
   .\@mobile-fixed-top, .\@mobile-fixed-bottom {
     position: fixed !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@mobile-fixed-top {
     top: 0 !important;
@@ -90182,7 +90242,7 @@ h6, .h6 {
   }
   .\@tablet-sticky-top, .\@tablet-sticky-bottom {
     position: sticky !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@tablet-sticky-top {
     top: 0 !important;
@@ -90192,7 +90252,7 @@ h6, .h6 {
   }
   .\@tablet-fixed-top, .\@tablet-fixed-bottom {
     position: fixed !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@tablet-fixed-top {
     top: 0 !important;
@@ -90219,7 +90279,7 @@ h6, .h6 {
   }
   .\@tablet-up-sticky-top, .\@tablet-up-sticky-bottom {
     position: sticky !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@tablet-up-sticky-top {
     top: 0 !important;
@@ -90229,7 +90289,7 @@ h6, .h6 {
   }
   .\@tablet-up-fixed-top, .\@tablet-up-fixed-bottom {
     position: fixed !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@tablet-up-fixed-top {
     top: 0 !important;
@@ -90256,7 +90316,7 @@ h6, .h6 {
   }
   .\@tablet-down-sticky-top, .\@tablet-down-sticky-bottom {
     position: sticky !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@tablet-down-sticky-top {
     top: 0 !important;
@@ -90266,7 +90326,7 @@ h6, .h6 {
   }
   .\@tablet-down-fixed-top, .\@tablet-down-fixed-bottom {
     position: fixed !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@tablet-down-fixed-top {
     top: 0 !important;
@@ -90293,7 +90353,7 @@ h6, .h6 {
   }
   .\@laptop-sticky-top, .\@laptop-sticky-bottom {
     position: sticky !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@laptop-sticky-top {
     top: 0 !important;
@@ -90303,7 +90363,7 @@ h6, .h6 {
   }
   .\@laptop-fixed-top, .\@laptop-fixed-bottom {
     position: fixed !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@laptop-fixed-top {
     top: 0 !important;
@@ -90330,7 +90390,7 @@ h6, .h6 {
   }
   .\@laptop-up-sticky-top, .\@laptop-up-sticky-bottom {
     position: sticky !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@laptop-up-sticky-top {
     top: 0 !important;
@@ -90340,7 +90400,7 @@ h6, .h6 {
   }
   .\@laptop-up-fixed-top, .\@tablet-up-fixed-bottom {
     position: fixed !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@laptop-up-fixed-top {
     top: 0 !important;
@@ -90367,7 +90427,7 @@ h6, .h6 {
   }
   .\@laptop-down-sticky-top, .\@laptop-down-sticky-bottom {
     position: sticky !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@laptop-down-sticky-top {
     top: 0 !important;
@@ -90377,7 +90437,7 @@ h6, .h6 {
   }
   .\@laptop-down-fixed-top, .\@laptop-down-fixed-bottom {
     position: fixed !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@laptop-down-fixed-top {
     top: 0 !important;
@@ -90404,7 +90464,7 @@ h6, .h6 {
   }
   .\@desktop-sticky-top, .\@desktop-sticky-bottom {
     position: sticky !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@desktop-sticky-top {
     top: 0 !important;
@@ -90414,7 +90474,7 @@ h6, .h6 {
   }
   .\@desktop-fixed-top, .\@desktop-fixed-bottom {
     position: fixed !important;
-    z-index: 1000 !important;
+    z-index: 500 !important;
   }
   .\@desktop-fixed-top {
     top: 0 !important;

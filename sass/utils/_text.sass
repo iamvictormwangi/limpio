@@ -4,12 +4,24 @@
 body
   font-family: var(#{$variable-prefix}-sans-serif)
 
-.#{$class-prefix}p,  .#{$class-prefix}lead
-  line-height: 1.7rem
-  font-size: 1rem
-  letter-spacing: 0.055rem
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6
+  font-family: var(#{$variable-prefix}-title-font-family)
 
-pre, code, .#{$class-prefix}code, .#{$class-prefix}pre
+pre,
+code,
+.#{$class-prefix}code,
+.#{$class-prefix}pre
   background-color: var(#{$variable-prefix}-light)
   font-family:  var(#{$variable-prefix}-fira-code)
 
@@ -23,9 +35,6 @@ pre, code, .#{$class-prefix}code, .#{$class-prefix}pre
   font-family: var(#{$variable-prefix}-serif) !important
 
 .#{$class-prefix}ff#{$separator}fira#{$separator}code
-  font-family:  var(#{$variable-prefix}-pacifio) !important
-
-.#{$class-prefix}ff#{$separator}pacifio
   font-family:  var(#{$variable-prefix}-pacifio) !important
 
 .#{$class-prefix}fs#{$separator}7xs

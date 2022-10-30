@@ -1,10 +1,10 @@
 @use "./../abstracts/" as *
 
 .#{$class-prefix}active
-  background-color: var(#{$variable-prefix}-primary) !important
+  background-color: var(#{$variable-prefix}-green-ltn-2) !important
 
 .#{$class-prefix}disabled
-  background-color: var(#{$variable-prefix}-muted) !important
+  background-color: var(#{$variable-prefix}-white-darken-3) !important
   cursor: not-allowed !important
 
 .#{$class-prefix}hide
@@ -32,3 +32,11 @@
 
 .#{$class-prefix}vis#{$separator}hidden
   visibility: hidden !important
+
+.#{$class-prefix}sr#{$separator}only
+  position: absolute
+  width: 1px
+  height: 1px
+  overflow: hidden
+  clip: rect(0, 0, 0, 0)
+

@@ -1255,9 +1255,6 @@ html, body {
 .hamberger .hamberger-bar.hamberger-bar-short {
   width: 1.3rem !important;
 }
-.hamberger .hamberger-bar.hamberger-bar-short {
-  width: 1.7rem !important;
-}
 .hamberger .hamberger-bar.hamberger-bar-last {
   margin-bottom: 0 !important;
 }

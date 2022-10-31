@@ -25,6 +25,10 @@ code,
   background-color: var(#{$variable-prefix}-light)
   font-family:  var(#{$variable-prefix}-fira-code)
 
+pre
+  @if padding-enabled
+    padding: 1rem
+
 .#{$class-prefix}ff#{$separator}sans#{$separator}serif
   font-family: var(#{$variable-prefix}-sans-serif) !important
 

@@ -18402,6 +18402,7 @@ img,
 video,
 ul,
 ol,
+pre,
 .h3,
 .h4,
 .h5,
@@ -18415,6 +18416,7 @@ ol,
 .details,
 .summary,
 .p,
+.pre,
 .alert,
 .box,
 .btn,
@@ -18570,6 +18572,10 @@ code,
 .pre {
   background-color: var(--limpio-light);
   font-family: var(--limpio-fira-code);
+}
+
+pre {
+  padding: 1rem;
 }
 
 .ff-sans-serif {

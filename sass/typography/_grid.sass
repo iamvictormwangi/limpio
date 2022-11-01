@@ -1,6 +1,105 @@
 @use "./../abstracts/" as *
 
-@for $i from 1 to 13
+.#{$class-prefix}gtc#{$separator}1#{$separator}1,
+.#{$class-prefix}gtc#{$separator}2#{$separator}2,
+.#{$class-prefix}gtc#{$separator}3#{$separator}3,
+.#{$class-prefix}gtc#{$separator}4#{$separator}4,
+.#{$class-prefix}gtc#{$separator}5#{$separator}5,
+.#{$class-prefix}gtc#{$separator}6#{$separator}6,
+.#{$class-prefix}gtc#{$separator}7#{$separator}7
+  grid-template-columns: repeat(2, 1fr) !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}2
+  grid-template-columns: 1fr 2fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}3
+  grid-template-columns: 1fr 3fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}4
+  grid-template-columns: 1fr 4fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}5
+  grid-template-columns: 1fr 5fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}6
+  grid-template-columns: 1fr 6fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}7
+  grid-template-columns: 1fr 7fr !important
+
+.#{$class-prefix}gtc#{$separator}2#{$separator}1
+  grid-template-columns: 2fr 1fr !important
+
+.#{$class-prefix}gtc#{$separator}2#{$separator}3
+  grid-template-columns: 2fr 3fr !important
+
+.#{$class-prefix}gtc#{$separator}2#{$separator}4
+  grid-template-columns: 2fr 4fr !important
+
+.#{$class-prefix}gtc#{$separator}2#{$separator}5
+  grid-template-columns: 2fr 5fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}6
+  grid-template-columns: 2fr 6fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}7
+  grid-template-columns: 2fr 7fr !important
+
+.#{$class-prefix}gtc#{$separator}3#{$separator}1
+  grid-template-columns: 3fr 1fr !important
+
+.#{$class-prefix}gtc#{$separator}3#{$separator}2
+  grid-template-columns: 3fr 2fr !important
+
+.#{$class-prefix}gtc#{$separator}3#{$separator}4
+  grid-template-columns: 3fr 4fr !important
+
+.#{$class-prefix}gtc#{$separator}3#{$separator}5
+  grid-template-columns: 3fr 5fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}6
+  grid-template-columns: 3fr 6fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}7
+  grid-template-columns: 3fr 7fr !important
+
+.#{$class-prefix}gtc#{$separator}4#{$separator}1
+  grid-template-columns: 4fr 1fr !important
+
+.#{$class-prefix}gtc#{$separator}4#{$separator}2
+  grid-template-columns: 4fr 2fr !important
+
+.#{$class-prefix}gtc#{$separator}4#{$separator}3
+  grid-template-columns: 4fr 3fr !important
+
+.#{$class-prefix}gtc#{$separator}4#{$separator}5
+  grid-template-columns: 4fr 5fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}6
+  grid-template-columns: 4fr 6fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}7
+  grid-template-columns: 4fr 7fr !important
+
+.#{$class-prefix}gtc#{$separator}5#{$separator}1
+  grid-template-columns: 5fr 1fr !important
+
+.#{$class-prefix}gtc#{$separator}5#{$separator}2
+  grid-template-columns: 5fr 2fr !important
+
+.#{$class-prefix}gtc#{$separator}5#{$separator}3
+  grid-template-columns: 5fr 3fr !important
+
+.#{$class-prefix}gtc#{$separator}5#{$separator}4
+  grid-template-columns: 5fr 4fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}6
+  grid-template-columns: 5fr 6fr !important
+
+.#{$class-prefix}gtc#{$separator}1#{$separator}7
+  grid-template-columns: 5fr 7fr !important
+
+@for $i from 2 to 13
   .#{$class-prefix}gtc#{$separator}#{$i}
     grid-template-columns: repeat(#{$i}, 1fr) !important
 
@@ -16,7 +115,106 @@
 
 @media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
 
-  @for $i from 1 to 13
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}1,
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}2#{$separator}2,
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}3#{$separator}3,
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}4#{$separator}4,
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}5#{$separator}5,
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}6#{$separator}6,
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}7#{$separator}7
+    grid-template-columns: repeat(2, 1fr) !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}2
+    grid-template-columns: 1fr 2fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}3
+    grid-template-columns: 1fr 3fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}4
+    grid-template-columns: 1fr 4fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}5
+    grid-template-columns: 1fr 5fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 1fr 6fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 1fr 7fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}2#{$separator}1
+    grid-template-columns: 2fr 1fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}2#{$separator}3
+    grid-template-columns: 2fr 3fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}2#{$separator}4
+    grid-template-columns: 2fr 4fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}2#{$separator}5
+    grid-template-columns: 2fr 5fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 2fr 6fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 2fr 7fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}3#{$separator}1
+    grid-template-columns: 3fr 1fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}3#{$separator}2
+    grid-template-columns: 3fr 2fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}3#{$separator}4
+    grid-template-columns: 3fr 4fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}3#{$separator}5
+    grid-template-columns: 3fr 5fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 3fr 6fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 3fr 7fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}4#{$separator}1
+    grid-template-columns: 4fr 1fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}4#{$separator}2
+    grid-template-columns: 4fr 2fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}4#{$separator}3
+    grid-template-columns: 4fr 3fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}4#{$separator}5
+    grid-template-columns: 4fr 5fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 4fr 6fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 4fr 7fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}5#{$separator}1
+    grid-template-columns: 5fr 1fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}5#{$separator}2
+    grid-template-columns: 5fr 2fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}5#{$separator}3
+    grid-template-columns: 5fr 3fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}5#{$separator}4
+    grid-template-columns: 5fr 4fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 5fr 6fr !important
+
+  .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 5fr 7fr !important
+
+  @for $i from 2 to 13
     .#{$class-prefix}#{$mobile-prefix}#{$separator}gtc#{$separator}#{$i}
       grid-template-columns: repeat(#{$i}, 1fr) !important
 
@@ -32,7 +230,106 @@
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
-  @for $i from 1 to 13
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}1,
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}2#{$separator}2,
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}3#{$separator}3,
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}4#{$separator}4,
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}5#{$separator}5,
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}6#{$separator}6,
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}7#{$separator}7
+    grid-template-columns: repeat(2, 1fr) !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}2
+    grid-template-columns: 1fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}3
+    grid-template-columns: 1fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}4
+    grid-template-columns: 1fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}5
+    grid-template-columns: 1fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 1fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 1fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}2#{$separator}1
+    grid-template-columns: 2fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}2#{$separator}3
+    grid-template-columns: 2fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}2#{$separator}4
+    grid-template-columns: 2fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}2#{$separator}5
+    grid-template-columns: 2fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 2fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 2fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}3#{$separator}1
+    grid-template-columns: 3fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}3#{$separator}2
+    grid-template-columns: 3fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}3#{$separator}4
+    grid-template-columns: 3fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}3#{$separator}5
+    grid-template-columns: 3fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 3fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 3fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}4#{$separator}1
+    grid-template-columns: 4fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}4#{$separator}2
+    grid-template-columns: 4fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}4#{$separator}3
+    grid-template-columns: 4fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}4#{$separator}5
+    grid-template-columns: 4fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 4fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 4fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}5#{$separator}1
+    grid-template-columns: 5fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}5#{$separator}2
+    grid-template-columns: 5fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}5#{$separator}3
+    grid-template-columns: 5fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}5#{$separator}4
+    grid-template-columns: 5fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 5fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 5fr 7fr !important
+
+  @for $i from 2 to 13
     .#{$class-prefix}#{$tablet-prefix}#{$separator}gtc#{$separator}#{$i}
       grid-template-columns: repeat(#{$i}, 1fr) !important
 
@@ -48,7 +345,106 @@
 
 @media screen and (min-width: $tablet-min-width)
 
-  @for $i from 1 to 13
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}1,
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}2#{$separator}2,
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}3#{$separator}3,
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}4#{$separator}4,
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}5#{$separator}5,
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}6#{$separator}6,
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}7#{$separator}7
+    grid-template-columns: repeat(2, 1fr) !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}2
+    grid-template-columns: 1fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}3
+    grid-template-columns: 1fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}4
+    grid-template-columns: 1fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}5
+    grid-template-columns: 1fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 1fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 1fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}2#{$separator}1
+    grid-template-columns: 2fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}2#{$separator}3
+    grid-template-columns: 2fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}2#{$separator}4
+    grid-template-columns: 2fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}2#{$separator}5
+    grid-template-columns: 2fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 2fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 2fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}3#{$separator}1
+    grid-template-columns: 3fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}3#{$separator}2
+    grid-template-columns: 3fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}3#{$separator}4
+    grid-template-columns: 3fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}3#{$separator}5
+    grid-template-columns: 3fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 3fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 3fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}4#{$separator}1
+    grid-template-columns: 4fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}4#{$separator}2
+    grid-template-columns: 4fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}4#{$separator}3
+    grid-template-columns: 4fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}4#{$separator}5
+    grid-template-columns: 4fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 4fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 4fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}5#{$separator}1
+    grid-template-columns: 5fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}5#{$separator}2
+    grid-template-columns: 5fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}5#{$separator}3
+    grid-template-columns: 5fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}5#{$separator}4
+    grid-template-columns: 5fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 5fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 5fr 7fr !important
+
+  @for $i from 2 to 13
     .#{$class-prefix}#{$tablet-up-prefix}#{$separator}gtc#{$separator}#{$i}
       grid-template-columns: repeat(#{$i}, 1fr) !important
 
@@ -64,7 +460,106 @@
 
 @media screen and (max-width: $tablet-max-width)
 
-  @for $i from 1 to 13
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}1,
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}2#{$separator}2,
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}3#{$separator}3,
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}4#{$separator}4,
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}5#{$separator}5,
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}6#{$separator}6,
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}7#{$separator}7
+    grid-template-columns: repeat(2, 1fr) !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}2
+    grid-template-columns: 1fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}3
+    grid-template-columns: 1fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}4
+    grid-template-columns: 1fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}5
+    grid-template-columns: 1fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 1fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 1fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}2#{$separator}1
+    grid-template-columns: 2fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}2#{$separator}3
+    grid-template-columns: 2fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}2#{$separator}4
+    grid-template-columns: 2fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}2#{$separator}5
+    grid-template-columns: 2fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 2fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 2fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}3#{$separator}1
+    grid-template-columns: 3fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}3#{$separator}2
+    grid-template-columns: 3fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}3#{$separator}4
+    grid-template-columns: 3fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}3#{$separator}5
+    grid-template-columns: 3fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 3fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 3fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}4#{$separator}1
+    grid-template-columns: 4fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}4#{$separator}2
+    grid-template-columns: 4fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}4#{$separator}3
+    grid-template-columns: 4fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}4#{$separator}5
+    grid-template-columns: 4fr 5fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 4fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 4fr 7fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}5#{$separator}1
+    grid-template-columns: 5fr 1fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}5#{$separator}2
+    grid-template-columns: 5fr 2fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}5#{$separator}3
+    grid-template-columns: 5fr 3fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}5#{$separator}4
+    grid-template-columns: 5fr 4fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 5fr 6fr !important
+
+  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 5fr 7fr !important
+
+  @for $i from 2 to 13
     .#{$class-prefix}#{$tablet-down-prefix}#{$separator}gtc#{$separator}#{$i}
       grid-template-columns: repeat(#{$i}, 1fr) !important
 
@@ -80,7 +575,106 @@
 
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
-  @for $i from 1 to 13
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}1,
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}2#{$separator}2,
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}3#{$separator}3,
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}4#{$separator}4,
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}5#{$separator}5,
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}6#{$separator}6,
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}7#{$separator}7
+    grid-template-columns: repeat(2, 1fr) !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}2
+    grid-template-columns: 1fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}3
+    grid-template-columns: 1fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}4
+    grid-template-columns: 1fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}5
+    grid-template-columns: 1fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 1fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 1fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}2#{$separator}1
+    grid-template-columns: 2fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}2#{$separator}3
+    grid-template-columns: 2fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}2#{$separator}4
+    grid-template-columns: 2fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}2#{$separator}5
+    grid-template-columns: 2fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 2fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 2fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}3#{$separator}1
+    grid-template-columns: 3fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}3#{$separator}2
+    grid-template-columns: 3fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}3#{$separator}4
+    grid-template-columns: 3fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}3#{$separator}5
+    grid-template-columns: 3fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 3fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 3fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}4#{$separator}1
+    grid-template-columns: 4fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}4#{$separator}2
+    grid-template-columns: 4fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}4#{$separator}3
+    grid-template-columns: 4fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}4#{$separator}5
+    grid-template-columns: 4fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 4fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 4fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}5#{$separator}1
+    grid-template-columns: 5fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}5#{$separator}2
+    grid-template-columns: 5fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}5#{$separator}3
+    grid-template-columns: 5fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}5#{$separator}4
+    grid-template-columns: 5fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 5fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 5fr 7fr !important
+
+  @for $i from 2 to 13
     .#{$class-prefix}#{$laptop-prefix}#{$separator}gtc#{$separator}#{$i}
       grid-template-columns: repeat(#{$i}, 1fr) !important
 
@@ -96,7 +690,106 @@
 
 @media screen and (min-width: $laptop-min-width)
 
-  @for $i from 1 to 13
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}1,
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}2#{$separator}2,
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}3#{$separator}3,
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}4#{$separator}4,
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}5#{$separator}5,
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}6#{$separator}6,
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}7#{$separator}7
+    grid-template-columns: repeat(2, 1fr) !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}2
+    grid-template-columns: 1fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}3
+    grid-template-columns: 1fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}4
+    grid-template-columns: 1fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}5
+    grid-template-columns: 1fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 1fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 1fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}2#{$separator}1
+    grid-template-columns: 2fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}2#{$separator}3
+    grid-template-columns: 2fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}2#{$separator}4
+    grid-template-columns: 2fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}2#{$separator}5
+    grid-template-columns: 2fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 2fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 2fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}3#{$separator}1
+    grid-template-columns: 3fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}3#{$separator}2
+    grid-template-columns: 3fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}3#{$separator}4
+    grid-template-columns: 3fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}3#{$separator}5
+    grid-template-columns: 3fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 3fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 3fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}4#{$separator}1
+    grid-template-columns: 4fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}4#{$separator}2
+    grid-template-columns: 4fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}4#{$separator}3
+    grid-template-columns: 4fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}4#{$separator}5
+    grid-template-columns: 4fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 4fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 4fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}5#{$separator}1
+    grid-template-columns: 5fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}5#{$separator}2
+    grid-template-columns: 5fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}5#{$separator}3
+    grid-template-columns: 5fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}5#{$separator}4
+    grid-template-columns: 5fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 5fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 5fr 7fr !important
+
+  @for $i from 2 to 13
     .#{$class-prefix}#{$laptop-up-prefix}#{$separator}gtc#{$separator}#{$i}
       grid-template-columns: repeat(#{$i}, 1fr) !important
 
@@ -112,7 +805,106 @@
 
 @media screen and (max-width: $laptop-max-width)
 
-  @for $i from 1 to 13
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}1,
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}2#{$separator}2,
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}3#{$separator}3,
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}4#{$separator}4,
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}5#{$separator}5,
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}6#{$separator}6,
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}7#{$separator}7
+    grid-template-columns: repeat(2, 1fr) !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}2
+    grid-template-columns: 1fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}3
+    grid-template-columns: 1fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}4
+    grid-template-columns: 1fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}5
+    grid-template-columns: 1fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 1fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 1fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}2#{$separator}1
+    grid-template-columns: 2fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}2#{$separator}3
+    grid-template-columns: 2fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}2#{$separator}4
+    grid-template-columns: 2fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}2#{$separator}5
+    grid-template-columns: 2fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 2fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 2fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}3#{$separator}1
+    grid-template-columns: 3fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}3#{$separator}2
+    grid-template-columns: 3fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}3#{$separator}4
+    grid-template-columns: 3fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}3#{$separator}5
+    grid-template-columns: 3fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 3fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 3fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}4#{$separator}1
+    grid-template-columns: 4fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}4#{$separator}2
+    grid-template-columns: 4fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}4#{$separator}3
+    grid-template-columns: 4fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}4#{$separator}5
+    grid-template-columns: 4fr 5fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 4fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 4fr 7fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}5#{$separator}1
+    grid-template-columns: 5fr 1fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}5#{$separator}2
+    grid-template-columns: 5fr 2fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}5#{$separator}3
+    grid-template-columns: 5fr 3fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}5#{$separator}4
+    grid-template-columns: 5fr 4fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 5fr 6fr !important
+
+  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 5fr 7fr !important
+
+  @for $i from 2 to 13
     .#{$class-prefix}#{$laptop-down-prefix}#{$separator}gtc#{$separator}#{$i}
       grid-template-columns: repeat(#{$i}, 1fr) !important
 
@@ -128,7 +920,106 @@
 
 @media screen and (min-width: $desktop-min-width)
 
-  @for $i from 1 to 13
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}1,
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}2#{$separator}2,
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}3#{$separator}3,
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}4#{$separator}4,
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}5#{$separator}5,
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}6#{$separator}6,
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}7#{$separator}7
+    grid-template-columns: repeat(2, 1fr) !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}2
+    grid-template-columns: 1fr 2fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}3
+    grid-template-columns: 1fr 3fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}4
+    grid-template-columns: 1fr 4fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}5
+    grid-template-columns: 1fr 5fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 1fr 6fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 1fr 7fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}2#{$separator}1
+    grid-template-columns: 2fr 1fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}2#{$separator}3
+    grid-template-columns: 2fr 3fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}2#{$separator}4
+    grid-template-columns: 2fr 4fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}2#{$separator}5
+    grid-template-columns: 2fr 5fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 2fr 6fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 2fr 7fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}3#{$separator}1
+    grid-template-columns: 3fr 1fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}3#{$separator}2
+    grid-template-columns: 3fr 2fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}3#{$separator}4
+    grid-template-columns: 3fr 4fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}3#{$separator}5
+    grid-template-columns: 3fr 5fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 3fr 6fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 3fr 7fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}4#{$separator}1
+    grid-template-columns: 4fr 1fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}4#{$separator}2
+    grid-template-columns: 4fr 2fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}4#{$separator}3
+    grid-template-columns: 4fr 3fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}4#{$separator}5
+    grid-template-columns: 4fr 5fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 4fr 6fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 4fr 7fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}5#{$separator}1
+    grid-template-columns: 5fr 1fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}5#{$separator}2
+    grid-template-columns: 5fr 2fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}5#{$separator}3
+    grid-template-columns: 5fr 3fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}5#{$separator}4
+    grid-template-columns: 5fr 4fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}6
+    grid-template-columns: 5fr 6fr !important
+
+  .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}1#{$separator}7
+    grid-template-columns: 5fr 7fr !important
+
+  @for $i from 2 to 13
     .#{$class-prefix}#{$desktop-prefix}#{$separator}gtc#{$separator}#{$i}
       grid-template-columns: repeat(#{$i}, 1fr) !important
 

@@ -1723,6 +1723,406 @@ table tr.highlight {
   width: 100% !important;
 }
 
+@media screen and (min-width: 14rem) and (max-width: 28rem) {
+  .\@mobile-row {
+    -webkit-display: flex !important;
+    -moz-display: flex !important;
+    -ms-display: flex !important;
+    -o-display: flex !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap !important;
+    -moz-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    -o-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  .\@mobile-col-1 {
+    width: 8.3333333333% !important;
+  }
+  .\@mobile-col-2 {
+    width: 16.6666666667% !important;
+  }
+  .\@mobile-col-3 {
+    width: 25% !important;
+  }
+  .\@mobile-col-4 {
+    width: 33.3333333333% !important;
+  }
+  .\@mobile-col-5 {
+    width: 41.6666666667% !important;
+  }
+  .\@mobile-col-6 {
+    width: 50% !important;
+  }
+  .\@mobile-col-7 {
+    width: 58.3333333333% !important;
+  }
+  .\@mobile-col-8 {
+    width: 66.6666666667% !important;
+  }
+  .\@mobile-col-9 {
+    width: 75% !important;
+  }
+  .\@mobile-col-10 {
+    width: 83.3333333333% !important;
+  }
+  .\@mobile-col-11 {
+    width: 91.6666666667% !important;
+  }
+  .\@mobile-col-12 {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+  .\@tablet-row {
+    -webkit-display: flex !important;
+    -moz-display: flex !important;
+    -ms-display: flex !important;
+    -o-display: flex !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap !important;
+    -moz-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    -o-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  .\@tablet-col-1 {
+    width: 8.3333333333% !important;
+  }
+  .\@tablet-col-2 {
+    width: 16.6666666667% !important;
+  }
+  .\@tablet-col-3 {
+    width: 25% !important;
+  }
+  .\@tablet-col-4 {
+    width: 33.3333333333% !important;
+  }
+  .\@tablet-col-5 {
+    width: 41.6666666667% !important;
+  }
+  .\@tablet-col-6 {
+    width: 50% !important;
+  }
+  .\@tablet-col-7 {
+    width: 58.3333333333% !important;
+  }
+  .\@tablet-col-8 {
+    width: 66.6666666667% !important;
+  }
+  .\@tablet-col-9 {
+    width: 75% !important;
+  }
+  .\@tablet-col-10 {
+    width: 83.3333333333% !important;
+  }
+  .\@tablet-col-11 {
+    width: 91.6666666667% !important;
+  }
+  .\@tablet-col-12 {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 28.0001rem) {
+  .\@tablet-up-row {
+    -webkit-display: flex !important;
+    -moz-display: flex !important;
+    -ms-display: flex !important;
+    -o-display: flex !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap !important;
+    -moz-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    -o-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  .\@tablet-up-col-1 {
+    width: 8.3333333333% !important;
+  }
+  .\@tablet-up-col-2 {
+    width: 16.6666666667% !important;
+  }
+  .\@tablet-up-col-3 {
+    width: 25% !important;
+  }
+  .\@tablet-up-col-4 {
+    width: 33.3333333333% !important;
+  }
+  .\@tablet-up-col-5 {
+    width: 41.6666666667% !important;
+  }
+  .\@tablet-up-col-6 {
+    width: 50% !important;
+  }
+  .\@tablet-up-col-7 {
+    width: 58.3333333333% !important;
+  }
+  .\@tablet-up-col-8 {
+    width: 66.6666666667% !important;
+  }
+  .\@tablet-up-col-9 {
+    width: 75% !important;
+  }
+  .\@tablet-up-col-10 {
+    width: 83.3333333333% !important;
+  }
+  .\@tablet-up-col-11 {
+    width: 91.6666666667% !important;
+  }
+  .\@tablet-up-col-12 {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 48rem) {
+  .\@tablet-down-row {
+    -webkit-display: flex !important;
+    -moz-display: flex !important;
+    -ms-display: flex !important;
+    -o-display: flex !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap !important;
+    -moz-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    -o-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  .\@tablet-down-col-1 {
+    width: 8.3333333333% !important;
+  }
+  .\@tablet-down-col-2 {
+    width: 16.6666666667% !important;
+  }
+  .\@tablet-down-col-3 {
+    width: 25% !important;
+  }
+  .\@tablet-down-col-4 {
+    width: 33.3333333333% !important;
+  }
+  .\@tablet-down-col-5 {
+    width: 41.6666666667% !important;
+  }
+  .\@tablet-down-col-6 {
+    width: 50% !important;
+  }
+  .\@tablet-down-col-7 {
+    width: 58.3333333333% !important;
+  }
+  .\@tablet-down-col-8 {
+    width: 66.6666666667% !important;
+  }
+  .\@tablet-down-col-9 {
+    width: 75% !important;
+  }
+  .\@tablet-down-col-10 {
+    width: 83.3333333333% !important;
+  }
+  .\@tablet-down-col-11 {
+    width: 91.6666666667% !important;
+  }
+  .\@tablet-down-col-12 {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+  .\@laptop-row {
+    -webkit-display: flex !important;
+    -moz-display: flex !important;
+    -ms-display: flex !important;
+    -o-display: flex !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap !important;
+    -moz-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    -o-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  .\@laptop-col-1 {
+    width: 8.3333333333% !important;
+  }
+  .\@laptop-col-2 {
+    width: 16.6666666667% !important;
+  }
+  .\@laptop-col-3 {
+    width: 25% !important;
+  }
+  .\@laptop-col-4 {
+    width: 33.3333333333% !important;
+  }
+  .\@laptop-col-5 {
+    width: 41.6666666667% !important;
+  }
+  .\@laptop-col-6 {
+    width: 50% !important;
+  }
+  .\@laptop-col-7 {
+    width: 58.3333333333% !important;
+  }
+  .\@laptop-col-8 {
+    width: 66.6666666667% !important;
+  }
+  .\@laptop-col-9 {
+    width: 75% !important;
+  }
+  .\@laptop-col-10 {
+    width: 83.3333333333% !important;
+  }
+  .\@laptop-col-11 {
+    width: 91.6666666667% !important;
+  }
+  .\@laptop-col-12 {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 48.0625rem) {
+  .\@laptop-up-row {
+    -webkit-display: flex !important;
+    -moz-display: flex !important;
+    -ms-display: flex !important;
+    -o-display: flex !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap !important;
+    -moz-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    -o-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  .\@laptop-up-col-1 {
+    width: 8.3333333333% !important;
+  }
+  .\@laptop-up-col-2 {
+    width: 16.6666666667% !important;
+  }
+  .\@laptop-up-col-3 {
+    width: 25% !important;
+  }
+  .\@laptop-up-col-4 {
+    width: 33.3333333333% !important;
+  }
+  .\@laptop-up-col-5 {
+    width: 41.6666666667% !important;
+  }
+  .\@laptop-up-col-6 {
+    width: 50% !important;
+  }
+  .\@laptop-up-col-7 {
+    width: 58.3333333333% !important;
+  }
+  .\@laptop-up-col-8 {
+    width: 66.6666666667% !important;
+  }
+  .\@laptop-up-col-9 {
+    width: 75% !important;
+  }
+  .\@laptop-up-col-10 {
+    width: 83.3333333333% !important;
+  }
+  .\@laptop-up-col-11 {
+    width: 91.6666666667% !important;
+  }
+  .\@laptop-up-col-12 {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 64rem) {
+  .\@laptop-down-row {
+    -webkit-display: flex !important;
+    -moz-display: flex !important;
+    -ms-display: flex !important;
+    -o-display: flex !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap !important;
+    -moz-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    -o-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  .\@laptop-down-col-1 {
+    width: 8.3333333333% !important;
+  }
+  .\@laptop-down-col-2 {
+    width: 16.6666666667% !important;
+  }
+  .\@laptop-down-col-3 {
+    width: 25% !important;
+  }
+  .\@laptop-down-col-4 {
+    width: 33.3333333333% !important;
+  }
+  .\@laptop-down-col-5 {
+    width: 41.6666666667% !important;
+  }
+  .\@laptop-down-col-6 {
+    width: 50% !important;
+  }
+  .\@laptop-down-col-7 {
+    width: 58.3333333333% !important;
+  }
+  .\@laptop-down-col-8 {
+    width: 66.6666666667% !important;
+  }
+  .\@laptop-down-col-9 {
+    width: 75% !important;
+  }
+  .\@laptop-down-col-10 {
+    width: 83.3333333333% !important;
+  }
+  .\@laptop-down-col-11 {
+    width: 91.6666666667% !important;
+  }
+  .\@laptop-down-col-12 {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 64.0625rem) {
+  .\@desktop-row {
+    -webkit-display: flex !important;
+    -moz-display: flex !important;
+    -ms-display: flex !important;
+    -o-display: flex !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap !important;
+    -moz-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    -o-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  .\@desktop-col-1 {
+    width: 8.3333333333% !important;
+  }
+  .\@desktop-col-2 {
+    width: 16.6666666667% !important;
+  }
+  .\@desktop-col-3 {
+    width: 25% !important;
+  }
+  .\@desktop-col-4 {
+    width: 33.3333333333% !important;
+  }
+  .\@desktop-col-5 {
+    width: 41.6666666667% !important;
+  }
+  .\@desktop-col-6 {
+    width: 50% !important;
+  }
+  .\@desktop-col-7 {
+    width: 58.3333333333% !important;
+  }
+  .\@desktop-col-8 {
+    width: 66.6666666667% !important;
+  }
+  .\@desktop-col-9 {
+    width: 75% !important;
+  }
+  .\@desktop-col-10 {
+    width: 83.3333333333% !important;
+  }
+  .\@desktop-col-11 {
+    width: 91.6666666667% !important;
+  }
+  .\@desktop-col-12 {
+    width: 100% !important;
+  }
+}
 .wrapper,
 .wrapper-full-width,
 .wrapper-7xs,

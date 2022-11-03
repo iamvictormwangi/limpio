@@ -1,0 +1,17 @@
+@use "./../abstracts/" as *
+
+.#{$class-prefix}dropdown
+  position: relative
+
+  .#{$class-prefix}dropdown#{$separator}menu
+    position: absolute
+    top: calc(100% + 0.45rem)
+    background-color: var(--limpio-white-dkn-3)
+    @if $enable-padding == true
+      padding: 1rem .8rem
+
+    &.#{$class-prefix}dropdown#{$separator}menu#{$separator}aligned#{$separator}left
+      left: 0
+
+    &.#{$class-prefix}dropdown#{$separator}menu#{$separator}aligned#{$separator}right
+      right: 0

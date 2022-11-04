@@ -1262,7 +1262,7 @@ html, body {
   position: absolute;
   top: calc(100% + 0.45rem);
   background-color: var(--limpio-white-dkn-3);
-  padding: 1rem 0.8rem;
+  padding: 0.8rem 0.8rem;
 }
 .dropdown .dropdown-menu.dropdown-menu-aligned-left {
   left: 0;

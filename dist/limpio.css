@@ -325,13 +325,13 @@
   --limpio-text-shadow-5xl: 47rem;
   --limpio-text-shadow-6xl: 47rem;
   --limpio-text-shadow-7xl: 47rem;
-  --limpio-mobile-min-width: 14rem;
-  --limpio-mobile-max-width: 28rem;
-  --limpio-tablet-min-width: 28.0001rem;
-  --limpio-tablet-max-width: 48rem;
-  --limpio-laptop-min-width: 48.0625rem;
-  --limpio-laptop-max-width: 64rem;
-  --limpio-desktop-min-width: 64.0625rem;
+  --limpio-mobile-min-width: 10rem;
+  --limpio-mobile-max-width: 37.5rem;
+  --limpio-tablet-min-width: 37.505rem;
+  --limpio-tablet-max-width: 75rem;
+  --limpio-laptop-min-width: 75.005rem;
+  --limpio-laptop-max-width: 112.5rem;
+  --limpio-desktop-min-width: 112.505rem;
 }
 
 * {
@@ -1786,7 +1786,7 @@ table tr.highlight {
   width: 100% !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-row {
     -webkit-display: flex !important;
     -moz-display: flex !important;
@@ -1836,7 +1836,7 @@ table tr.highlight {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-row {
     -webkit-display: flex !important;
     -moz-display: flex !important;
@@ -1886,7 +1886,7 @@ table tr.highlight {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-row {
     -webkit-display: flex !important;
     -moz-display: flex !important;
@@ -1936,7 +1936,7 @@ table tr.highlight {
     width: 100% !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-row {
     -webkit-display: flex !important;
     -moz-display: flex !important;
@@ -1986,7 +1986,7 @@ table tr.highlight {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-row {
     -webkit-display: flex !important;
     -moz-display: flex !important;
@@ -2036,7 +2036,7 @@ table tr.highlight {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-row {
     -webkit-display: flex !important;
     -moz-display: flex !important;
@@ -2086,7 +2086,7 @@ table tr.highlight {
     width: 100% !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-row {
     -webkit-display: flex !important;
     -moz-display: flex !important;
@@ -2136,7 +2136,7 @@ table tr.highlight {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-row {
     -webkit-display: flex !important;
     -moz-display: flex !important;
@@ -13570,7 +13570,7 @@ table tr.highlight {
   display: flex !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-d-inline {
     display: inline !important;
   }
@@ -13602,7 +13602,7 @@ table tr.highlight {
     display: flex !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-d-inline {
     display: inline !important;
   }
@@ -13634,7 +13634,7 @@ table tr.highlight {
     display: flex !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-d-inline {
     display: inline !important;
   }
@@ -13666,7 +13666,7 @@ table tr.highlight {
     display: flex !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-d-inline {
     display: inline !important;
   }
@@ -13698,7 +13698,7 @@ table tr.highlight {
     display: flex !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-d-inline {
     display: inline !important;
   }
@@ -13730,7 +13730,7 @@ table tr.highlight {
     display: flex !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-d-inline {
     display: inline !important;
   }
@@ -13762,7 +13762,7 @@ table tr.highlight {
     display: flex !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-d-inline {
     display: inline !important;
   }
@@ -13794,7 +13794,7 @@ table tr.highlight {
     display: flex !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-d-inline {
     display: inline !important;
   }
@@ -14070,7 +14070,7 @@ table tr.highlight {
   order: 12 !important;
 }
 
-@media screen and (max-width: 28rem) {
+@media screen and (max-width: 37.5rem) {
   .\@mobile-flx-wrap {
     -webkit-flex-wrap: wrap !important;
     -moz-flex-wrap: wrap !important;
@@ -14257,7 +14257,7 @@ table tr.highlight {
     order: 12 !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-flx-wrap {
     -webkit-flex-wrap: wrap !important;
     -moz-flex-wrap: wrap !important;
@@ -14444,7 +14444,7 @@ table tr.highlight {
     order: 12 !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-flx-wrap {
     -webkit-flex-wrap: wrap !important;
     -moz-flex-wrap: wrap !important;
@@ -14631,7 +14631,7 @@ table tr.highlight {
     order: 12 !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-flx-wrap {
     -webkit-flex-wrap: wrap !important;
     -moz-flex-wrap: wrap !important;
@@ -14818,7 +14818,7 @@ table tr.highlight {
     order: 12 !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-flx-wrap {
     -webkit-flex-wrap: wrap !important;
     -moz-flex-wrap: wrap !important;
@@ -15005,7 +15005,7 @@ table tr.highlight {
     order: 12 !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-flx-wrap {
     -webkit-flex-wrap: wrap !important;
     -moz-flex-wrap: wrap !important;
@@ -15192,7 +15192,7 @@ table tr.highlight {
     order: 12 !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-flx-wrap {
     -webkit-flex-wrap: wrap !important;
     -moz-flex-wrap: wrap !important;
@@ -15379,7 +15379,7 @@ table tr.highlight {
     order: 12 !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-flx-wrap {
     -webkit-flex-wrap: wrap !important;
     -moz-flex-wrap: wrap !important;
@@ -15582,7 +15582,7 @@ table tr.highlight {
   clear: both !important;
 }
 
-@media screen and (max-width: 28rem) {
+@media screen and (max-width: 37.5rem) {
   .\@mobile-flt-right {
     float: right !important;
   }
@@ -15596,7 +15596,7 @@ table tr.highlight {
     clear: both !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-flt-right {
     float: right !important;
   }
@@ -15610,7 +15610,7 @@ table tr.highlight {
     clear: both !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-flt-right {
     float: right !important;
   }
@@ -15624,7 +15624,7 @@ table tr.highlight {
     clear: both !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-flt-right {
     float: right !important;
   }
@@ -15638,7 +15638,7 @@ table tr.highlight {
     clear: both !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-flt-right {
     float: right !important;
   }
@@ -15652,7 +15652,7 @@ table tr.highlight {
     clear: both !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-flt-right {
     float: right !important;
   }
@@ -15666,7 +15666,7 @@ table tr.highlight {
     clear: both !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-flt-right {
     float: right !important;
   }
@@ -15680,7 +15680,7 @@ table tr.highlight {
     clear: both !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-flt-right {
     float: right !important;
   }
@@ -16084,7 +16084,7 @@ table tr.highlight {
   background-repeat: no-repeat !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-parallax {
     background-attachment: fixed !important;
     background-position: center !important;
@@ -16092,7 +16092,7 @@ table tr.highlight {
     background-size: cover !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-parallax {
     background-attachment: fixed !important;
     background-position: center !important;
@@ -16100,7 +16100,7 @@ table tr.highlight {
     background-size: cover !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-parallax {
     background-attachment: fixed !important;
     background-position: center !important;
@@ -16108,7 +16108,7 @@ table tr.highlight {
     background-size: cover !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-parallax {
     background-attachment: fixed !important;
     background-position: center !important;
@@ -16116,7 +16116,7 @@ table tr.highlight {
     background-size: cover !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-parallax {
     background-attachment: fixed !important;
     background-position: center !important;
@@ -16124,7 +16124,7 @@ table tr.highlight {
     background-size: cover !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-parallax {
     background-attachment: fixed !important;
     background-position: center !important;
@@ -16132,7 +16132,7 @@ table tr.highlight {
     background-size: cover !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-parallax {
     background-attachment: fixed !important;
     background-position: center !important;
@@ -16140,7 +16140,7 @@ table tr.highlight {
     background-size: cover !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-parallax {
     background-attachment: fixed !important;
     background-position: center !important;
@@ -16745,7 +16745,7 @@ table tr.highlight {
   transform: scale(150%) !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-scl-5\% {
     transform: scale(5%) !important;
   }
@@ -17017,7 +17017,7 @@ table tr.highlight {
     transform: scale(150%) !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-scl-5\% {
     transform: scale(5%) !important;
   }
@@ -17289,7 +17289,7 @@ table tr.highlight {
     transform: scale(150%) !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-scl-5\% {
     transform: scale(5%) !important;
   }
@@ -17561,7 +17561,7 @@ table tr.highlight {
     transform: scale(150%) !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-scl-5\% {
     transform: scale(5%) !important;
   }
@@ -17833,7 +17833,7 @@ table tr.highlight {
     transform: scale(150%) !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-scl-5\% {
     transform: scale(5%) !important;
   }
@@ -18105,7 +18105,7 @@ table tr.highlight {
     transform: scale(150%) !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-scl-5\% {
     transform: scale(5%) !important;
   }
@@ -18377,7 +18377,7 @@ table tr.highlight {
     transform: scale(150%) !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-scl-5\% {
     transform: scale(5%) !important;
   }
@@ -18649,7 +18649,7 @@ table tr.highlight {
     transform: scale(150%) !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-scl-5\% {
     transform: scale(5%) !important;
   }
@@ -19668,7 +19668,7 @@ pre {
   font-size: calc(var(--limpio-font-size) + 3rem) !important;
 }
 
-@media screen and (max-width: 28rem) {
+@media screen and (max-width: 37.5rem) {
   .\@mobilefs-7xs {
     font-size: calc(var(--limpio-font-size) - 0.8rem) !important;
   }
@@ -19721,7 +19721,7 @@ pre {
     font-size: calc(var(--limpio-font-size) + 3rem) !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tabletfs-7xs {
     font-size: calc(var(--limpio-font-size) - 0.8rem) !important;
   }
@@ -19774,7 +19774,7 @@ pre {
     font-size: calc(var(--limpio-font-size) + 3rem) !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-upfs-7xs {
     font-size: calc(var(--limpio-font-size) - 0.8rem) !important;
   }
@@ -19827,7 +19827,7 @@ pre {
     font-size: calc(var(--limpio-font-size) + 3rem) !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-downfs-7xs {
     font-size: calc(var(--limpio-font-size) - 0.8rem) !important;
   }
@@ -19880,7 +19880,7 @@ pre {
     font-size: calc(var(--limpio-font-size) + 3rem) !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptopfs-7xs {
     font-size: calc(var(--limpio-font-size) - 0.8rem) !important;
   }
@@ -19933,7 +19933,7 @@ pre {
     font-size: calc(var(--limpio-font-size) + 3rem) !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-upfs-7xs {
     font-size: calc(var(--limpio-font-size) - 0.8rem) !important;
   }
@@ -19986,7 +19986,7 @@ pre {
     font-size: calc(var(--limpio-font-size) + 3rem) !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-downfs-7xs {
     font-size: calc(var(--limpio-font-size) - 0.8rem) !important;
   }
@@ -20039,7 +20039,7 @@ pre {
     font-size: calc(var(--limpio-font-size) + 3rem) !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktopfs-7xs {
     font-size: calc(var(--limpio-font-size) - 0.8rem) !important;
   }
@@ -22005,7 +22005,7 @@ h6, .h6 {
   bottom: auto !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-b-0 {
     bottom: 0 !important;
   }
@@ -22598,7 +22598,7 @@ h6, .h6 {
     bottom: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-b-0 {
     bottom: 0 !important;
   }
@@ -23191,7 +23191,7 @@ h6, .h6 {
     bottom: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-b-0 {
     bottom: 0 !important;
   }
@@ -23784,7 +23784,7 @@ h6, .h6 {
     bottom: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-b-0 {
     bottom: 0 !important;
   }
@@ -24377,7 +24377,7 @@ h6, .h6 {
     bottom: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-b-0 {
     bottom: 0 !important;
   }
@@ -24970,7 +24970,7 @@ h6, .h6 {
     bottom: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-b-0 {
     bottom: 0 !important;
   }
@@ -25563,7 +25563,7 @@ h6, .h6 {
     bottom: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@laptop-down-b-0 {
     bottom: 0 !important;
   }
@@ -26156,7 +26156,7 @@ h6, .h6 {
     bottom: auto !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-b-0 {
     bottom: 0 !important;
   }
@@ -27739,7 +27739,7 @@ h6, .h6 {
   grid-row-gap: 36rem !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-gtc-1-1,
 .\@mobile-gtc-2-2,
 .\@mobile-gtc-3-3,
@@ -28485,7 +28485,7 @@ h6, .h6 {
     grid-row-gap: 36rem !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-gtc-1-1,
 .\@tablet-gtc-2-2,
 .\@tablet-gtc-3-3,
@@ -29231,7 +29231,7 @@ h6, .h6 {
     grid-row-gap: 36rem !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-gtc-1-1,
 .\@tablet-up-gtc-2-2,
 .\@tablet-up-gtc-3-3,
@@ -29977,7 +29977,7 @@ h6, .h6 {
     grid-row-gap: 36rem !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-gtc-1-1,
 .\@tablet-down-gtc-2-2,
 .\@tablet-down-gtc-3-3,
@@ -30723,7 +30723,7 @@ h6, .h6 {
     grid-row-gap: 36rem !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-gtc-1-1,
 .\@laptop-gtc-2-2,
 .\@laptop-gtc-3-3,
@@ -31469,7 +31469,7 @@ h6, .h6 {
     grid-row-gap: 36rem !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-gtc-1-1,
 .\@laptop-up-gtc-2-2,
 .\@laptop-up-gtc-3-3,
@@ -32215,7 +32215,7 @@ h6, .h6 {
     grid-row-gap: 36rem !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-gtc-1-1,
 .\@laptop-down-gtc-2-2,
 .\@laptop-down-gtc-3-3,
@@ -32961,7 +32961,7 @@ h6, .h6 {
     grid-row-gap: 36rem !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-gtc-1-1,
 .\@desktop-gtc-2-2,
 .\@desktop-gtc-3-3,
@@ -34267,7 +34267,7 @@ h6, .h6 {
   height: 100% !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-h-0 {
     height: 0 !important;
   }
@@ -34689,7 +34689,7 @@ h6, .h6 {
     height: 100% !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-h-0 {
     height: 0 !important;
   }
@@ -35111,7 +35111,7 @@ h6, .h6 {
     height: 100% !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-h-0 {
     height: 0 !important;
   }
@@ -35533,7 +35533,7 @@ h6, .h6 {
     height: 100% !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-h-0 {
     height: 0 !important;
   }
@@ -35955,7 +35955,7 @@ h6, .h6 {
     height: 100% !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-h-0 {
     height: 0 !important;
   }
@@ -36377,7 +36377,7 @@ h6, .h6 {
     height: 100% !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-h-0 {
     height: 0 !important;
   }
@@ -36799,7 +36799,7 @@ h6, .h6 {
     height: 100% !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-h-0 {
     height: 0 !important;
   }
@@ -37221,7 +37221,7 @@ h6, .h6 {
     height: 100% !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-h-0 {
     height: 0 !important;
   }
@@ -38431,7 +38431,7 @@ h6, .h6 {
   left: auto !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-l-0 {
     left: 0 !important;
   }
@@ -39024,7 +39024,7 @@ h6, .h6 {
     left: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-l-0 {
     left: 0 !important;
   }
@@ -39617,7 +39617,7 @@ h6, .h6 {
     left: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-l-0 {
     left: 0 !important;
   }
@@ -40210,7 +40210,7 @@ h6, .h6 {
     left: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-l-0 {
     left: 0 !important;
   }
@@ -40803,7 +40803,7 @@ h6, .h6 {
     left: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-l-0 {
     left: 0 !important;
   }
@@ -41396,7 +41396,7 @@ h6, .h6 {
     left: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-l-0 {
     left: 0 !important;
   }
@@ -41989,7 +41989,7 @@ h6, .h6 {
     left: auto !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-l-0 {
     left: 0 !important;
   }
@@ -42582,7 +42582,7 @@ h6, .h6 {
     left: auto !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-l-0 {
     left: 0 !important;
   }
@@ -46145,7 +46145,7 @@ h6, .h6 {
   margin-left: auto !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-m-0 {
     margin: 0 !important;
   }
@@ -48424,7 +48424,7 @@ h6, .h6 {
     margin-left: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-m-0 {
     margin: 0 !important;
   }
@@ -50703,7 +50703,7 @@ h6, .h6 {
     margin-left: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-m-0 {
     margin: 0 !important;
   }
@@ -52982,7 +52982,7 @@ h6, .h6 {
     margin-left: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-m-0 {
     margin: 0 !important;
   }
@@ -55261,7 +55261,7 @@ h6, .h6 {
     margin-left: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-m-0 {
     margin: 0 !important;
   }
@@ -57540,7 +57540,7 @@ h6, .h6 {
     margin-left: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-m-0 {
     margin: 0 !important;
   }
@@ -59819,7 +59819,7 @@ h6, .h6 {
     margin-left: auto !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-m-0 {
     margin: 0 !important;
   }
@@ -62098,7 +62098,7 @@ h6, .h6 {
     margin-left: auto !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-m-0 {
     margin: 0 !important;
   }
@@ -64933,7 +64933,7 @@ h6, .h6 {
   max-height: auto !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-mah-0 {
     max-height: 0 !important;
   }
@@ -65352,7 +65352,7 @@ h6, .h6 {
     max-height: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-mah-0 {
     max-height: 0 !important;
   }
@@ -65771,7 +65771,7 @@ h6, .h6 {
     max-height: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-mah-0 {
     max-height: 0 !important;
   }
@@ -66190,7 +66190,7 @@ h6, .h6 {
     max-height: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-mah-0 {
     max-height: 0 !important;
   }
@@ -66609,7 +66609,7 @@ h6, .h6 {
     max-height: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-mah-0 {
     max-height: 0 !important;
   }
@@ -67028,7 +67028,7 @@ h6, .h6 {
     max-height: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-mah-0 {
     max-height: 0 !important;
   }
@@ -67447,7 +67447,7 @@ h6, .h6 {
     max-height: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-mah-0 {
     max-height: 0 !important;
   }
@@ -67866,7 +67866,7 @@ h6, .h6 {
     max-height: auto !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-mah-0 {
     max-height: 0 !important;
   }
@@ -68841,7 +68841,7 @@ h6, .h6 {
   max-width: auto !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-maw-0 {
     max-width: 0 !important;
   }
@@ -69260,7 +69260,7 @@ h6, .h6 {
     max-width: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-maw-0 {
     max-width: 0 !important;
   }
@@ -69679,7 +69679,7 @@ h6, .h6 {
     max-width: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-maw-0 {
     max-width: 0 !important;
   }
@@ -70098,7 +70098,7 @@ h6, .h6 {
     max-width: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-maw-0 {
     max-width: 0 !important;
   }
@@ -70517,7 +70517,7 @@ h6, .h6 {
     max-width: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-maw-0 {
     max-width: 0 !important;
   }
@@ -70936,7 +70936,7 @@ h6, .h6 {
     max-width: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-maw-0 {
     max-width: 0 !important;
   }
@@ -71355,7 +71355,7 @@ h6, .h6 {
     max-width: auto !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-maw-0 {
     max-width: 0 !important;
   }
@@ -71774,7 +71774,7 @@ h6, .h6 {
     max-width: auto !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-maw-0 {
     max-width: 0 !important;
   }
@@ -72749,7 +72749,7 @@ h6, .h6 {
   min-height: auto !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-mih-0 {
     min-height: 0 !important;
   }
@@ -73168,7 +73168,7 @@ h6, .h6 {
     min-height: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-mih-0 {
     min-height: 0 !important;
   }
@@ -73587,7 +73587,7 @@ h6, .h6 {
     min-height: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-mih-0 {
     min-height: 0 !important;
   }
@@ -74006,7 +74006,7 @@ h6, .h6 {
     min-height: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-mih-0 {
     min-height: 0 !important;
   }
@@ -74425,7 +74425,7 @@ h6, .h6 {
     min-height: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-mih-0 {
     min-height: 0 !important;
   }
@@ -74844,7 +74844,7 @@ h6, .h6 {
     min-height: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-mih-0 {
     min-height: 0 !important;
   }
@@ -75263,7 +75263,7 @@ h6, .h6 {
     min-height: auto !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-mih-0 {
     min-height: 0 !important;
   }
@@ -75682,7 +75682,7 @@ h6, .h6 {
     min-height: auto !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-mih-0 {
     min-height: 0 !important;
   }
@@ -76657,7 +76657,7 @@ h6, .h6 {
   min-width: auto !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-miw-0 {
     min-width: 0 !important;
   }
@@ -77076,7 +77076,7 @@ h6, .h6 {
     min-width: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-miw-0 {
     min-width: 0 !important;
   }
@@ -77495,7 +77495,7 @@ h6, .h6 {
     min-width: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-miw-0 {
     min-width: 0 !important;
   }
@@ -77914,7 +77914,7 @@ h6, .h6 {
     min-width: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-miw-0 {
     min-width: 0 !important;
   }
@@ -78333,7 +78333,7 @@ h6, .h6 {
     min-width: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-miw-0 {
     min-width: 0 !important;
   }
@@ -78752,7 +78752,7 @@ h6, .h6 {
     min-width: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-miw-0 {
     min-width: 0 !important;
   }
@@ -79171,7 +79171,7 @@ h6, .h6 {
     min-width: auto !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-miw-0 {
     min-width: 0 !important;
   }
@@ -79590,7 +79590,7 @@ h6, .h6 {
     min-width: auto !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-miw-0 {
     min-width: 0 !important;
   }
@@ -82979,7 +82979,7 @@ h6, .h6 {
   padding-left: auto !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-p-0 {
     padding: 0 !important;
   }
@@ -85258,7 +85258,7 @@ h6, .h6 {
     padding-left: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-p-0 {
     padding: 0 !important;
   }
@@ -87537,7 +87537,7 @@ h6, .h6 {
     padding-left: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-p-0 {
     padding: 0 !important;
   }
@@ -89816,7 +89816,7 @@ h6, .h6 {
     padding-left: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-p-0 {
     padding: 0 !important;
   }
@@ -92095,7 +92095,7 @@ h6, .h6 {
     padding-left: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-p-0 {
     padding: 0 !important;
   }
@@ -94374,7 +94374,7 @@ h6, .h6 {
     padding-left: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-p-0 {
     padding: 0 !important;
   }
@@ -96653,7 +96653,7 @@ h6, .h6 {
     padding-left: auto !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-p-0 {
     padding: 0 !important;
   }
@@ -98932,7 +98932,7 @@ h6, .h6 {
     padding-left: auto !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-p-0 {
     padding: 0 !important;
   }
@@ -101255,7 +101255,7 @@ h6, .h6 {
   bottom: 0 !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-pos-relative {
     position: relative !important;
   }
@@ -101290,7 +101290,7 @@ h6, .h6 {
     bottom: 0 !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-pos-relative {
     position: relative !important;
   }
@@ -101325,7 +101325,7 @@ h6, .h6 {
     bottom: 0 !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-pos-relative {
     position: relative !important;
   }
@@ -101360,7 +101360,7 @@ h6, .h6 {
     bottom: 0 !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-pos-relative {
     position: relative !important;
   }
@@ -101395,7 +101395,7 @@ h6, .h6 {
     bottom: 0 !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-pos-relative {
     position: relative !important;
   }
@@ -101430,7 +101430,7 @@ h6, .h6 {
     bottom: 0 !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-pos-relative {
     position: relative !important;
   }
@@ -101465,7 +101465,7 @@ h6, .h6 {
     bottom: 0 !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-pos-relative {
     position: relative !important;
   }
@@ -101500,7 +101500,7 @@ h6, .h6 {
     bottom: 0 !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-pos-relative {
     position: relative !important;
   }
@@ -102323,7 +102323,7 @@ h6, .h6 {
   right: auto !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-r-0 {
     right: 0 !important;
   }
@@ -102916,7 +102916,7 @@ h6, .h6 {
     right: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-r-0 {
     right: 0 !important;
   }
@@ -103509,7 +103509,7 @@ h6, .h6 {
     right: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-r-0 {
     right: 0 !important;
   }
@@ -104102,7 +104102,7 @@ h6, .h6 {
     right: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-r-0 {
     right: 0 !important;
   }
@@ -104695,7 +104695,7 @@ h6, .h6 {
     right: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-r-0 {
     right: 0 !important;
   }
@@ -105288,7 +105288,7 @@ h6, .h6 {
     right: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-r-0 {
     right: 0 !important;
   }
@@ -105881,7 +105881,7 @@ h6, .h6 {
     right: auto !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-r-0 {
     right: 0 !important;
   }
@@ -106474,7 +106474,7 @@ h6, .h6 {
     right: auto !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-r-0 {
     right: 0 !important;
   }
@@ -107856,7 +107856,7 @@ h6, .h6 {
   top: auto !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-t-0 {
     top: 0 !important;
   }
@@ -108449,7 +108449,7 @@ h6, .h6 {
     top: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-t-0 {
     top: 0 !important;
   }
@@ -109042,7 +109042,7 @@ h6, .h6 {
     top: auto !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-t-0 {
     top: 0 !important;
   }
@@ -109635,7 +109635,7 @@ h6, .h6 {
     top: auto !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-t-0 {
     top: 0 !important;
   }
@@ -110228,7 +110228,7 @@ h6, .h6 {
     top: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-t-0 {
     top: 0 !important;
   }
@@ -110821,7 +110821,7 @@ h6, .h6 {
     top: auto !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-t-0 {
     top: 0 !important;
   }
@@ -111414,7 +111414,7 @@ h6, .h6 {
     top: auto !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-t-0 {
     top: 0 !important;
   }
@@ -112007,7 +112007,7 @@ h6, .h6 {
     top: auto !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-t-0 {
     top: 0 !important;
   }
@@ -114168,7 +114168,7 @@ h6, .h6 {
   transform: translateX(-150%) !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-y-0 {
     transform: translateY(0) !important;
   }
@@ -115346,7 +115346,7 @@ h6, .h6 {
     transform: translateX(-150%) !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-y-0 {
     transform: translateY(0) !important;
   }
@@ -116524,7 +116524,7 @@ h6, .h6 {
     transform: translateX(-150%) !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-y-0 {
     transform: translateY(0) !important;
   }
@@ -117702,7 +117702,7 @@ h6, .h6 {
     transform: translateX(-150%) !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-y-0 {
     transform: translateY(0) !important;
   }
@@ -118880,7 +118880,7 @@ h6, .h6 {
     transform: translateX(-150%) !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-y-0 {
     transform: translateY(0) !important;
   }
@@ -120058,7 +120058,7 @@ h6, .h6 {
     transform: translateX(-150%) !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-y-0 {
     transform: translateY(0) !important;
   }
@@ -121236,7 +121236,7 @@ h6, .h6 {
     transform: translateX(-150%) !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-y-0 {
     transform: translateY(0) !important;
   }
@@ -122414,7 +122414,7 @@ h6, .h6 {
     transform: translateX(-150%) !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-y-0 {
     transform: translateY(0) !important;
   }
@@ -124152,7 +124152,7 @@ h6, .h6 {
   width: 100% !important;
 }
 
-@media screen and (min-width: 14rem) and (max-width: 28rem) {
+@media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-w-0 {
     width: 0 !important;
   }
@@ -124574,7 +124574,7 @@ h6, .h6 {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 28.0001rem) and (max-width: 48rem) {
+@media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-w-0 {
     width: 0 !important;
   }
@@ -124996,7 +124996,7 @@ h6, .h6 {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 28.0001rem) {
+@media screen and (min-width: 37.505rem) {
   .\@tablet-up-w-0 {
     width: 0 !important;
   }
@@ -125418,7 +125418,7 @@ h6, .h6 {
     width: 100% !important;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 75rem) {
   .\@tablet-down-w-0 {
     width: 0 !important;
   }
@@ -125840,7 +125840,7 @@ h6, .h6 {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 48.0625rem) and (max-width: 64rem) {
+@media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-w-0 {
     width: 0 !important;
   }
@@ -126262,7 +126262,7 @@ h6, .h6 {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 48.0625rem) {
+@media screen and (min-width: 75.005rem) {
   .\@laptop-up-w-0 {
     width: 0 !important;
   }
@@ -126684,7 +126684,7 @@ h6, .h6 {
     width: 100% !important;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width: 112.5rem) {
   .\@laptop-down-w-0 {
     width: 0 !important;
   }
@@ -127106,7 +127106,7 @@ h6, .h6 {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 64.0625rem) {
+@media screen and (min-width: 112.505rem) {
   .\@desktop-w-0 {
     width: 0 !important;
   }

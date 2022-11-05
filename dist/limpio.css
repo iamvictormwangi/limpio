@@ -1264,10 +1264,10 @@ html, body {
   background-color: var(--limpio-white-dkn-3);
   padding: 0.8rem 0.8rem;
 }
-.dropdown .dropdown-menu.dropdown-menu-aligned-left {
+.dropdown .dropdown-menu.dropdown-menu-align-left {
   left: 0;
 }
-.dropdown .dropdown-menu.dropdown-menu-aligned-right {
+.dropdown .dropdown-menu.dropdown-menu-align-right {
   right: 0;
 }
 
@@ -2206,8 +2206,8 @@ table tr.highlight {
 .wrapper-6xl,
 .wrapper-7xl {
   margin: 0 auto;
-  padding-left: 0.8375rem;
-  padding-right: 0.8375rem;
+  padding-left: 0.8375rem !important;
+  padding-right: 0.8375rem !important;
 }
 
 @media (min-width: 36rem) {

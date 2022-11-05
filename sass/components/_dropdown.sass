@@ -7,6 +7,8 @@
     position: absolute
     top: calc(100% + 0.45rem)
     background-color: var(--limpio-white-dkn-3)
+    opacity: 0
+    pointer-events: none
     @if $enable-padding == true
       padding: 0.8rem .8rem
 
@@ -15,3 +17,8 @@
 
     &.#{$class-prefix}dropdown#{$separator}menu#{$separator}align#{$separator}right
       right: 0
+
+
+    &.#{$class-prefix}dropdown#{$separator}menu.#{$class-prefix}active
+      opacity: 1
+      pointer-events: auto

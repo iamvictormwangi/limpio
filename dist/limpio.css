@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Fira+Code&family=IBM+Plex+Serif&family=Pacifico&family=Poppins&family=Raleway&display=swap");
 /*!
- * * Limpio  v0.3.0 (https://limpio.dev)
+ * * Limpio CSS (https://limpio.dev)
+ * * Written in POST CSS
  * * Copyright 2022 Victor Mwangi
- * * Licensed under MIT (https://github.com/limpio.dev/limpio/LICENSE)
+ * * Licensed under MIT (https://github.com/vicktter/limpio/LICENSE)
  * */
 :root {
   --limpio-animation-duration: 1s;
@@ -986,6 +987,12 @@ html, body {
   height: 2rem;
   aspect-ratio: 1 !important;
 }
+.avatar .avatar-text {
+  font-size: 0.85rem;
+  font-family: var(--limpio-serif);
+  margin: 0;
+  padding: 0;
+}
 .avatar.avatar-7xs {
   width: 0.75rem;
   height: 0.75rem;
@@ -1262,6 +1269,8 @@ html, body {
   position: absolute;
   top: calc(100% + 0.45rem);
   background-color: var(--limpio-white-dkn-3);
+  opacity: 0;
+  pointer-events: none;
   padding: 0.8rem 0.8rem;
 }
 .dropdown .dropdown-menu.dropdown-menu-align-left {
@@ -1269,6 +1278,11 @@ html, body {
 }
 .dropdown .dropdown-menu.dropdown-menu-align-right {
   right: 0;
+}
+
+.dropdown.active .dropdown-menu {
+  opacity: 1 !important;
+  pointer-events: auto;
 }
 
 .footer * {
@@ -1565,6 +1579,10 @@ table.table-striped tr:nth-of-type(odd) {
   background-color: var(--limpio-white-dkn-1);
 }
 
+table.table-striped tr:nth-of-type(odd) {
+  width: 100%;
+}
+
 table tr.highlight {
   background-color: var(--limpio-white-dkn-1);
 }
@@ -1588,18 +1606,15 @@ table tr.highlight {
   position: absolute;
   visibility: hidden;
   z-index: 200;
-  font-size: 80%;
-  background-color: var(--limpio-light);
+  background-color: var(--limpio-white-dkn-3);
   border-radius: 0.15rem;
   bottom: 4rem;
   padding: 0.3rem 0.8rem;
 }
-
-*:hover > .tooltip {
-  visibility: visible;
+.tooltip.active {
+  font-size: 0.85rem;
 }
-
-.tooltip.tooltip-showing {
+.tooltip.active {
   visibility: visible;
 }
 
@@ -1703,7 +1718,7 @@ table tr.highlight {
   transition: border-color 0.5s ease-in;
   padding: 0.8rem;
 }
-.textareatextarea-full-width {
+.textarea.textarea-full-width {
   width: 100% !important;
 }
 
@@ -21039,11 +21054,11 @@ h6, .h6 {
     font-size: calc(var(--limpio-title-font-size) - 1.25rem);
   }
 }
-.active {
+.item-active {
   background-color: var(--limpio-green-ltn-2) !important;
 }
 
-.disabled {
+.item-disabled {
   background-color: var(--limpio-white-darken-3) !important;
   cursor: not-allowed !important;
 }

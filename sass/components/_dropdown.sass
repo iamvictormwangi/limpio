@@ -19,6 +19,7 @@
       right: 0
 
 
-    &.#{$class-prefix}dropdown#{$separator}menu.#{$class-prefix}active
-      opacity: 1
-      pointer-events: auto
+.#{$class-prefix}dropdown.#{$class-prefix}active
+  .#{$class-prefix}dropdown#{$separator}menu
+    opacity: 1 !important
+    pointer-events: auto

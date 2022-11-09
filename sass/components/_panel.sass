@@ -4,6 +4,16 @@
   margin-bottom: 0 !important
 
 .#{$class-prefix}panel
+  &.#{$class-prefix}panel#{$separator}sticky#{$separator}top
+    position: sticky !important
+    top: 0 !important
+    width: 100%
+
+  &.#{$class-prefix}panel#{$separator}fixed#{$separator}top
+    position: fixed !important
+    top: 0 !important
+    width: 100%
+
   & .#{$class-prefix}panel#{$separator}wrapper
     @if $enable-padding == true
       padding: 1rem 0rem

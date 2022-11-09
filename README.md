@@ -2,7 +2,7 @@
 
 ## Awesome SASS Framework
 
-  * [ ] Limpio is a lightweight, fast and responsive css framwork for faster app development
+[ Limpio ](https://github.io/limpio) is a lightweight, fast and responsive css framwork for faster app development
 
 ### Why you should go with Limpio
 

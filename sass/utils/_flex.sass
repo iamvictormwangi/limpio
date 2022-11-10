@@ -1,7 +1,7 @@
 @use "./../abstracts/" as *
 
 .#{$class-prefix}flx#{$separator}wrap
-  @include flex-wrap
+  flex-wrap: wrap
 
 .#{$class-prefix}flx#{$separator}wrap#{$separator}reverse
   flex-wrap: wrap-reverse !important
@@ -13,7 +13,7 @@
   flex-direction: column !important
 
 .#{$class-prefix}flx#{$separator}row#{$separator}reverse
-  @include flex-direction-row-reverse
+  flex-direction: row-reverse
 
 .#{$class-prefix}flx#{$separator}col#{$separator}reverse
   flex-direction: column-reverse !important
@@ -149,7 +149,7 @@
 @media screen and (max-width: $mobile-max-width)
 
   .#{$class-prefix}#{$mobile-prefix}#{$separator}flx#{$separator}wrap
-    @include flex-wrap
+    flex-wrap: wrap
 
   .#{$class-prefix}#{$mobile-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
@@ -161,7 +161,7 @@
     flex-direction: column !important
 
   .#{$class-prefix}#{$mobile-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
-    @include flex-direction-row-reverse
+    flex-direction: row-reverse
 
   .#{$class-prefix}#{$mobile-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
@@ -297,7 +297,7 @@
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
   .#{$class-prefix}#{$tablet-prefix}#{$separator}flx#{$separator}wrap
-    @include flex-wrap
+    flex-wrap: wrap
 
   .#{$class-prefix}#{$tablet-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
@@ -309,7 +309,7 @@
     flex-direction: column !important
 
   .#{$class-prefix}#{$tablet-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
-    @include flex-direction-row-reverse
+    flex-direction: row-reverse
 
   .#{$class-prefix}#{$tablet-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
@@ -445,7 +445,7 @@
 @media screen and (min-width: $tablet-min-width)
 
   .#{$class-prefix}#{$tablet-up-prefix}#{$separator}flx#{$separator}wrap
-    @include flex-wrap
+    flex-wrap: wrap
 
   .#{$class-prefix}#{$tablet-up-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
@@ -457,7 +457,7 @@
     flex-direction: column !important
 
   .#{$class-prefix}#{$tablet-up-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
-    @include flex-direction-row-reverse
+    flex-direction: row-reverse
 
   .#{$class-prefix}#{$tablet-up-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
@@ -593,7 +593,7 @@
 @media screen and (max-width: $tablet-max-width)
 
   .#{$class-prefix}#{$tablet-down-prefix}#{$separator}flx#{$separator}wrap
-    @include flex-wrap
+    flex-wrap: wrap
 
   .#{$class-prefix}#{$tablet-down-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
@@ -605,7 +605,7 @@
     flex-direction: column !important
 
   .#{$class-prefix}#{$tablet-down-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
-    @include flex-direction-row-reverse
+    flex-direction: row-reverse
 
   .#{$class-prefix}#{$tablet-down-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
@@ -741,7 +741,7 @@
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
   .#{$class-prefix}#{$laptop-prefix}#{$separator}flx#{$separator}wrap
-    @include flex-wrap
+    flex-wrap: wrap
 
   .#{$class-prefix}#{$laptop-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
@@ -753,7 +753,7 @@
     flex-direction: column !important
 
   .#{$class-prefix}#{$laptop-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
-    @include flex-direction-row-reverse
+    flex-direction: row-reverse
 
   .#{$class-prefix}#{$laptop-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
@@ -889,7 +889,7 @@
 @media screen and (min-width: $laptop-min-width)
 
   .#{$class-prefix}#{$laptop-up-prefix}#{$separator}flx#{$separator}wrap
-    @include flex-wrap
+    flex-wrap: wrap
 
   .#{$class-prefix}#{$laptop-up-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
@@ -901,7 +901,7 @@
     flex-direction: column !important
 
   .#{$class-prefix}#{$laptop-up-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
-    @include flex-direction-row-reverse
+    flex-direction: row-reverse
 
   .#{$class-prefix}#{$laptop-up-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
@@ -1037,7 +1037,7 @@
 @media screen and (max-width: $laptop-max-width)
 
   .#{$class-prefix}#{$laptop-down-prefix}#{$separator}flx#{$separator}wrap
-    @include flex-wrap
+    flex-wrap: wrap
 
   .#{$class-prefix}#{$laptop-down-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
@@ -1049,7 +1049,7 @@
     flex-direction: column !important
 
   .#{$class-prefix}#{$laptop-down-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
-    @include flex-direction-row-reverse
+    flex-direction: row-reverse
 
   .#{$class-prefix}#{$laptop-down-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
@@ -1185,7 +1185,7 @@
 @media screen and (min-width: $desktop-min-width)
 
   .#{$class-prefix}#{$desktop-prefix}#{$separator}flx#{$separator}wrap
-    @include flex-wrap
+    flex-wrap: wrap
 
   .#{$class-prefix}#{$desktop-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
@@ -1197,7 +1197,7 @@
     flex-direction: column !important
 
   .#{$class-prefix}#{$desktop-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
-    @include flex-direction-row-reverse
+    flex-direction: row-reverse
 
   .#{$class-prefix}#{$desktop-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important

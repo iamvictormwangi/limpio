@@ -1,6 +1,6 @@
 {
   "name": "limpio",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Awesome SASS Framework",
   "homepage": "https://limpio.dev",
   "keywords": [
@@ -31,8 +31,8 @@
   "unpkg": "dist/css/limpio.css",
   "style": "dist/css/limpio.css",
   "scripts": {
-    "build:css": "sass src/limpio.sass build/css/limpio.css",
-    "run:css": "postcss build/css/limpio.css -o dist/css/limpio.css"
+    "compile:css": "sass src/limpio.sass build/css/limpio.css",
+    "deploy:css": "postcss build/css/limpio.css -o dist/css/limpio.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

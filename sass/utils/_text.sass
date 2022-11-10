@@ -20,8 +20,8 @@ h6,
 
 pre,
 code,
-.#{$class-prefix}code,
-.#{$class-prefix}pre
+.code,
+.pre
   background-color: var(#{$variable-prefix}-light)
   font-family:  var(#{$variable-prefix}-fira-code)
 
@@ -29,774 +29,777 @@ pre
   @if padding-enabled
     padding: 1rem
 
-.#{$class-prefix}ff#{$separator}sans#{$separator}serif
+.ff#{$separator}sans#{$separator}serif
   font-family: var(#{$variable-prefix}-sans-serif) !important
 
-.#{$class-prefix}ff#{$separator}sans#{$separator}serif#{$separator}alt
+.ff#{$separator}sans#{$separator}serif#{$separator}alt
   font-family: var(#{$variable-prefix}-sans-serif-alt) !important
 
-.#{$class-prefix}ff#{$separator}serif
+.ff#{$separator}serif
   font-family: var(#{$variable-prefix}-serif) !important
 
-.#{$class-prefix}ff#{$separator}fira#{$separator}code
+.ff#{$separator}fira#{$separator}code
   font-family:  var(#{$variable-prefix}-pacifio) !important
 
-.#{$class-prefix}fs#{$separator}7xs
+.fs#{$separator}7xs
   font-size: calc(var(#{$variable-prefix}-font-size) - 0.8rem) !important
 
-.#{$class-prefix}fs#{$separator}6xs
+.fs#{$separator}6xs
   font-size: calc(var(#{$variable-prefix}-font-size) - 0.75rem) !important
 
-.#{$class-prefix}fs#{$separator}5xs
+.fs#{$separator}5xs
   font-size: calc(var(#{$variable-prefix}-font-size) - 0.65rem) !important
 
-.#{$class-prefix}fs#{$separator}4xs
+.fs#{$separator}4xs
   font-size: calc(var(#{$variable-prefix}-font-size) - 0.55rem) !important
 
-.#{$class-prefix}fs#{$separator}3xs
+.fs#{$separator}3xs
   font-size: calc(var(#{$variable-prefix}-font-size) - 0.45rem) !important
 
-.#{$class-prefix}fs#{$separator}2xs
+.fs#{$separator}2xs
   font-size: calc(var(#{$variable-prefix}-font-size) - 0.35rem) !important
 
-.#{$class-prefix}fs#{$separator}xs
+.fs#{$separator}xs
   font-size: calc(var(#{$variable-prefix}-font-size) - 0.25rem) !important
 
-.#{$class-prefix}fs#{$separator}sm
+.fs#{$separator}sm
   font-size: calc(var(#{$variable-prefix}-font-size) - 0.15rem) !important
 
-.#{$class-prefix}fs#{$separator}md
+.fs#{$separator}md
   font-size: var(#{$variable-prefix}-font-size) !important
 
-.#{$class-prefix}fs#{$separator}lg
+.fs#{$separator}lg
   font-size: calc(var(#{$variable-prefix}-font-size) + 0.25rem) !important
 
-.#{$class-prefix}fs#{$separator}xl
+.fs#{$separator}xl
   font-size: calc(var(#{$variable-prefix}-font-size) + 0.5rem) !important
 
-.#{$class-prefix}fs#{$separator}2xl
+.fs#{$separator}2xl
   font-size: calc(var(#{$variable-prefix}-font-size) + 0.75rem) !important
 
-.#{$class-prefix}fs#{$separator}3xl
+.fs#{$separator}3xl
   font-size: calc(var(#{$variable-prefix}-font-size) + 1rem) !important
 
-.#{$class-prefix}fs#{$separator}4xl
+.fs#{$separator}4xl
   font-size: calc(var(#{$variable-prefix}-font-size) + 1.25rem) !important
 
-.#{$class-prefix}fs#{$separator}5xl
+.fs#{$separator}5xl
   font-size: calc(var(#{$variable-prefix}-font-size) + 1.5rem) !important
 
-.#{$class-prefix}fs#{$separator}6xl
+.fs#{$separator}6xl
   font-size: calc(var(#{$variable-prefix}-font-size) + 2rem) !important
 
-.#{$class-prefix}fs#{$separator}7xl
+.fs#{$separator}7xl
   font-size: calc(var(#{$variable-prefix}-font-size) + 3rem) !important
 
 @media screen and (max-width: $mobile-max-width)
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}7xs
+  .#{$mobile-prefix}fs#{$separator}7xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.8rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}6xs
+  .#{$mobile-prefix}fs#{$separator}6xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.75rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}5xs
+  .#{$mobile-prefix}fs#{$separator}5xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.65rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}4xs
+  .#{$mobile-prefix}fs#{$separator}4xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.55rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}3xs
+  .#{$mobile-prefix}fs#{$separator}3xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.45rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}2xs
+  .#{$mobile-prefix}fs#{$separator}2xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.35rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}xs
+  .#{$mobile-prefix}fs#{$separator}xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.25rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}sm
+  .#{$mobile-prefix}fs#{$separator}sm
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.15rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}md
+  .#{$mobile-prefix}fs#{$separator}md
     font-size: var(#{$variable-prefix}-font-size) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}lg
+  .#{$mobile-prefix}fs#{$separator}lg
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.25rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}xl
+  .#{$mobile-prefix}fs#{$separator}xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.5rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}2xl
+  .#{$mobile-prefix}fs#{$separator}2xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.75rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}3xl
+  .#{$mobile-prefix}fs#{$separator}3xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}4xl
+  .#{$mobile-prefix}fs#{$separator}4xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.25rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}5xl
+  .#{$mobile-prefix}fs#{$separator}5xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.5rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}6xl
+  .#{$mobile-prefix}fs#{$separator}6xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 2rem) !important
 
-  .#{$class-prefix}#{$mobile-prefix}fs#{$separator}7xl
+  .#{$mobile-prefix}fs#{$separator}7xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 3rem) !important
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}7xs
+  .#{$tablet-prefix}fs#{$separator}7xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.8rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}6xs
+  .#{$tablet-prefix}fs#{$separator}6xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.75rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}5xs
+  .#{$tablet-prefix}fs#{$separator}5xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.65rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}4xs
+  .#{$tablet-prefix}fs#{$separator}4xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.55rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}3xs
+  .#{$tablet-prefix}fs#{$separator}3xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.45rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}2xs
+  .#{$tablet-prefix}fs#{$separator}2xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.35rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}xs
+  .#{$tablet-prefix}fs#{$separator}xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.25rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}sm
+  .#{$tablet-prefix}fs#{$separator}sm
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.15rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}md
+  .#{$tablet-prefix}fs#{$separator}md
     font-size: var(#{$variable-prefix}-font-size) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}lg
+  .#{$tablet-prefix}fs#{$separator}lg
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.25rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}xl
+  .#{$tablet-prefix}fs#{$separator}xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.5rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}2xl
+  .#{$tablet-prefix}fs#{$separator}2xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.75rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}3xl
+  .#{$tablet-prefix}fs#{$separator}3xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}4xl
+  .#{$tablet-prefix}fs#{$separator}4xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.25rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}5xl
+  .#{$tablet-prefix}fs#{$separator}5xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.5rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}6xl
+  .#{$tablet-prefix}fs#{$separator}6xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 2rem) !important
 
-  .#{$class-prefix}#{$tablet-prefix}fs#{$separator}7xl
+  .#{$tablet-prefix}fs#{$separator}7xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 3rem) !important
 
 @media screen and (min-width: $tablet-min-width)
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}7xs
+  .#{$tablet-up-prefix}fs#{$separator}7xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.8rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}6xs
+  .#{$tablet-up-prefix}fs#{$separator}6xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.75rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}5xs
+  .#{$tablet-up-prefix}fs#{$separator}5xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.65rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}4xs
+  .#{$tablet-up-prefix}fs#{$separator}4xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.55rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}3xs
+  .#{$tablet-up-prefix}fs#{$separator}3xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.45rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}2xs
+  .#{$tablet-up-prefix}fs#{$separator}2xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.35rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}xs
+  .#{$tablet-up-prefix}fs#{$separator}xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.25rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}sm
+  .#{$tablet-up-prefix}fs#{$separator}sm
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.15rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}md
+  .#{$tablet-up-prefix}fs#{$separator}md
     font-size: var(#{$variable-prefix}-font-size) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}lg
+  .#{$tablet-up-prefix}fs#{$separator}lg
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.25rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}xl
+  .#{$tablet-up-prefix}fs#{$separator}xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.5rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}2xl
+  .#{$tablet-up-prefix}fs#{$separator}2xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.75rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}3xl
+  .#{$tablet-up-prefix}fs#{$separator}3xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}4xl
+  .#{$tablet-up-prefix}fs#{$separator}4xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.25rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}5xl
+  .#{$tablet-up-prefix}fs#{$separator}5xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.5rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}6xl
+  .#{$tablet-up-prefix}fs#{$separator}6xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 2rem) !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}fs#{$separator}7xl
+  .#{$tablet-up-prefix}fs#{$separator}7xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 3rem) !important
 
 @media screen and (max-width: $tablet-max-width)
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}7xs
+  .#{$tablet-down-prefix}fs#{$separator}7xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.8rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}6xs
+  .#{$tablet-down-prefix}fs#{$separator}6xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.75rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}5xs
+  .#{$tablet-down-prefix}fs#{$separator}5xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.65rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}4xs
+  .#{$tablet-down-prefix}fs#{$separator}4xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.55rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}3xs
+  .#{$tablet-down-prefix}fs#{$separator}3xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.45rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}2xs
+  .#{$tablet-down-prefix}fs#{$separator}2xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.35rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}xs
+  .#{$tablet-down-prefix}fs#{$separator}xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.25rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}sm
+  .#{$tablet-down-prefix}fs#{$separator}sm
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.15rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}md
+  .#{$tablet-down-prefix}fs#{$separator}md
     font-size: var(#{$variable-prefix}-font-size) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}lg
+  .#{$tablet-down-prefix}fs#{$separator}lg
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.25rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}xl
+  .#{$tablet-down-prefix}fs#{$separator}xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.5rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}2xl
+  .#{$tablet-down-prefix}fs#{$separator}2xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.75rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}3xl
+  .#{$tablet-down-prefix}fs#{$separator}3xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}4xl
+  .#{$tablet-down-prefix}fs#{$separator}4xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.25rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}5xl
+  .#{$tablet-down-prefix}fs#{$separator}5xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.5rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}6xl
+  .#{$tablet-down-prefix}fs#{$separator}6xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 2rem) !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}fs#{$separator}7xl
+  .#{$tablet-down-prefix}fs#{$separator}7xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 3rem) !important
 
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}7xs
+  .#{$laptop-prefix}fs#{$separator}7xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.8rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}6xs
+  .#{$laptop-prefix}fs#{$separator}6xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.75rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}5xs
+  .#{$laptop-prefix}fs#{$separator}5xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.65rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}4xs
+  .#{$laptop-prefix}fs#{$separator}4xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.55rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}3xs
+  .#{$laptop-prefix}fs#{$separator}3xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.45rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}2xs
+  .#{$laptop-prefix}fs#{$separator}2xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.35rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}xs
+  .#{$laptop-prefix}fs#{$separator}xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.25rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}sm
+  .#{$laptop-prefix}fs#{$separator}sm
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.15rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}md
+  .#{$laptop-prefix}fs#{$separator}md
     font-size: var(#{$variable-prefix}-font-size) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}lg
+  .#{$laptop-prefix}fs#{$separator}lg
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.25rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}xl
+  .#{$laptop-prefix}fs#{$separator}xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.5rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}2xl
+  .#{$laptop-prefix}fs#{$separator}2xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.75rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}3xl
+  .#{$laptop-prefix}fs#{$separator}3xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}4xl
+  .#{$laptop-prefix}fs#{$separator}4xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.25rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}5xl
+  .#{$laptop-prefix}fs#{$separator}5xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.5rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}6xl
+  .#{$laptop-prefix}fs#{$separator}6xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 2rem) !important
 
-  .#{$class-prefix}#{$laptop-prefix}fs#{$separator}7xl
+  .#{$laptop-prefix}fs#{$separator}7xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 3rem) !important
 
 @media screen and (min-width: $laptop-min-width)
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}7xs
+  .#{$laptop-up-prefix}fs#{$separator}7xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.8rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}6xs
+  .#{$laptop-up-prefix}fs#{$separator}6xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.75rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}5xs
+  .#{$laptop-up-prefix}fs#{$separator}5xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.65rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}4xs
+  .#{$laptop-up-prefix}fs#{$separator}4xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.55rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}3xs
+  .#{$laptop-up-prefix}fs#{$separator}3xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.45rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}2xs
+  .#{$laptop-up-prefix}fs#{$separator}2xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.35rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}xs
+  .#{$laptop-up-prefix}fs#{$separator}xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.25rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}sm
+  .#{$laptop-up-prefix}fs#{$separator}sm
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.15rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}md
+  .#{$laptop-up-prefix}fs#{$separator}md
     font-size: var(#{$variable-prefix}-font-size) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}lg
+  .#{$laptop-up-prefix}fs#{$separator}lg
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.25rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}xl
+  .#{$laptop-up-prefix}fs#{$separator}xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.5rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}2xl
+  .#{$laptop-up-prefix}fs#{$separator}2xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.75rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}3xl
+  .#{$laptop-up-prefix}fs#{$separator}3xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}4xl
+  .#{$laptop-up-prefix}fs#{$separator}4xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.25rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}5xl
+  .#{$laptop-up-prefix}fs#{$separator}5xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.5rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}6xl
+  .#{$laptop-up-prefix}fs#{$separator}6xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 2rem) !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}fs#{$separator}7xl
+  .#{$laptop-up-prefix}fs#{$separator}7xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 3rem) !important
 
 @media screen and (max-width: $laptop-max-width)
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}7xs
+  .#{$laptop-down-prefix}fs#{$separator}7xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.8rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}6xs
+  .#{$laptop-down-prefix}fs#{$separator}6xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.75rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}5xs
+  .#{$laptop-down-prefix}fs#{$separator}5xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.65rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}4xs
+  .#{$laptop-down-prefix}fs#{$separator}4xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.55rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}3xs
+  .#{$laptop-down-prefix}fs#{$separator}3xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.45rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}2xs
+  .#{$laptop-down-prefix}fs#{$separator}2xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.35rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}xs
+  .#{$laptop-down-prefix}fs#{$separator}xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.25rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}sm
+  .#{$laptop-down-prefix}fs#{$separator}sm
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.15rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}md
+  .#{$laptop-down-prefix}fs#{$separator}md
     font-size: var(#{$variable-prefix}-font-size) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}lg
+  .#{$laptop-down-prefix}fs#{$separator}lg
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.25rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}xl
+  .#{$laptop-down-prefix}fs#{$separator}xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.5rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}2xl
+  .#{$laptop-down-prefix}fs#{$separator}2xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.75rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}3xl
+  .#{$laptop-down-prefix}fs#{$separator}3xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}4xl
+  .#{$laptop-down-prefix}fs#{$separator}4xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.25rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}5xl
+  .#{$laptop-down-prefix}fs#{$separator}5xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.5rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}6xl
+  .#{$laptop-down-prefix}fs#{$separator}6xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 2rem) !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}fs#{$separator}7xl
+  .#{$laptop-down-prefix}fs#{$separator}7xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 3rem) !important
 
 @media screen and (min-width: $desktop-min-width)
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}7xs
+  .#{$desktop-prefix}fs#{$separator}7xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.8rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}6xs
+  .#{$desktop-prefix}fs#{$separator}6xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.75rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}5xs
+  .#{$desktop-prefix}fs#{$separator}5xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.65rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}4xs
+  .#{$desktop-prefix}fs#{$separator}4xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.55rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}3xs
+  .#{$desktop-prefix}fs#{$separator}3xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.45rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}2xs
+  .#{$desktop-prefix}fs#{$separator}2xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.35rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}xs
+  .#{$desktop-prefix}fs#{$separator}xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.25rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}sm
+  .#{$desktop-prefix}fs#{$separator}sm
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.15rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}md
+  .#{$desktop-prefix}fs#{$separator}md
     font-size: var(#{$variable-prefix}-font-size) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}lg
+  .#{$desktop-prefix}fs#{$separator}lg
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.25rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}xl
+  .#{$desktop-prefix}fs#{$separator}xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.5rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}2xl
+  .#{$desktop-prefix}fs#{$separator}2xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.75rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}3xl
+  .#{$desktop-prefix}fs#{$separator}3xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}4xl
+  .#{$desktop-prefix}fs#{$separator}4xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.25rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}5xl
+  .#{$desktop-prefix}fs#{$separator}5xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.5rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}6xl
+  .#{$desktop-prefix}fs#{$separator}6xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 2rem) !important
 
-  .#{$class-prefix}#{$desktop-prefix}fs#{$separator}7xl
+  .#{$desktop-prefix}fs#{$separator}7xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 3rem) !important
 
 @for $index from 1 to 41
-  .#{$class-prefix}fs#{$separator}#{$index * 25}\%
+  .fs#{$separator}#{$index * 25}\%
     font-size: #{$index * 25%} !important
 
 @for $index from 1 to 11
-  .#{$class-prefix}fw#{$separator}#{$index * 100}
+  .fw#{$separator}#{$index * 100}
     font-weight: #{$index * 100} !important
 
-.#{$class-prefix}fw#{$separator}7xs
+.fw#{$separator}7xs
   font-weight: 100 !important
 
-.#{$class-prefix}fw#{$separator}6xs
+.fw#{$separator}6xs
   font-weight: 200 !important
 
-.#{$class-prefix}fw#{$separator}5xs
+.fw#{$separator}5xs
   font-weight: 250 !important
 
-.#{$class-prefix}fw#{$separator}4xs
+.fw#{$separator}4xs
   font-weight: 300 !important
 
-.#{$class-prefix}fw#{$separator}3xs
+.fw#{$separator}3xs
   font-weight: 350 !important
 
-.#{$class-prefix}fw#{$separator}2xs
+.fw#{$separator}2xs
   font-weight: 400 !important
 
-.#{$class-prefix}fw#{$separator}sm
+.fw#{$separator}sm
   font-weight: 450 !important
 
-.#{$class-prefix}fw#{$separator}md
+.fw#{$separator}md
   font-weight: 500 !important
 
-.#{$class-prefix}fw#{$separator}lg
+.fw#{$separator}lg
   font-weight: 550 !important
 
-.#{$class-prefix}fw#{$separator}xl
+.fw#{$separator}xl
   font-weight: 600 !important
 
-.#{$class-prefix}fw#{$separator}2xl
+.fw#{$separator}2xl
   font-weight: 650 !important
 
-.#{$class-prefix}fw#{$separator}3xl
+.fw#{$separator}3xl
   font-weight: 700 !important
 
-.#{$class-prefix}fw#{$separator}4xl
+.fw#{$separator}4xl
   font-weight: 750 !important
 
-.#{$class-prefix}fw#{$separator}5xl
+.fw#{$separator}5xl
   font-weight: 800 !important
 
-.#{$class-prefix}fw#{$separator}6xl
+.fw#{$separator}6xl
   font-weight: 900 !important
 
-.#{$class-prefix}fw#{$separator}7xl
+.fw#{$separator}7xl
   font-weight: 1000 !important
 
-.#{$class-prefix}fw#{$separator}normal
+.fw#{$separator}normal
   font-weight: normal !important
 
-.#{$class-prefix}fw#{$separator}bold
+.fw#{$separator}bold
   font-weight: bold !important
 
-.#{$class-prefix}fv#{$separator}normal
+.fv#{$separator}normal
   font-variant: normal !important
 
-.#{$class-prefix}fv#{$separator}small#{$separator}caps
+.fv#{$separator}small#{$separator}caps
   font-variant: small-caps !important
 
-.#{$class-prefix}ta#{$separator}left
+.ta#{$separator}left
   text-align: left !important
 
-.#{$class-prefix}ta#{$separator}center
+.ta#{$separator}center
   text-align: center !important
 
-.#{$class-prefix}ta#{$separator}right
+.ta#{$separator}right
   text-align: right !important
 
-.#{$class-prefix}ta#{$separator}justify
+.ta#{$separator}justify
   text-align: justify !important
 
-.#{$class-prefix}tt#{$separator}uppercase
+.tt#{$separator}uppercase
   text-transform: uppercase !important
 
-.#{$class-prefix}tt#{$separator}lowercase
+.tt#{$separator}lowercase
   text-transform: lowercase !important
 
-.#{$class-prefix}tt#{$separator}capitalize
+.tt#{$separator}capitalize
   text-transform: capitalize !important
 
-.#{$class-prefix}td#{$separator}underline
+.td#{$separator}underline
   text-decoration: underline !important
 
-.#{$class-prefix}td#{$separator}line#{$separator}through
+.td#{$separator}line#{$separator}through
   text-decoration: line-through !important
 
-.#{$class-prefix}td#{$separator}none
+.td#{$separator}none
   text-decoration: none !important
 
-.#{$class-prefix}td#{$separator}overline
+.td#{$separator}overline
   text-decoration: overline !important
 
-.#{$class-prefix}td#{$separator}none
+.td#{$separator}none
   text-decoration: none !important
 
-.#{$class-prefix}td#{$separator}line#{$separator}through
+.td#{$separator}line#{$separator}through
   text-decoration: line-through !important
 
-.#{$class-prefix}td#{$separator}underline
+.td#{$separator}underline
   text-decoration: underline !important
 
-.#{$class-prefix}tshdw#{$separator}7xl
+.tshdw#{$separator}7xl
   box-shadow: var(#{$variable-prefix}-text-shadow-7xl)
 
-.#{$class-prefix}tshdw#{$separator}6xl
+.tshdw#{$separator}6xl
   box-shadow: var(#{$variable-prefix}-text-shadow-6xl)
 
-.#{$class-prefix}tshdw#{$separator}5xl
+.tshdw#{$separator}5xl
   box-shadow: var(#{$variable-prefix}-text-shadow-5xl)
 
-.#{$class-prefix}tshdw#{$separator}4xl
+.tshdw#{$separator}4xl
   box-shadow: var(#{$variable-prefix}-text-shadow-4xl)
 
-.#{$class-prefix}tshdw#{$separator}3xl
+.tshdw#{$separator}3xl
   box-shadow: var(#{$variable-prefix}-text-shadow-3xl)
 
-.#{$class-prefix}tshdw#{$separator}2xl
+.tshdw#{$separator}2xl
   box-shadow: var(#{$variable-prefix}-text-shadow-2xl)
 
-.#{$class-prefix}tshdw#{$separator}xl
+.tshdw#{$separator}xl
   box-shadow: var(#{$variable-prefix}-text-shadow-xl)
 
-.#{$class-prefix}tshdw#{$separator}lg
+.tshdw#{$separator}lg
   box-shadow: var(#{$variable-prefix}-text-shadow-lg)
 
-.#{$class-prefix}tshdw, .#{$class-prefix}tshdw#{$separator}md
+.tshdw,
+.tshdw#{$separator}md
   box-shadow: var(#{$variable-prefix}-text-shadow-md)
 
-.#{$class-prefix}tshdw#{$separator}lg
+.tshdw#{$separator}lg
   box-shadow: var(#{$variable-prefix}-text-shadow-lg)
 
-.#{$class-prefix}tshdw#{$separator}xl
+.tshdw#{$separator}xl
   box-shadow: var(#{$variable-prefix}-text-shadow-xl)
 
-.#{$class-prefix}tshdw#{$separator}2xl
+.tshdw#{$separator}2xl
   box-shadow: var(#{$variable-prefix}-text-shadow-2xl)
 
-.#{$class-prefix}tshdw#{$separator}3xl
+.tshdw#{$separator}3xl
   box-shadow: var(#{$variable-prefix}-text-shadow-3xl)
 
-.#{$class-prefix}tshdw#{$separator}4xl
+.tshdw#{$separator}4xl
   box-shadow: var(#{$variable-prefix}-text-shadow-4xl)
 
-.#{$class-prefix}tshdw#{$separator}5xl
+.tshdw#{$separator}5xl
   box-shadow: var(#{$variable-prefix}-text-shadow-5xl)
 
-.#{$class-prefix}tshdw#{$separator}6xl
+.tshdw#{$separator}6xl
   box-shadow: var(#{$variable-prefix}-text-shadow-6xl)
 
-.#{$class-prefix}tshdw#{$separator}7xl
+.tshdw#{$separator}7xl
   box-shadow: var(#{$variable-prefix}-text-shadow-7xl)
 
-.#{$class-prefix}tshdw#{$separator}7xl#{$separator}\:hvr:hover
+.tshdw#{$separator}7xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-7xl)
 
-.#{$class-prefix}tshdw#{$separator}6xl#{$separator}\:hvr:hover
+.tshdw#{$separator}6xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-6xl)
 
-.#{$class-prefix}tshdw#{$separator}5xl#{$separator}\:hvr:hover
+.tshdw#{$separator}5xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-5xl)
 
-.#{$class-prefix}tshdw#{$separator}4xl#{$separator}\:hvr:hover
+.tshdw#{$separator}4xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-4xl)
 
-.#{$class-prefix}tshdw#{$separator}3xl#{$separator}\:hvr:hover
+.tshdw#{$separator}3xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-3xl)
 
-.#{$class-prefix}tshdw#{$separator}2xl#{$separator}\:hvr:hover
+.tshdw#{$separator}2xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-2xl)
 
-.#{$class-prefix}tshdw#{$separator}xl#{$separator}\:hvr:hover
+.tshdw#{$separator}xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-xl)
 
-.#{$class-prefix}tshdw#{$separator}lg#{$separator}\:hvr:hover
+.tshdw#{$separator}lg#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-lg)
 
-.#{$class-prefix}tshdw#{$separator}\:hvr:hover, .#{$class-prefix}tshdw#{$separator}md#{$separator}\:hvr:hover
+.tshdw#{$separator}\:hvr:hover,
+.tshdw#{$separator}md#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-md)
 
-.#{$class-prefix}tshdw#{$separator}lg#{$separator}\:hvr:hover
+.tshdw#{$separator}lg#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-lg)
 
-.#{$class-prefix}tshdw#{$separator}xl#{$separator}\:hvr:hover
+.tshdw#{$separator}xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-xl)
 
-.#{$class-prefix}tshdw#{$separator}2xl#{$separator}\:hvr:hover
+.tshdw#{$separator}2xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-2xl)
 
-.#{$class-prefix}tshdw#{$separator}3xl#{$separator}\:hvr:hover
+.tshdw#{$separator}3xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-3xl)
 
-.#{$class-prefix}tshdw#{$separator}4xl#{$separator}\:hvr:hover
+.tshdw#{$separator}4xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-4xl)
 
-.#{$class-prefix}tshdw#{$separator}5xl#{$separator}\:hvr:hover
+.tshdw#{$separator}5xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-5xl)
 
-.#{$class-prefix}tshdw#{$separator}6xl#{$separator}\:hvr:hover
+.tshdw#{$separator}6xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-6xl)
 
-.#{$class-prefix}tshdw#{$separator}7xl#{$separator}\:hvr:hover
+.tshdw#{$separator}7xl#{$separator}\:hvr:hover
   box-shadow: var(#{$variable-prefix}-text-shadow-7xl)
 
-.#{$class-prefix}tshdw#{$separator}7xl#{$separator}\:fcs:focus
+.tshdw#{$separator}7xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-7xl)
 
-.#{$class-prefix}tshdw#{$separator}6xl#{$separator}\:fcs:focus
+.tshdw#{$separator}6xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-6xl)
 
-.#{$class-prefix}tshdw#{$separator}5xl#{$separator}\:fcs:focus
+.tshdw#{$separator}5xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-5xl)
 
-.#{$class-prefix}tshdw#{$separator}4xl#{$separator}\:fcs:focus
+.tshdw#{$separator}4xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-4xl)
 
-.#{$class-prefix}tshdw#{$separator}3xl#{$separator}\:fcs:focus
+.tshdw#{$separator}3xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-3xl)
 
-.#{$class-prefix}tshdw#{$separator}2xl#{$separator}\:fcs:focus
+.tshdw#{$separator}2xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-2xl)
 
-.#{$class-prefix}tshdw#{$separator}xl#{$separator}\:fcs:focus
+.tshdw#{$separator}xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-xl)
 
-.#{$class-prefix}tshdw#{$separator}lg#{$separator}\:fcs:focus
+.tshdw#{$separator}lg#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-lg)
 
-.#{$class-prefix}tshdw#{$separator}\:fcs:focus, .#{$class-prefix}tshdw#{$separator}md#{$separator}\:fcs:focus
+.tshdw#{$separator}\:fcs:focus,
+.tshdw#{$separator}md#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-md)
 
-.#{$class-prefix}tshdw#{$separator}lg#{$separator}\:fcs:focus
+.tshdw#{$separator}lg#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-lg)
 
-.#{$class-prefix}tshdw#{$separator}xl#{$separator}\:fcs:focus
+.tshdw#{$separator}xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-xl)
 
-.#{$class-prefix}tshdw#{$separator}2xl#{$separator}\:fcs:focus
+.tshdw#{$separator}2xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-2xl)
 
-.#{$class-prefix}tshdw#{$separator}3xl#{$separator}\:fcs:focus
+.tshdw#{$separator}3xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-3xl)
 
-.#{$class-prefix}tshdw#{$separator}4xl#{$separator}\:fcs:focus
+.tshdw#{$separator}4xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-4xl)
 
-.#{$class-prefix}tshdw#{$separator}5xl#{$separator}\:fcs:focus
+.tshdw#{$separator}5xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-5xl)
 
-.#{$class-prefix}tshdw#{$separator}6xl#{$separator}\:fcs:focus
+.tshdw#{$separator}6xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-6xl)
 
-.#{$class-prefix}tshdw#{$separator}7xl#{$separator}\:fcs:focus
+.tshdw#{$separator}7xl#{$separator}\:fcs:focus
   box-shadow: var(#{$variable-prefix}-text-shadow-7xl)
 
-.#{$class-prefix}t#{$separator}link
+.t#{$separator}link
   cursor: pointer
 
-.#{$class-prefix}t#{$separator}link:hover
+.t#{$separator}link:hover
   text-decoration: underline
   transition: text-decoration 0.5s ease
 
-.#{$class-prefix}t#{$separator}truncate
+.t#{$separator}truncate
   white-space: nowrap
   overflow: hidden
   text-overflow: ellipsis
   width: 100%
 
-.#{$class-prefix}ltr#{$separator}sp#{$separator}normal
+.ltr#{$separator}sp#{$separator}normal
   letter-spacing: normal !important
 
 @for $index from 1 to 16
-  .#{$class-prefix}ltr#{$separator}sp#{$separator}#{$index}
+  .ltr#{$separator}sp#{$separator}#{$index}
     letter-spacing: #{math.div($index,10)}px !important
 
 .ltr-sp-7xs
@@ -850,26 +853,26 @@ pre
 .ltr-sp-7xl
   letter-spacing: 1.5px !important
 
-.#{$class-prefix}lb#{$separator}auto
+.lb#{$separator}auto
   line-break: auto !important
 
-.#{$class-prefix}lb#{$separator}loose
+.lb#{$separator}loose
   line-break: loose !important
 
-.#{$class-prefix}lb#{$separator}normal
+.lb#{$separator}normal
   line-break: normal !important
 
-.#{$class-prefix}lb#{$separator}strict
+.lb#{$separator}strict
   line-break: strict !important
 
-.#{$class-prefix}lb#{$separator}anywhere
+.lb#{$separator}anywhere
   line-break: anywhere !important
 
-.#{$class-prefix}lh#{$separator}normal
+.lh#{$separator}normal
   line-height: normal !important
 
 @for $index from 1 to 21
-  .#{$class-prefix}lh#{$separator}#{$index * 10}\%
+  .lh#{$separator}#{$index * 10}\%
     line-height: #{$index * 10} + '%' !important
 
 .lh-7xs
@@ -920,37 +923,37 @@ pre
 .lh-7xl
   line-height: 190% !important
 
-.#{$class-prefix}ws#{$separator}normal
+.ws#{$separator}normal
   white-space: normal !important
 
-.#{$class-prefix}ws#{$separator}nowrap
+.ws#{$separator}nowrap
   white-space: nowrap !important
 
-.#{$class-prefix}ws#{$separator}pre
+.ws#{$separator}pre
   white-space: pre !important
 
-.#{$class-prefix}ws#{$separator}pre#{$separator}wrap
+.ws#{$separator}pre#{$separator}wrap
   white-space: pre-wrap !important
 
-.#{$class-prefix}ws#{$separator}pre#{$separator}line
+.ws#{$separator}pre#{$separator}line
   white-space: pre-line !important
 
-.#{$class-prefix}wos#{$separator}break#{$separator}spaces
+.wos#{$separator}break#{$separator}spaces
   white-space: break-spaces !important
 
-.#{$class-prefix}wob#{$separator}normal
+.wob#{$separator}normal
   word-break: normal !important
 
-.#{$class-prefix}wob#{$separator}break#{$separator}all
+.wob#{$separator}break#{$separator}all
   word-break: break-all !important
 
-.#{$class-prefix}wob#{$separator}keep#{$separator}all
+.wob#{$separator}keep#{$separator}all
   word-break: keep-all !important
 
-.#{$class-prefix}wob#{$separator}break#{$separator}word
+.wob#{$separator}break#{$separator}word
   word-break: break-word !important
 
-.#{$class-prefix}magazine#{$separator}p::first-letter
+.magazine#{$separator}p::first-letter
   font-size: 400%
   float: left
   margin-top: 1rem

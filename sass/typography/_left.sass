@@ -3,172 +3,172 @@
 @use "sass:string"
 
 @each $key, $value in $value-props
-  .#{$class-prefix}l#{$separator}#{$key}
+  .l#{$separator}#{$key}
     left: $value !important
 
-  .#{$class-prefix}l#{$separator}neg#{$separator}#{$key}
+  .l#{$separator}neg#{$separator}#{$key}
     left: -$value !important
 
 @for $i from 1 through 30
-  .#{$class-prefix}l#{$separator}#{$i * 5}\%
+  .l#{$separator}#{$i * 5}\%
     left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}l#{$separator}neg#{$separator}#{$i * 5}\%
+  .l#{$separator}neg#{$separator}#{$i * 5}\%
     left: -#{$i * 5} + '%' !important
 
-.#{$class-prefix}l#{$separator}auto
+.l#{$separator}auto
   left: auto !important
 
 @media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}l#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
       left: -$value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}l#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
       left: -#{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}l#{$separator}auto
+  .#{$mobile-prefix}#{$separator}l#{$separator}auto
     left: auto !important
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}l#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
       left: -$value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}l#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
       left: -#{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}l#{$separator}auto
+  .#{$tablet-prefix}#{$separator}l#{$separator}auto
     left: auto !important
 
 @media screen and (min-width: $tablet-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}l#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
       left: -$value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}l#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
       left: -#{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}l#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}l#{$separator}auto
     left: auto !important
 
 @media screen and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}l#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
       left: -$value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}l#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
       left: -#{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}l#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}l#{$separator}auto
     left: auto !important
 
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}l#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
       left: -$value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}l#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
       left: -#{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}l#{$separator}auto
+  .#{$laptop-prefix}#{$separator}l#{$separator}auto
     left: auto !important
 
 @media screen and (min-width: $laptop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}l#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
       left: -$value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}l#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
       left: -#{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}l#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}l#{$separator}auto
     left: auto !important
 
 @media screen and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}l#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
       left: -$value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}l#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
       left: -#{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}l#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}l#{$separator}auto
     left: auto !important
 
 @media screen and (min-width: $desktop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}l#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}l#{$separator}#{$key}
       left: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$key}
       left: -$value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}l#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}l#{$separator}#{$i * 5}\%
       left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}l#{$separator}neg#{$separator}#{$i * 5}\%
       left: -#{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}l#{$separator}auto
+  .#{$desktop-prefix}#{$separator}l#{$separator}auto
     left: auto !important
 
 

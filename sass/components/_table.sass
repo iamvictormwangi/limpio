@@ -1,6 +1,6 @@
 @use "./../abstracts/" as *
 
-table, .#{$class-prefix}table
+table, .table
   border-top: 1px solid rgba(0, 0, 0, 0.5)
   border-spacing: 0
 
@@ -50,11 +50,11 @@ table:last-child, .table:last-child
 table tr:hover
   opacity: 90%
 
-table.#{$class-prefix}table#{$separator}striped tr:nth-of-type(odd)
+table.table#{$separator}striped tr:nth-of-type(odd)
   background-color: var(#{$variable-prefix}-white-dkn-1)
 
-table.#{$class-prefix}table#{$separator}striped tr:nth-of-type(odd)
+table.table#{$separator}striped tr:nth-of-type(odd)
   width: 100%
 
-table tr.#{$class-prefix}highlight
+table tr.highlight
   background-color: var(#{$variable-prefix}-white-dkn-1)

@@ -3,179 +3,179 @@
 @use "sass:string"
 
 @each $key, $value in $value-props
-  .#{$class-prefix}h#{$separator}#{$key}
+  .h#{$separator}#{$key}
     height: $value !important
 
 @for $i from 1 through 30
-  .#{$class-prefix}h#{$separator}#{$i * 5}\%
+  .h#{$separator}#{$i * 5}\%
     height: #{$i * 5} + '%' !important
 
 @for $i from 1 to 41
-  .#{$class-prefix}h#{$separator}#{$i * 5}vh
+  .h#{$separator}#{$i * 5}vh
     height: #{$i * 5}vh !important
 
-.#{$class-prefix}h#{$separator}auto
+.h#{$separator}auto
   height: auto !important
 
-.#{$class-prefix}h#{$separator}full#{$separator}height
+.h#{$separator}full#{$separator}height
   height: 100% !important
 
 @media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}h#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}h#{$separator}#{$key}
       height: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}h#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}h#{$separator}#{$i * 5}\%
       height: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}h#{$separator}#{$i * 5}vh
+    .#{$mobile-prefix}#{$separator}h#{$separator}#{$i * 5}vh
       height: #{$i * 5}vh !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}h#{$separator}auto
+  .#{$mobile-prefix}#{$separator}h#{$separator}auto
     height: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}h#{$separator}full#{$separator}height
+  .#{$mobile-prefix}#{$separator}h#{$separator}full#{$separator}height
     height: 100% !important
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}h#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}h#{$separator}#{$key}
       height: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}h#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}h#{$separator}#{$i * 5}\%
       height: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}h#{$separator}#{$i * 5}vh
+    .#{$tablet-prefix}#{$separator}h#{$separator}#{$i * 5}vh
       height: #{$i * 5}vh !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}h#{$separator}auto
+  .#{$tablet-prefix}#{$separator}h#{$separator}auto
     height: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}h#{$separator}full#{$separator}height
+  .#{$tablet-prefix}#{$separator}h#{$separator}full#{$separator}height
     height: 100% !important
 
 @media screen and (min-width: $tablet-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}h#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}h#{$separator}#{$key}
       height: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}h#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}h#{$separator}#{$i * 5}\%
       height: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}h#{$separator}#{$i * 5}vh
+    .#{$tablet-up-prefix}#{$separator}h#{$separator}#{$i * 5}vh
       height: #{$i * 5}vh !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}h#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}h#{$separator}auto
     height: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}h#{$separator}full#{$separator}height
+  .#{$tablet-up-prefix}#{$separator}h#{$separator}full#{$separator}height
     height: 100% !important
 
 @media screen and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}h#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}h#{$separator}#{$key}
       height: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}h#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}h#{$separator}#{$i * 5}\%
       height: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}h#{$separator}#{$i * 5}vh
+    .#{$tablet-down-prefix}#{$separator}h#{$separator}#{$i * 5}vh
       height: #{$i * 5}vh !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}h#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}h#{$separator}auto
     height: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}h#{$separator}full#{$separator}height
+  .#{$tablet-down-prefix}#{$separator}h#{$separator}full#{$separator}height
     height: 100% !important
 
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}h#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}h#{$separator}#{$key}
       height: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}h#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}h#{$separator}#{$i * 5}\%
       height: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}h#{$separator}#{$i * 5}vh
+    .#{$laptop-prefix}#{$separator}h#{$separator}#{$i * 5}vh
       height: #{$i * 5}vh !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}h#{$separator}auto
+  .#{$laptop-prefix}#{$separator}h#{$separator}auto
     height: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}h#{$separator}full#{$separator}height
+  .#{$laptop-prefix}#{$separator}h#{$separator}full#{$separator}height
     height: 100% !important
 
 @media screen and (min-width: $laptop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}h#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}h#{$separator}#{$key}
       height: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}h#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}h#{$separator}#{$i * 5}\%
       height: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}h#{$separator}#{$i * 5}vh
+    .#{$laptop-up-prefix}#{$separator}h#{$separator}#{$i * 5}vh
       height: #{$i * 5}vh !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}h#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}h#{$separator}auto
     height: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}h#{$separator}full#{$separator}height
+  .#{$laptop-up-prefix}#{$separator}h#{$separator}full#{$separator}height
     height: 100% !important
 
 @media screen and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}h#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}h#{$separator}#{$key}
       height: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}h#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}h#{$separator}#{$i * 5}\%
       height: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}h#{$separator}#{$i * 5}vh
+    .#{$laptop-down-prefix}#{$separator}h#{$separator}#{$i * 5}vh
       height: #{$i * 5}vh !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}h#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}h#{$separator}auto
     height: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}h#{$separator}full#{$separator}height
+  .#{$laptop-down-prefix}#{$separator}h#{$separator}full#{$separator}height
     height: 100% !important
 
 @media screen and (min-width: $desktop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}h#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}h#{$separator}#{$key}
       height: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}h#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}h#{$separator}#{$i * 5}\%
       height: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}h#{$separator}#{$i * 5}vh
+    .#{$desktop-prefix}#{$separator}h#{$separator}#{$i * 5}vh
       height: #{$i * 5}vh !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}h#{$separator}auto
+  .#{$desktop-prefix}#{$separator}h#{$separator}auto
     height: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}h#{$separator}full#{$separator}height
+  .#{$desktop-prefix}#{$separator}h#{$separator}full#{$separator}height
     height: 100% !important
 
 

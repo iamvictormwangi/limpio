@@ -1,6 +1,6 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}tooltip
+.tooltip
   position: absolute
   visibility: hidden
   z-index: 200
@@ -11,9 +11,9 @@
   @if $enable-padding == true
     padding: 0.3rem 0.8rem
 
-  &.#{$class-prefix}active
+  &.active
     font-size: 0.85rem
 
-  &.#{$class-prefix}active
+  &.active
     visibility: visible
 

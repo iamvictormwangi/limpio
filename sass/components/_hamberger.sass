@@ -1,16 +1,16 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}hamberger
+.hamberger
   cursor: pointer
 
-  .#{$class-prefix}hamberger#{$separator}bar
+  .hamberger#{$separator}bar
     background-color: var(--limpio-black)
     height: 2px
     width: 1.7rem !important
     margin-bottom: 0.5rem !important
 
-    &.#{$class-prefix}hamberger#{$separator}bar#{$separator}short
+    &.hamberger#{$separator}bar#{$separator}short
       width: 1.3rem !important
 
-  .#{$class-prefix}hamberger#{$separator}bar:last-child
+  .hamberger#{$separator}bar:last-child
       margin-bottom: 0 !important

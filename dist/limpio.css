@@ -1692,12 +1692,16 @@ table tr.highlight {
   width: 100% !important;
 }
 
-.img, .video, .img-thumb, .thumb {
+.img,
+.video,
+.img-thumb,
+.thumb {
   height: auto;
   width: auto;
 }
 
-.img-responsive, .video-responsive {
+.img-responsive,
+.video-responsive {
   height: auto;
   width: 100%;
 }
@@ -18758,7 +18762,8 @@ table tr.highlight {
   box-shadow: var(--limpio-shadow-lg);
 }
 
-.bshdw, .bshdw-md {
+.bshdw,
+.bshdw-md {
   box-shadow: var(--limpio-shadow-md);
 }
 
@@ -18826,7 +18831,8 @@ table tr.highlight {
   box-shadow: var(--limpio-shadow-lg);
 }
 
-.bshdw-\:hvr:hover, .bshdw-md-\:hvr:hover {
+.bshdw-\:hvr:hover,
+.bshdw-md-\:hvr:hover {
   box-shadow: var(--limpio-shadow-md);
 }
 
@@ -18894,7 +18900,8 @@ table tr.highlight {
   box-shadow: var(--limpio-shadow-lg);
 }
 
-.bshdw-\:fcs:focus, .bshdw-md-\:fcs:focus {
+.bshdw-\:fcs:focus,
+.bshdw-md-\:fcs:focus {
   box-shadow: var(--limpio-shadow-md);
 }
 
@@ -20265,7 +20272,8 @@ pre {
   box-shadow: var(--limpio-text-shadow-lg);
 }
 
-.tshdw, .tshdw-md {
+.tshdw,
+.tshdw-md {
   box-shadow: var(--limpio-text-shadow-md);
 }
 
@@ -20333,7 +20341,8 @@ pre {
   box-shadow: var(--limpio-text-shadow-lg);
 }
 
-.tshdw-\:hvr:hover, .tshdw-md-\:hvr:hover {
+.tshdw-\:hvr:hover,
+.tshdw-md-\:hvr:hover {
   box-shadow: var(--limpio-text-shadow-md);
 }
 
@@ -20401,7 +20410,8 @@ pre {
   box-shadow: var(--limpio-text-shadow-lg);
 }
 
-.tshdw-\:fcs:focus, .tshdw-md-\:fcs:focus {
+.tshdw-\:fcs:focus,
+.tshdw-md-\:fcs:focus {
   box-shadow: var(--limpio-text-shadow-md);
 }
 
@@ -20800,11 +20810,15 @@ pre {
   margin-right: 0.2rem;
 }
 
-h1, .h1, .title {
+h1,
+.h1,
+.title {
   font-size: var(--limpio-title-font-size);
 }
 
-h2, .h2, .subtitle {
+h2,
+.h2,
+.subtitle {
   font-size: calc(var(--limpio-title-font-size) - 0.25rem);
 }
 
@@ -20825,10 +20839,14 @@ h6, .h6 {
 }
 
 @media only screen and (max-width: 45rem) {
-  h1, .h1, .title {
+  h1,
+.h1,
+.title {
     font-size: calc(var(--limpio-title-font-size) - 0.5rem);
   }
-  h2, .h2, .subtitle {
+  h2,
+.h2,
+.subtitle {
     font-size: calc(var(--limpio-title-font-size) - 0.75rem);
   }
   h3, .h3 {
@@ -101036,7 +101054,8 @@ h6, .h6 {
   position: static !important;
 }
 
-.sticky-top, .sticky-bottom {
+.sticky-top,
+.sticky-bottom {
   position: sticky !important;
 }
 
@@ -101048,7 +101067,8 @@ h6, .h6 {
   bottom: 0 !important;
 }
 
-.fixed-top, .fixed-bottom {
+.fixed-top,
+.fixed-bottom {
   position: fixed !important;
 }
 
@@ -101076,7 +101096,8 @@ h6, .h6 {
   .\@mobile-pos-static {
     position: static !important;
   }
-  .\@mobile-sticky-top, .\@mobile-sticky-bottom {
+  .\@mobile-sticky-top,
+.\@mobile-sticky-bottom {
     position: sticky !important;
   }
   .\@mobile-sticky-top {
@@ -101085,7 +101106,8 @@ h6, .h6 {
   .\@mobile-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@mobile-fixed-top, .\@mobile-fixed-bottom {
+  .\@mobile-fixed-top,
+.\@mobile-fixed-bottom {
     position: fixed !important;
   }
   .\@mobile-fixed-top {
@@ -101111,7 +101133,8 @@ h6, .h6 {
   .\@tablet-pos-static {
     position: static !important;
   }
-  .\@tablet-sticky-top, .\@tablet-sticky-bottom {
+  .\@tablet-sticky-top,
+.\@tablet-sticky-bottom {
     position: sticky !important;
   }
   .\@tablet-sticky-top {
@@ -101120,7 +101143,8 @@ h6, .h6 {
   .\@tablet-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@tablet-fixed-top, .\@tablet-fixed-bottom {
+  .\@tablet-fixed-top,
+.\@tablet-fixed-bottom {
     position: fixed !important;
   }
   .\@tablet-fixed-top {
@@ -101146,7 +101170,8 @@ h6, .h6 {
   .\@tablet-up-pos-static {
     position: static !important;
   }
-  .\@tablet-up-sticky-top, .\@tablet-up-sticky-bottom {
+  .\@tablet-up-sticky-top,
+.\@tablet-up-sticky-bottom {
     position: sticky !important;
   }
   .\@tablet-up-sticky-top {
@@ -101155,7 +101180,8 @@ h6, .h6 {
   .\@tablet-up-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@tablet-up-fixed-top, .\@tablet-up-fixed-bottom {
+  .\@tablet-up-fixed-top,
+.\@tablet-up-fixed-bottom {
     position: fixed !important;
   }
   .\@tablet-up-fixed-top {
@@ -101181,7 +101207,8 @@ h6, .h6 {
   .\@tablet-down-pos-static {
     position: static !important;
   }
-  .\@tablet-down-sticky-top, .\@tablet-down-sticky-bottom {
+  .\@tablet-down-sticky-top,
+.\@tablet-down-sticky-bottom {
     position: sticky !important;
   }
   .\@tablet-down-sticky-top {
@@ -101190,7 +101217,8 @@ h6, .h6 {
   .\@tablet-down-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@tablet-down-fixed-top, .\@tablet-down-fixed-bottom {
+  .\@tablet-down-fixed-top,
+.\@tablet-down-fixed-bottom {
     position: fixed !important;
   }
   .\@tablet-down-fixed-top {
@@ -101216,7 +101244,8 @@ h6, .h6 {
   .\@laptop-pos-static {
     position: static !important;
   }
-  .\@laptop-sticky-top, .\@laptop-sticky-bottom {
+  .\@laptop-sticky-top,
+.\@laptop-sticky-bottom {
     position: sticky !important;
   }
   .\@laptop-sticky-top {
@@ -101225,7 +101254,8 @@ h6, .h6 {
   .\@laptop-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@laptop-fixed-top, .\@laptop-fixed-bottom {
+  .\@laptop-fixed-top,
+.\@laptop-fixed-bottom {
     position: fixed !important;
   }
   .\@laptop-fixed-top {
@@ -101251,7 +101281,8 @@ h6, .h6 {
   .\@laptop-up-pos-static {
     position: static !important;
   }
-  .\@laptop-up-sticky-top, .\@laptop-up-sticky-bottom {
+  .\@laptop-up-sticky-top,
+.\@laptop-up-sticky-bottom {
     position: sticky !important;
   }
   .\@laptop-up-sticky-top {
@@ -101260,7 +101291,8 @@ h6, .h6 {
   .\@laptop-up-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@laptop-up-fixed-top, .\@tablet-up-fixed-bottom {
+  .\@laptop-up-fixed-top,
+.\@tablet-up-fixed-bottom {
     position: fixed !important;
   }
   .\@laptop-up-fixed-top {
@@ -101286,7 +101318,8 @@ h6, .h6 {
   .\@laptop-down-pos-static {
     position: static !important;
   }
-  .\@laptop-down-sticky-top, .\@laptop-down-sticky-bottom {
+  .\@laptop-down-sticky-top,
+.\@laptop-down-sticky-bottom {
     position: sticky !important;
   }
   .\@laptop-down-sticky-top {
@@ -101295,7 +101328,8 @@ h6, .h6 {
   .\@laptop-down-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@laptop-down-fixed-top, .\@laptop-down-fixed-bottom {
+  .\@laptop-down-fixed-top,
+.\@laptop-down-fixed-bottom {
     position: fixed !important;
   }
   .\@laptop-down-fixed-top {
@@ -101321,7 +101355,8 @@ h6, .h6 {
   .\@desktop-pos-static {
     position: static !important;
   }
-  .\@desktop-sticky-top, .\@desktop-sticky-bottom {
+  .\@desktop-sticky-top,
+.\@desktop-sticky-bottom {
     position: sticky !important;
   }
   .\@desktop-sticky-top {
@@ -101330,7 +101365,8 @@ h6, .h6 {
   .\@desktop-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@desktop-fixed-top, .\@desktop-fixed-bottom {
+  .\@desktop-fixed-top,
+.\@desktop-fixed-bottom {
     position: fixed !important;
   }
   .\@desktop-fixed-top {

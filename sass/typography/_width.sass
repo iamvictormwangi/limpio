@@ -3,180 +3,180 @@
 @use "sass:string"
 
 @each $key, $value in $value-props
-  .#{$class-prefix}w#{$separator}#{$key}
+  .w#{$separator}#{$key}
     width: $value !important
 
 @for $i from 1 through 30
-  .#{$class-prefix}w#{$separator}#{$i * 5}\%
+  .w#{$separator}#{$i * 5}\%
     width: #{$i * 5} + '%' !important
 
 @for $i from 1 to 41
-  .#{$class-prefix}w#{$separator}#{$i * 5}vw
+  .w#{$separator}#{$i * 5}vw
     width: #{$i * 5}vw !important
 
-.#{$class-prefix}w#{$separator}auto
+.w#{$separator}auto
   width: auto !important
 
-.#{$class-prefix}w#{$separator}full#{$separator}width
+.w#{$separator}full#{$separator}width
   width: 100% !important
 
 @media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}w#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}w#{$separator}#{$key}
       width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}w#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}w#{$separator}#{$i * 5}\%
       width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}w#{$separator}#{$i * 5}vw
+    .#{$mobile-prefix}#{$separator}w#{$separator}#{$i * 5}vw
       width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}w#{$separator}auto
+  .#{$mobile-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}w#{$separator}full#{$separator}width
+  .#{$mobile-prefix}#{$separator}w#{$separator}full#{$separator}width
     width: 100% !important
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}w#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}w#{$separator}#{$key}
       width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}w#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}w#{$separator}#{$i * 5}\%
       width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}w#{$separator}#{$i * 5}vw
+    .#{$tablet-prefix}#{$separator}w#{$separator}#{$i * 5}vw
       width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}w#{$separator}auto
+  .#{$tablet-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}w#{$separator}full#{$separator}width
+  .#{$tablet-prefix}#{$separator}w#{$separator}full#{$separator}width
     width: 100% !important
 
 @media screen and (min-width: $tablet-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}w#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}w#{$separator}#{$key}
       width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}w#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}w#{$separator}#{$i * 5}\%
       width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}w#{$separator}#{$i * 5}vw
+    .#{$tablet-up-prefix}#{$separator}w#{$separator}#{$i * 5}vw
       width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}w#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}w#{$separator}full#{$separator}width
+  .#{$tablet-up-prefix}#{$separator}w#{$separator}full#{$separator}width
     width: 100% !important
 
 @media screen and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}w#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}w#{$separator}#{$key}
       width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}w#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}w#{$separator}#{$i * 5}\%
       width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}w#{$separator}#{$i * 5}vw
+    .#{$tablet-down-prefix}#{$separator}w#{$separator}#{$i * 5}vw
       width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}w#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}w#{$separator}full#{$separator}width
+  .#{$tablet-down-prefix}#{$separator}w#{$separator}full#{$separator}width
     width: 100% !important
 
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}w#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}w#{$separator}#{$key}
       width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}w#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}w#{$separator}#{$i * 5}\%
       width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}w#{$separator}#{$i * 5}vw
+    .#{$laptop-prefix}#{$separator}w#{$separator}#{$i * 5}vw
       width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}w#{$separator}auto
+  .#{$laptop-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}w#{$separator}full#{$separator}width
+  .#{$laptop-prefix}#{$separator}w#{$separator}full#{$separator}width
     width: 100% !important
 
 @media screen and (min-width: $laptop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}w#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}w#{$separator}#{$key}
       width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}w#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}w#{$separator}#{$i * 5}\%
       width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}w#{$separator}#{$i * 5}vw
+    .#{$laptop-up-prefix}#{$separator}w#{$separator}#{$i * 5}vw
       width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}w#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}w#{$separator}full#{$separator}width
+  .#{$laptop-up-prefix}#{$separator}w#{$separator}full#{$separator}width
     width: 100% !important
 
 @media screen and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}w#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}w#{$separator}#{$key}
       width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}w#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}w#{$separator}#{$i * 5}\%
       width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}w#{$separator}#{$i * 5}vw
+    .#{$laptop-down-prefix}#{$separator}w#{$separator}#{$i * 5}vw
       width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}w#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}w#{$separator}full#{$separator}width
+  .#{$laptop-down-prefix}#{$separator}w#{$separator}full#{$separator}width
     width: 100% !important
 
 @media screen and (min-width: $desktop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}w#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}w#{$separator}#{$key}
       width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}w#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}w#{$separator}#{$i * 5}\%
       width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}w#{$separator}#{$i * 5}vw
+    .#{$desktop-prefix}#{$separator}w#{$separator}#{$i * 5}vw
       width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}w#{$separator}auto
+  .#{$desktop-prefix}#{$separator}w#{$separator}auto
     width: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}w#{$separator}full#{$separator}width
+  .#{$desktop-prefix}#{$separator}w#{$separator}full#{$separator}width
     width: 100% !important
 

@@ -1,1331 +1,1331 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}flx#{$separator}wrap
+.flx#{$separator}wrap
   flex-wrap: wrap
 
-.#{$class-prefix}flx#{$separator}wrap#{$separator}reverse
+.flx#{$separator}wrap#{$separator}reverse
   flex-wrap: wrap-reverse !important
 
-.#{$class-prefix}flx#{$separator}row
+.flx#{$separator}row
   flex-direction: row !important
 
-.#{$class-prefix}flx#{$separator}col
+.flx#{$separator}col
   flex-direction: column !important
 
-.#{$class-prefix}flx#{$separator}row#{$separator}reverse
+.flx#{$separator}row#{$separator}reverse
   flex-direction: row-reverse
 
-.#{$class-prefix}flx#{$separator}col#{$separator}reverse
+.flx#{$separator}col#{$separator}reverse
   flex-direction: column-reverse !important
 
-.#{$class-prefix}jc#{$separator}flex#{$separator}start
+.jc#{$separator}flex#{$separator}start
   justify-content: flex-start !important
 
-.#{$class-prefix}jc#{$separator}center
+.jc#{$separator}center
   justify-content: center !important
 
-.#{$class-prefix}jc#{$separator}flex#{$separator}end
+.jc#{$separator}flex#{$separator}end
   justify-content: flex-end !important
 
-.#{$class-prefix}jc#{$separator}space#{$separator}between
+.jc#{$separator}space#{$separator}between
   justify-content: space-between !important
 
-.#{$class-prefix}jc#{$separator}space#{$separator}around
+.jc#{$separator}space#{$separator}around
   justify-content: space-around !important
 
-.#{$class-prefix}jc#{$separator}space#{$separator}evenly
+.jc#{$separator}space#{$separator}evenly
   justify-content: space-evenly !important
 
-.#{$class-prefix}js#{$separator}auto
+.js#{$separator}auto
   justify-self: auto !important
 
-.#{$class-prefix}js#{$separator}start
+.js#{$separator}start
   justify-self: start !important
 
-.#{$class-prefix}js#{$separator}center
+.js#{$separator}center
   justify-self: center !important
 
-.#{$class-prefix}js#{$separator}end
+.js#{$separator}end
   justify-self: end !important
 
-.#{$class-prefix}js#{$separator}stretch
+.js#{$separator}stretch
   justify-self: stretch !important
 
-.#{$class-prefix}ai#{$separator}start
+.ai#{$separator}start
   align-items: start !important
 
-.#{$class-prefix}ai#{$separator}center
+.ai#{$separator}center
   align-items: center !important
 
-.#{$class-prefix}ai#{$separator}end
+.ai#{$separator}end
   align-items: end !important
 
-.#{$class-prefix}ai#{$separator}flex#{$separator}start
+.ai#{$separator}flex#{$separator}start
   align-items: flex-start !important
 
-.#{$class-prefix}ai#{$separator}flex#{$separator}end
+.ai#{$separator}flex#{$separator}end
   align-items: flex-end !important
 
-.#{$class-prefix}as#{$separator}start
+.as#{$separator}start
   align-self: start !important
 
-.#{$class-prefix}as#{$separator}center
+.as#{$separator}center
   align-self: center !important
 
-.#{$class-prefix}as#{$separator}end
+.as#{$separator}end
   align-self: end !important
 
-.#{$class-prefix}as#{$separator}flex#{$separator}start
+.as#{$separator}flex#{$separator}start
   align-self: flex-start !important
 
-.#{$class-prefix}as#{$separator}flex#{$separator}end
+.as#{$separator}flex#{$separator}end
   align-self: flex-end !important
 
-.#{$class-prefix}pc#{$separator}baseline
+.pc#{$separator}baseline
   place-content: baseline !important
 
-.#{$class-prefix}pc#{$separator}center
+.pc#{$separator}center
   place-content: center !important
 
-.#{$class-prefix}pc#{$separator}end
+.pc#{$separator}end
   place-content: end !important
 
-.#{$class-prefix}pc#{$separator}flex#{$separator}end
+.pc#{$separator}flex#{$separator}end
   place-content: flex-end !important
 
-.#{$class-prefix}pc#{$separator}flex#{$separator}start
+.pc#{$separator}flex#{$separator}start
   place-content: flex-start !important
 
-.#{$class-prefix}pc#{$separator}space#{$separator}around
+.pc#{$separator}space#{$separator}around
   place-content: space-around !important
 
-.#{$class-prefix}pc#{$separator}space#{$separator}between
+.pc#{$separator}space#{$separator}between
   place-content: space-between !important
 
-.#{$class-prefix}pc#{$separator}space#{$separator}evenly
+.pc#{$separator}space#{$separator}evenly
   place-content: space-evenly !important
 
-.#{$class-prefix}pc#{$separator}start
+.pc#{$separator}start
   place-content: start !important
 
-.#{$class-prefix}pc#{$separator}stretch
+.pc#{$separator}stretch
   place-content: stretch !important
 
-.#{$class-prefix}pi#{$separator}baseline
+.pi#{$separator}baseline
   place-items: baseline !important
 
-.#{$class-prefix}pi#{$separator}center
+.pi#{$separator}center
   place-items: center !important
 
-.#{$class-prefix}pi#{$separator}end
+.pi#{$separator}end
   place-items: end !important
 
-.#{$class-prefix}pi#{$separator}flex#{$separator}end
+.pi#{$separator}flex#{$separator}end
   place-items: flex-end !important
 
-.#{$class-prefix}pi#{$separator}flex#{$separator}start
+.pi#{$separator}flex#{$separator}start
   place-items: flex-start !important
 
-.#{$class-prefix}pi#{$separator}space#{$separator}around
+.pi#{$separator}space#{$separator}around
   place-items: space-around !important
 
-.#{$class-prefix}pi#{$separator}space#{$separator}between
+.pi#{$separator}space#{$separator}between
   place-items: space-between !important
 
-.#{$class-prefix}pi#{$separator}space#{$separator}evenly
+.pi#{$separator}space#{$separator}evenly
   place-items: space-evenly !important
 
-.#{$class-prefix}pi#{$separator}start
+.pi#{$separator}start
   place-items: start !important
 
-.#{$class-prefix}pi#{$separator}stretch
+.pi#{$separator}stretch
   place-items: stretch !important
 
 @for $index from 1 to 13
 
-  .#{$class-prefix}ord#{$separator}#{$index}
+  .ord#{$separator}#{$index}
     order: $index !important
 
 @media screen and (max-width: $mobile-max-width)
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}flx#{$separator}wrap
+  .#{$mobile-prefix}#{$separator}flx#{$separator}wrap
     flex-wrap: wrap
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
+  .#{$mobile-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}flx#{$separator}row
+  .#{$mobile-prefix}#{$separator}flx#{$separator}row
     flex-direction: row !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}flx#{$separator}col
+  .#{$mobile-prefix}#{$separator}flx#{$separator}col
     flex-direction: column !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
+  .#{$mobile-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
     flex-direction: row-reverse
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
+  .#{$mobile-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}jc#{$separator}flex#{$separator}start
+  .#{$mobile-prefix}#{$separator}jc#{$separator}flex#{$separator}start
     justify-content: flex-start !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}jc#{$separator}center
+  .#{$mobile-prefix}#{$separator}jc#{$separator}center
     justify-content: center !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}jc#{$separator}flex#{$separator}end
+  .#{$mobile-prefix}#{$separator}jc#{$separator}flex#{$separator}end
     justify-content: flex-end !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}jc#{$separator}space#{$separator}between
+  .#{$mobile-prefix}#{$separator}jc#{$separator}space#{$separator}between
     justify-content: space-between !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}jc#{$separator}space#{$separator}around
+  .#{$mobile-prefix}#{$separator}jc#{$separator}space#{$separator}around
     justify-content: space-around !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
+  .#{$mobile-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
     justify-content: space-evenly !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}js#{$separator}auto
+  .#{$mobile-prefix}#{$separator}js#{$separator}auto
     justify-self: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}js#{$separator}start
+  .#{$mobile-prefix}#{$separator}js#{$separator}start
     justify-self: start !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}js#{$separator}center
+  .#{$mobile-prefix}#{$separator}js#{$separator}center
     justify-self: center !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}js#{$separator}end
+  .#{$mobile-prefix}#{$separator}js#{$separator}end
     justify-self: end !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}js#{$separator}stretch
+  .#{$mobile-prefix}#{$separator}js#{$separator}stretch
     justify-self: stretch !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}ai#{$separator}start
+  .#{$mobile-prefix}#{$separator}ai#{$separator}start
     align-items: start !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}ai#{$separator}center
+  .#{$mobile-prefix}#{$separator}ai#{$separator}center
     align-items: center !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}ai#{$separator}end
+  .#{$mobile-prefix}#{$separator}ai#{$separator}end
     align-items: end !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}ai#{$separator}flex#{$separator}start
+  .#{$mobile-prefix}#{$separator}ai#{$separator}flex#{$separator}start
     align-items: flex-start !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}ai#{$separator}flex#{$separator}end
+  .#{$mobile-prefix}#{$separator}ai#{$separator}flex#{$separator}end
     align-items: flex-end !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}as#{$separator}start
+  .#{$mobile-prefix}#{$separator}as#{$separator}start
     align-self: start !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}as#{$separator}center
+  .#{$mobile-prefix}#{$separator}as#{$separator}center
     align-self: center !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}as#{$separator}end
+  .#{$mobile-prefix}#{$separator}as#{$separator}end
     align-self: end !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}as#{$separator}flex#{$separator}start
+  .#{$mobile-prefix}#{$separator}as#{$separator}flex#{$separator}start
     align-self: flex-start !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}as#{$separator}flex#{$separator}end
+  .#{$mobile-prefix}#{$separator}as#{$separator}flex#{$separator}end
     align-self: flex-end !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pc#{$separator}baseline
+  .#{$mobile-prefix}#{$separator}pc#{$separator}baseline
     place-content: baseline !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pc#{$separator}center
+  .#{$mobile-prefix}#{$separator}pc#{$separator}center
     place-content: center !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pc#{$separator}end
+  .#{$mobile-prefix}#{$separator}pc#{$separator}end
     place-content: end !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pc#{$separator}flex#{$separator}end
+  .#{$mobile-prefix}#{$separator}pc#{$separator}flex#{$separator}end
     place-content: flex-end !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pc#{$separator}flex#{$separator}start
+  .#{$mobile-prefix}#{$separator}pc#{$separator}flex#{$separator}start
     place-content: flex-start !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pc#{$separator}space#{$separator}around
+  .#{$mobile-prefix}#{$separator}pc#{$separator}space#{$separator}around
     place-content: space-around !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pc#{$separator}space#{$separator}between
+  .#{$mobile-prefix}#{$separator}pc#{$separator}space#{$separator}between
     place-content: space-between !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
+  .#{$mobile-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
     place-content: space-evenly !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pc#{$separator}start
+  .#{$mobile-prefix}#{$separator}pc#{$separator}start
     place-content: start !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pc#{$separator}stretch
+  .#{$mobile-prefix}#{$separator}pc#{$separator}stretch
     place-content: stretch !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pi#{$separator}baseline
+  .#{$mobile-prefix}#{$separator}pi#{$separator}baseline
     place-items: baseline !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pi#{$separator}center
+  .#{$mobile-prefix}#{$separator}pi#{$separator}center
     place-items: center !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pi#{$separator}end
+  .#{$mobile-prefix}#{$separator}pi#{$separator}end
     place-items: end !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pi#{$separator}flex#{$separator}end
+  .#{$mobile-prefix}#{$separator}pi#{$separator}flex#{$separator}end
     place-items: flex-end !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pi#{$separator}flex#{$separator}start
+  .#{$mobile-prefix}#{$separator}pi#{$separator}flex#{$separator}start
     place-items: flex-start !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pi#{$separator}space#{$separator}around
+  .#{$mobile-prefix}#{$separator}pi#{$separator}space#{$separator}around
     place-items: space-around !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pi#{$separator}space#{$separator}between
+  .#{$mobile-prefix}#{$separator}pi#{$separator}space#{$separator}between
     place-items: space-between !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
+  .#{$mobile-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
     place-items: space-evenly !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pi#{$separator}start
+  .#{$mobile-prefix}#{$separator}pi#{$separator}start
     place-items: start !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pi#{$separator}stretch
+  .#{$mobile-prefix}#{$separator}pi#{$separator}stretch
     place-items: stretch !important
 
   @for $index from 1 to 13
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}ord#{$separator}#{$index}
+    .#{$mobile-prefix}#{$separator}ord#{$separator}#{$index}
       order: $index !important
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}flx#{$separator}wrap
+  .#{$tablet-prefix}#{$separator}flx#{$separator}wrap
     flex-wrap: wrap
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
+  .#{$tablet-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}flx#{$separator}row
+  .#{$tablet-prefix}#{$separator}flx#{$separator}row
     flex-direction: row !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}flx#{$separator}col
+  .#{$tablet-prefix}#{$separator}flx#{$separator}col
     flex-direction: column !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
+  .#{$tablet-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
     flex-direction: row-reverse
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
+  .#{$tablet-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}jc#{$separator}flex#{$separator}start
+  .#{$tablet-prefix}#{$separator}jc#{$separator}flex#{$separator}start
     justify-content: flex-start !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}jc#{$separator}center
+  .#{$tablet-prefix}#{$separator}jc#{$separator}center
     justify-content: center !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}jc#{$separator}flex#{$separator}end
+  .#{$tablet-prefix}#{$separator}jc#{$separator}flex#{$separator}end
     justify-content: flex-end !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}jc#{$separator}space#{$separator}between
+  .#{$tablet-prefix}#{$separator}jc#{$separator}space#{$separator}between
     justify-content: space-between !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}jc#{$separator}space#{$separator}around
+  .#{$tablet-prefix}#{$separator}jc#{$separator}space#{$separator}around
     justify-content: space-around !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
+  .#{$tablet-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
     justify-content: space-evenly !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}js#{$separator}auto
+  .#{$tablet-prefix}#{$separator}js#{$separator}auto
     justify-self: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}js#{$separator}start
+  .#{$tablet-prefix}#{$separator}js#{$separator}start
     justify-self: start !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}js#{$separator}center
+  .#{$tablet-prefix}#{$separator}js#{$separator}center
     justify-self: center !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}js#{$separator}end
+  .#{$tablet-prefix}#{$separator}js#{$separator}end
     justify-self: end !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}js#{$separator}stretch
+  .#{$tablet-prefix}#{$separator}js#{$separator}stretch
     justify-self: stretch !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}ai#{$separator}start
+  .#{$tablet-prefix}#{$separator}ai#{$separator}start
     align-items: start !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}ai#{$separator}center
+  .#{$tablet-prefix}#{$separator}ai#{$separator}center
     align-items: center !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}ai#{$separator}end
+  .#{$tablet-prefix}#{$separator}ai#{$separator}end
     align-items: end !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}ai#{$separator}flex#{$separator}start
+  .#{$tablet-prefix}#{$separator}ai#{$separator}flex#{$separator}start
     align-items: flex-start !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}ai#{$separator}flex#{$separator}end
+  .#{$tablet-prefix}#{$separator}ai#{$separator}flex#{$separator}end
     align-items: flex-end !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}as#{$separator}start
+  .#{$tablet-prefix}#{$separator}as#{$separator}start
     align-self: start !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}as#{$separator}center
+  .#{$tablet-prefix}#{$separator}as#{$separator}center
     align-self: center !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}as#{$separator}end
+  .#{$tablet-prefix}#{$separator}as#{$separator}end
     align-self: end !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}as#{$separator}flex#{$separator}start
+  .#{$tablet-prefix}#{$separator}as#{$separator}flex#{$separator}start
     align-self: flex-start !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}as#{$separator}flex#{$separator}end
+  .#{$tablet-prefix}#{$separator}as#{$separator}flex#{$separator}end
     align-self: flex-end !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pc#{$separator}baseline
+  .#{$tablet-prefix}#{$separator}pc#{$separator}baseline
     place-content: baseline !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pc#{$separator}center
+  .#{$tablet-prefix}#{$separator}pc#{$separator}center
     place-content: center !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pc#{$separator}end
+  .#{$tablet-prefix}#{$separator}pc#{$separator}end
     place-content: end !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pc#{$separator}flex#{$separator}end
+  .#{$tablet-prefix}#{$separator}pc#{$separator}flex#{$separator}end
     place-content: flex-end !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pc#{$separator}flex#{$separator}start
+  .#{$tablet-prefix}#{$separator}pc#{$separator}flex#{$separator}start
     place-content: flex-start !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pc#{$separator}space#{$separator}around
+  .#{$tablet-prefix}#{$separator}pc#{$separator}space#{$separator}around
     place-content: space-around !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pc#{$separator}space#{$separator}between
+  .#{$tablet-prefix}#{$separator}pc#{$separator}space#{$separator}between
     place-content: space-between !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
+  .#{$tablet-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
     place-content: space-evenly !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pc#{$separator}start
+  .#{$tablet-prefix}#{$separator}pc#{$separator}start
     place-content: start !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pc#{$separator}stretch
+  .#{$tablet-prefix}#{$separator}pc#{$separator}stretch
     place-content: stretch !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pi#{$separator}baseline
+  .#{$tablet-prefix}#{$separator}pi#{$separator}baseline
     place-items: baseline !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pi#{$separator}center
+  .#{$tablet-prefix}#{$separator}pi#{$separator}center
     place-items: center !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pi#{$separator}end
+  .#{$tablet-prefix}#{$separator}pi#{$separator}end
     place-items: end !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pi#{$separator}flex#{$separator}end
+  .#{$tablet-prefix}#{$separator}pi#{$separator}flex#{$separator}end
     place-items: flex-end !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pi#{$separator}flex#{$separator}start
+  .#{$tablet-prefix}#{$separator}pi#{$separator}flex#{$separator}start
     place-items: flex-start !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pi#{$separator}space#{$separator}around
+  .#{$tablet-prefix}#{$separator}pi#{$separator}space#{$separator}around
     place-items: space-around !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pi#{$separator}space#{$separator}between
+  .#{$tablet-prefix}#{$separator}pi#{$separator}space#{$separator}between
     place-items: space-between !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
+  .#{$tablet-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
     place-items: space-evenly !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pi#{$separator}start
+  .#{$tablet-prefix}#{$separator}pi#{$separator}start
     place-items: start !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pi#{$separator}stretch
+  .#{$tablet-prefix}#{$separator}pi#{$separator}stretch
     place-items: stretch !important
 
   @for $index from 1 to 13
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}ord#{$separator}#{$index}
+    .#{$tablet-prefix}#{$separator}ord#{$separator}#{$index}
       order: $index !important
 
 @media screen and (min-width: $tablet-min-width)
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}flx#{$separator}wrap
+  .#{$tablet-up-prefix}#{$separator}flx#{$separator}wrap
     flex-wrap: wrap
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
+  .#{$tablet-up-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}flx#{$separator}row
+  .#{$tablet-up-prefix}#{$separator}flx#{$separator}row
     flex-direction: row !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}flx#{$separator}col
+  .#{$tablet-up-prefix}#{$separator}flx#{$separator}col
     flex-direction: column !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
+  .#{$tablet-up-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
     flex-direction: row-reverse
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
+  .#{$tablet-up-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}jc#{$separator}flex#{$separator}start
+  .#{$tablet-up-prefix}#{$separator}jc#{$separator}flex#{$separator}start
     justify-content: flex-start !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}jc#{$separator}center
+  .#{$tablet-up-prefix}#{$separator}jc#{$separator}center
     justify-content: center !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}jc#{$separator}flex#{$separator}end
+  .#{$tablet-up-prefix}#{$separator}jc#{$separator}flex#{$separator}end
     justify-content: flex-end !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}jc#{$separator}space#{$separator}between
+  .#{$tablet-up-prefix}#{$separator}jc#{$separator}space#{$separator}between
     justify-content: space-between !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}jc#{$separator}space#{$separator}around
+  .#{$tablet-up-prefix}#{$separator}jc#{$separator}space#{$separator}around
     justify-content: space-around !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
+  .#{$tablet-up-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
     justify-content: space-evenly !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}js#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}js#{$separator}auto
     justify-self: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}js#{$separator}start
+  .#{$tablet-up-prefix}#{$separator}js#{$separator}start
     justify-self: start !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}js#{$separator}center
+  .#{$tablet-up-prefix}#{$separator}js#{$separator}center
     justify-self: center !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}js#{$separator}end
+  .#{$tablet-up-prefix}#{$separator}js#{$separator}end
     justify-self: end !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}js#{$separator}stretch
+  .#{$tablet-up-prefix}#{$separator}js#{$separator}stretch
     justify-self: stretch !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}ai#{$separator}start
+  .#{$tablet-up-prefix}#{$separator}ai#{$separator}start
     align-items: start !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}ai#{$separator}center
+  .#{$tablet-up-prefix}#{$separator}ai#{$separator}center
     align-items: center !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}ai#{$separator}end
+  .#{$tablet-up-prefix}#{$separator}ai#{$separator}end
     align-items: end !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}ai#{$separator}flex#{$separator}start
+  .#{$tablet-up-prefix}#{$separator}ai#{$separator}flex#{$separator}start
     align-items: flex-start !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}ai#{$separator}flex#{$separator}end
+  .#{$tablet-up-prefix}#{$separator}ai#{$separator}flex#{$separator}end
     align-items: flex-end !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}as#{$separator}start
+  .#{$tablet-up-prefix}#{$separator}as#{$separator}start
     align-self: start !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}as#{$separator}center
+  .#{$tablet-up-prefix}#{$separator}as#{$separator}center
     align-self: center !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}as#{$separator}end
+  .#{$tablet-up-prefix}#{$separator}as#{$separator}end
     align-self: end !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}as#{$separator}flex#{$separator}start
+  .#{$tablet-up-prefix}#{$separator}as#{$separator}flex#{$separator}start
     align-self: flex-start !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}as#{$separator}flex#{$separator}end
+  .#{$tablet-up-prefix}#{$separator}as#{$separator}flex#{$separator}end
     align-self: flex-end !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pc#{$separator}baseline
+  .#{$tablet-up-prefix}#{$separator}pc#{$separator}baseline
     place-content: baseline !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pc#{$separator}center
+  .#{$tablet-up-prefix}#{$separator}pc#{$separator}center
     place-content: center !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pc#{$separator}end
+  .#{$tablet-up-prefix}#{$separator}pc#{$separator}end
     place-content: end !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pc#{$separator}flex#{$separator}end
+  .#{$tablet-up-prefix}#{$separator}pc#{$separator}flex#{$separator}end
     place-content: flex-end !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pc#{$separator}flex#{$separator}start
+  .#{$tablet-up-prefix}#{$separator}pc#{$separator}flex#{$separator}start
     place-content: flex-start !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pc#{$separator}space#{$separator}around
+  .#{$tablet-up-prefix}#{$separator}pc#{$separator}space#{$separator}around
     place-content: space-around !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pc#{$separator}space#{$separator}between
+  .#{$tablet-up-prefix}#{$separator}pc#{$separator}space#{$separator}between
     place-content: space-between !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
+  .#{$tablet-up-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
     place-content: space-evenly !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pc#{$separator}start
+  .#{$tablet-up-prefix}#{$separator}pc#{$separator}start
     place-content: start !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pc#{$separator}stretch
+  .#{$tablet-up-prefix}#{$separator}pc#{$separator}stretch
     place-content: stretch !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pi#{$separator}baseline
+  .#{$tablet-up-prefix}#{$separator}pi#{$separator}baseline
     place-items: baseline !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pi#{$separator}center
+  .#{$tablet-up-prefix}#{$separator}pi#{$separator}center
     place-items: center !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pi#{$separator}end
+  .#{$tablet-up-prefix}#{$separator}pi#{$separator}end
     place-items: end !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pi#{$separator}flex#{$separator}end
+  .#{$tablet-up-prefix}#{$separator}pi#{$separator}flex#{$separator}end
     place-items: flex-end !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pi#{$separator}flex#{$separator}start
+  .#{$tablet-up-prefix}#{$separator}pi#{$separator}flex#{$separator}start
     place-items: flex-start !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pi#{$separator}space#{$separator}around
+  .#{$tablet-up-prefix}#{$separator}pi#{$separator}space#{$separator}around
     place-items: space-around !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pi#{$separator}space#{$separator}between
+  .#{$tablet-up-prefix}#{$separator}pi#{$separator}space#{$separator}between
     place-items: space-between !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
+  .#{$tablet-up-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
     place-items: space-evenly !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pi#{$separator}start
+  .#{$tablet-up-prefix}#{$separator}pi#{$separator}start
     place-items: start !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pi#{$separator}stretch
+  .#{$tablet-up-prefix}#{$separator}pi#{$separator}stretch
     place-items: stretch !important
 
   @for $index from 1 to 13
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}ord#{$separator}#{$index}
+    .#{$tablet-up-prefix}#{$separator}ord#{$separator}#{$index}
       order: $index !important
 
 @media screen and (max-width: $tablet-max-width)
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}flx#{$separator}wrap
+  .#{$tablet-down-prefix}#{$separator}flx#{$separator}wrap
     flex-wrap: wrap
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
+  .#{$tablet-down-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}flx#{$separator}row
+  .#{$tablet-down-prefix}#{$separator}flx#{$separator}row
     flex-direction: row !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}flx#{$separator}col
+  .#{$tablet-down-prefix}#{$separator}flx#{$separator}col
     flex-direction: column !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
+  .#{$tablet-down-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
     flex-direction: row-reverse
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
+  .#{$tablet-down-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}jc#{$separator}flex#{$separator}start
+  .#{$tablet-down-prefix}#{$separator}jc#{$separator}flex#{$separator}start
     justify-content: flex-start !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}jc#{$separator}center
+  .#{$tablet-down-prefix}#{$separator}jc#{$separator}center
     justify-content: center !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}jc#{$separator}flex#{$separator}end
+  .#{$tablet-down-prefix}#{$separator}jc#{$separator}flex#{$separator}end
     justify-content: flex-end !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}jc#{$separator}space#{$separator}between
+  .#{$tablet-down-prefix}#{$separator}jc#{$separator}space#{$separator}between
     justify-content: space-between !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}jc#{$separator}space#{$separator}around
+  .#{$tablet-down-prefix}#{$separator}jc#{$separator}space#{$separator}around
     justify-content: space-around !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
+  .#{$tablet-down-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
     justify-content: space-evenly !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}js#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}js#{$separator}auto
     justify-self: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}js#{$separator}start
+  .#{$tablet-down-prefix}#{$separator}js#{$separator}start
     justify-self: start !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}js#{$separator}center
+  .#{$tablet-down-prefix}#{$separator}js#{$separator}center
     justify-self: center !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}js#{$separator}end
+  .#{$tablet-down-prefix}#{$separator}js#{$separator}end
     justify-self: end !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}js#{$separator}stretch
+  .#{$tablet-down-prefix}#{$separator}js#{$separator}stretch
     justify-self: stretch !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}ai#{$separator}start
+  .#{$tablet-down-prefix}#{$separator}ai#{$separator}start
     align-items: start !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}ai#{$separator}center
+  .#{$tablet-down-prefix}#{$separator}ai#{$separator}center
     align-items: center !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}ai#{$separator}end
+  .#{$tablet-down-prefix}#{$separator}ai#{$separator}end
     align-items: end !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}ai#{$separator}flex#{$separator}start
+  .#{$tablet-down-prefix}#{$separator}ai#{$separator}flex#{$separator}start
     align-items: flex-start !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}ai#{$separator}flex#{$separator}end
+  .#{$tablet-down-prefix}#{$separator}ai#{$separator}flex#{$separator}end
     align-items: flex-end !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}as#{$separator}start
+  .#{$tablet-down-prefix}#{$separator}as#{$separator}start
     align-self: start !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}as#{$separator}center
+  .#{$tablet-down-prefix}#{$separator}as#{$separator}center
     align-self: center !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}as#{$separator}end
+  .#{$tablet-down-prefix}#{$separator}as#{$separator}end
     align-self: end !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}as#{$separator}flex#{$separator}start
+  .#{$tablet-down-prefix}#{$separator}as#{$separator}flex#{$separator}start
     align-self: flex-start !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}as#{$separator}flex#{$separator}end
+  .#{$tablet-down-prefix}#{$separator}as#{$separator}flex#{$separator}end
     align-self: flex-end !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pc#{$separator}baseline
+  .#{$tablet-down-prefix}#{$separator}pc#{$separator}baseline
     place-content: baseline !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pc#{$separator}center
+  .#{$tablet-down-prefix}#{$separator}pc#{$separator}center
     place-content: center !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pc#{$separator}end
+  .#{$tablet-down-prefix}#{$separator}pc#{$separator}end
     place-content: end !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pc#{$separator}flex#{$separator}end
+  .#{$tablet-down-prefix}#{$separator}pc#{$separator}flex#{$separator}end
     place-content: flex-end !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pc#{$separator}flex#{$separator}start
+  .#{$tablet-down-prefix}#{$separator}pc#{$separator}flex#{$separator}start
     place-content: flex-start !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pc#{$separator}space#{$separator}around
+  .#{$tablet-down-prefix}#{$separator}pc#{$separator}space#{$separator}around
     place-content: space-around !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pc#{$separator}space#{$separator}between
+  .#{$tablet-down-prefix}#{$separator}pc#{$separator}space#{$separator}between
     place-content: space-between !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
+  .#{$tablet-down-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
     place-content: space-evenly !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pc#{$separator}start
+  .#{$tablet-down-prefix}#{$separator}pc#{$separator}start
     place-content: start !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pc#{$separator}stretch
+  .#{$tablet-down-prefix}#{$separator}pc#{$separator}stretch
     place-content: stretch !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pi#{$separator}baseline
+  .#{$tablet-down-prefix}#{$separator}pi#{$separator}baseline
     place-items: baseline !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pi#{$separator}center
+  .#{$tablet-down-prefix}#{$separator}pi#{$separator}center
     place-items: center !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pi#{$separator}end
+  .#{$tablet-down-prefix}#{$separator}pi#{$separator}end
     place-items: end !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pi#{$separator}flex#{$separator}end
+  .#{$tablet-down-prefix}#{$separator}pi#{$separator}flex#{$separator}end
     place-items: flex-end !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pi#{$separator}flex#{$separator}start
+  .#{$tablet-down-prefix}#{$separator}pi#{$separator}flex#{$separator}start
     place-items: flex-start !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pi#{$separator}space#{$separator}around
+  .#{$tablet-down-prefix}#{$separator}pi#{$separator}space#{$separator}around
     place-items: space-around !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pi#{$separator}space#{$separator}between
+  .#{$tablet-down-prefix}#{$separator}pi#{$separator}space#{$separator}between
     place-items: space-between !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
+  .#{$tablet-down-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
     place-items: space-evenly !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pi#{$separator}start
+  .#{$tablet-down-prefix}#{$separator}pi#{$separator}start
     place-items: start !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pi#{$separator}stretch
+  .#{$tablet-down-prefix}#{$separator}pi#{$separator}stretch
     place-items: stretch !important
 
   @for $index from 1 to 13
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}ord#{$separator}#{$index}
+    .#{$tablet-down-prefix}#{$separator}ord#{$separator}#{$index}
       order: $index !important
 
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}flx#{$separator}wrap
+  .#{$laptop-prefix}#{$separator}flx#{$separator}wrap
     flex-wrap: wrap
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
+  .#{$laptop-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}flx#{$separator}row
+  .#{$laptop-prefix}#{$separator}flx#{$separator}row
     flex-direction: row !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}flx#{$separator}col
+  .#{$laptop-prefix}#{$separator}flx#{$separator}col
     flex-direction: column !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
+  .#{$laptop-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
     flex-direction: row-reverse
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
+  .#{$laptop-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}jc#{$separator}flex#{$separator}start
+  .#{$laptop-prefix}#{$separator}jc#{$separator}flex#{$separator}start
     justify-content: flex-start !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}jc#{$separator}center
+  .#{$laptop-prefix}#{$separator}jc#{$separator}center
     justify-content: center !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}jc#{$separator}flex#{$separator}end
+  .#{$laptop-prefix}#{$separator}jc#{$separator}flex#{$separator}end
     justify-content: flex-end !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}jc#{$separator}space#{$separator}between
+  .#{$laptop-prefix}#{$separator}jc#{$separator}space#{$separator}between
     justify-content: space-between !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}jc#{$separator}space#{$separator}around
+  .#{$laptop-prefix}#{$separator}jc#{$separator}space#{$separator}around
     justify-content: space-around !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
+  .#{$laptop-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
     justify-content: space-evenly !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}js#{$separator}auto
+  .#{$laptop-prefix}#{$separator}js#{$separator}auto
     justify-self: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}js#{$separator}start
+  .#{$laptop-prefix}#{$separator}js#{$separator}start
     justify-self: start !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}js#{$separator}center
+  .#{$laptop-prefix}#{$separator}js#{$separator}center
     justify-self: center !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}js#{$separator}end
+  .#{$laptop-prefix}#{$separator}js#{$separator}end
     justify-self: end !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}js#{$separator}stretch
+  .#{$laptop-prefix}#{$separator}js#{$separator}stretch
     justify-self: stretch !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}ai#{$separator}start
+  .#{$laptop-prefix}#{$separator}ai#{$separator}start
     align-items: start !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}ai#{$separator}center
+  .#{$laptop-prefix}#{$separator}ai#{$separator}center
     align-items: center !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}ai#{$separator}end
+  .#{$laptop-prefix}#{$separator}ai#{$separator}end
     align-items: end !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}ai#{$separator}flex#{$separator}start
+  .#{$laptop-prefix}#{$separator}ai#{$separator}flex#{$separator}start
     align-items: flex-start !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}ai#{$separator}flex#{$separator}end
+  .#{$laptop-prefix}#{$separator}ai#{$separator}flex#{$separator}end
     align-items: flex-end !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}as#{$separator}start
+  .#{$laptop-prefix}#{$separator}as#{$separator}start
     align-self: start !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}as#{$separator}center
+  .#{$laptop-prefix}#{$separator}as#{$separator}center
     align-self: center !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}as#{$separator}end
+  .#{$laptop-prefix}#{$separator}as#{$separator}end
     align-self: end !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}as#{$separator}flex#{$separator}start
+  .#{$laptop-prefix}#{$separator}as#{$separator}flex#{$separator}start
     align-self: flex-start !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}as#{$separator}flex#{$separator}end
+  .#{$laptop-prefix}#{$separator}as#{$separator}flex#{$separator}end
     align-self: flex-end !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pc#{$separator}baseline
+  .#{$laptop-prefix}#{$separator}pc#{$separator}baseline
     place-content: baseline !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pc#{$separator}center
+  .#{$laptop-prefix}#{$separator}pc#{$separator}center
     place-content: center !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pc#{$separator}end
+  .#{$laptop-prefix}#{$separator}pc#{$separator}end
     place-content: end !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pc#{$separator}flex#{$separator}end
+  .#{$laptop-prefix}#{$separator}pc#{$separator}flex#{$separator}end
     place-content: flex-end !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pc#{$separator}flex#{$separator}start
+  .#{$laptop-prefix}#{$separator}pc#{$separator}flex#{$separator}start
     place-content: flex-start !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pc#{$separator}space#{$separator}around
+  .#{$laptop-prefix}#{$separator}pc#{$separator}space#{$separator}around
     place-content: space-around !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pc#{$separator}space#{$separator}between
+  .#{$laptop-prefix}#{$separator}pc#{$separator}space#{$separator}between
     place-content: space-between !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
+  .#{$laptop-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
     place-content: space-evenly !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pc#{$separator}start
+  .#{$laptop-prefix}#{$separator}pc#{$separator}start
     place-content: start !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pc#{$separator}stretch
+  .#{$laptop-prefix}#{$separator}pc#{$separator}stretch
     place-content: stretch !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pi#{$separator}baseline
+  .#{$laptop-prefix}#{$separator}pi#{$separator}baseline
     place-items: baseline !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pi#{$separator}center
+  .#{$laptop-prefix}#{$separator}pi#{$separator}center
     place-items: center !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pi#{$separator}end
+  .#{$laptop-prefix}#{$separator}pi#{$separator}end
     place-items: end !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pi#{$separator}flex#{$separator}end
+  .#{$laptop-prefix}#{$separator}pi#{$separator}flex#{$separator}end
     place-items: flex-end !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pi#{$separator}flex#{$separator}start
+  .#{$laptop-prefix}#{$separator}pi#{$separator}flex#{$separator}start
     place-items: flex-start !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pi#{$separator}space#{$separator}around
+  .#{$laptop-prefix}#{$separator}pi#{$separator}space#{$separator}around
     place-items: space-around !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pi#{$separator}space#{$separator}between
+  .#{$laptop-prefix}#{$separator}pi#{$separator}space#{$separator}between
     place-items: space-between !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
+  .#{$laptop-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
     place-items: space-evenly !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pi#{$separator}start
+  .#{$laptop-prefix}#{$separator}pi#{$separator}start
     place-items: start !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pi#{$separator}stretch
+  .#{$laptop-prefix}#{$separator}pi#{$separator}stretch
     place-items: stretch !important
 
   @for $index from 1 to 13
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}ord#{$separator}#{$index}
+    .#{$laptop-prefix}#{$separator}ord#{$separator}#{$index}
       order: $index !important
 
 @media screen and (min-width: $laptop-min-width)
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}flx#{$separator}wrap
+  .#{$laptop-up-prefix}#{$separator}flx#{$separator}wrap
     flex-wrap: wrap
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
+  .#{$laptop-up-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}flx#{$separator}row
+  .#{$laptop-up-prefix}#{$separator}flx#{$separator}row
     flex-direction: row !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}flx#{$separator}col
+  .#{$laptop-up-prefix}#{$separator}flx#{$separator}col
     flex-direction: column !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
+  .#{$laptop-up-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
     flex-direction: row-reverse
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
+  .#{$laptop-up-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}jc#{$separator}flex#{$separator}start
+  .#{$laptop-up-prefix}#{$separator}jc#{$separator}flex#{$separator}start
     justify-content: flex-start !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}jc#{$separator}center
+  .#{$laptop-up-prefix}#{$separator}jc#{$separator}center
     justify-content: center !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}jc#{$separator}flex#{$separator}end
+  .#{$laptop-up-prefix}#{$separator}jc#{$separator}flex#{$separator}end
     justify-content: flex-end !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}jc#{$separator}space#{$separator}between
+  .#{$laptop-up-prefix}#{$separator}jc#{$separator}space#{$separator}between
     justify-content: space-between !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}jc#{$separator}space#{$separator}around
+  .#{$laptop-up-prefix}#{$separator}jc#{$separator}space#{$separator}around
     justify-content: space-around !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
+  .#{$laptop-up-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
     justify-content: space-evenly !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}js#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}js#{$separator}auto
     justify-self: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}js#{$separator}start
+  .#{$laptop-up-prefix}#{$separator}js#{$separator}start
     justify-self: start !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}js#{$separator}center
+  .#{$laptop-up-prefix}#{$separator}js#{$separator}center
     justify-self: center !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}js#{$separator}end
+  .#{$laptop-up-prefix}#{$separator}js#{$separator}end
     justify-self: end !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}js#{$separator}stretch
+  .#{$laptop-up-prefix}#{$separator}js#{$separator}stretch
     justify-self: stretch !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}ai#{$separator}start
+  .#{$laptop-up-prefix}#{$separator}ai#{$separator}start
     align-items: start !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}ai#{$separator}center
+  .#{$laptop-up-prefix}#{$separator}ai#{$separator}center
     align-items: center !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}ai#{$separator}end
+  .#{$laptop-up-prefix}#{$separator}ai#{$separator}end
     align-items: end !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}ai#{$separator}flex#{$separator}start
+  .#{$laptop-up-prefix}#{$separator}ai#{$separator}flex#{$separator}start
     align-items: flex-start !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}ai#{$separator}flex#{$separator}end
+  .#{$laptop-up-prefix}#{$separator}ai#{$separator}flex#{$separator}end
     align-items: flex-end !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}as#{$separator}start
+  .#{$laptop-up-prefix}#{$separator}as#{$separator}start
     align-self: start !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}as#{$separator}center
+  .#{$laptop-up-prefix}#{$separator}as#{$separator}center
     align-self: center !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}as#{$separator}end
+  .#{$laptop-up-prefix}#{$separator}as#{$separator}end
     align-self: end !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}as#{$separator}flex#{$separator}start
+  .#{$laptop-up-prefix}#{$separator}as#{$separator}flex#{$separator}start
     align-self: flex-start !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}as#{$separator}flex#{$separator}end
+  .#{$laptop-up-prefix}#{$separator}as#{$separator}flex#{$separator}end
     align-self: flex-end !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pc#{$separator}baseline
+  .#{$laptop-up-prefix}#{$separator}pc#{$separator}baseline
     place-content: baseline !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pc#{$separator}center
+  .#{$laptop-up-prefix}#{$separator}pc#{$separator}center
     place-content: center !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pc#{$separator}end
+  .#{$laptop-up-prefix}#{$separator}pc#{$separator}end
     place-content: end !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pc#{$separator}flex#{$separator}end
+  .#{$laptop-up-prefix}#{$separator}pc#{$separator}flex#{$separator}end
     place-content: flex-end !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pc#{$separator}flex#{$separator}start
+  .#{$laptop-up-prefix}#{$separator}pc#{$separator}flex#{$separator}start
     place-content: flex-start !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pc#{$separator}space#{$separator}around
+  .#{$laptop-up-prefix}#{$separator}pc#{$separator}space#{$separator}around
     place-content: space-around !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pc#{$separator}space#{$separator}between
+  .#{$laptop-up-prefix}#{$separator}pc#{$separator}space#{$separator}between
     place-content: space-between !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
+  .#{$laptop-up-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
     place-content: space-evenly !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pc#{$separator}start
+  .#{$laptop-up-prefix}#{$separator}pc#{$separator}start
     place-content: start !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pc#{$separator}stretch
+  .#{$laptop-up-prefix}#{$separator}pc#{$separator}stretch
     place-content: stretch !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pi#{$separator}baseline
+  .#{$laptop-up-prefix}#{$separator}pi#{$separator}baseline
     place-items: baseline !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pi#{$separator}center
+  .#{$laptop-up-prefix}#{$separator}pi#{$separator}center
     place-items: center !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pi#{$separator}end
+  .#{$laptop-up-prefix}#{$separator}pi#{$separator}end
     place-items: end !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pi#{$separator}flex#{$separator}end
+  .#{$laptop-up-prefix}#{$separator}pi#{$separator}flex#{$separator}end
     place-items: flex-end !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pi#{$separator}flex#{$separator}start
+  .#{$laptop-up-prefix}#{$separator}pi#{$separator}flex#{$separator}start
     place-items: flex-start !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pi#{$separator}space#{$separator}around
+  .#{$laptop-up-prefix}#{$separator}pi#{$separator}space#{$separator}around
     place-items: space-around !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pi#{$separator}space#{$separator}between
+  .#{$laptop-up-prefix}#{$separator}pi#{$separator}space#{$separator}between
     place-items: space-between !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
+  .#{$laptop-up-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
     place-items: space-evenly !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pi#{$separator}start
+  .#{$laptop-up-prefix}#{$separator}pi#{$separator}start
     place-items: start !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pi#{$separator}stretch
+  .#{$laptop-up-prefix}#{$separator}pi#{$separator}stretch
     place-items: stretch !important
 
   @for $index from 1 to 13
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}ord#{$separator}#{$index}
+    .#{$laptop-up-prefix}#{$separator}ord#{$separator}#{$index}
       order: $index !important
 
 @media screen and (max-width: $laptop-max-width)
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}flx#{$separator}wrap
+  .#{$laptop-down-prefix}#{$separator}flx#{$separator}wrap
     flex-wrap: wrap
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
+  .#{$laptop-down-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}flx#{$separator}row
+  .#{$laptop-down-prefix}#{$separator}flx#{$separator}row
     flex-direction: row !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}flx#{$separator}col
+  .#{$laptop-down-prefix}#{$separator}flx#{$separator}col
     flex-direction: column !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
+  .#{$laptop-down-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
     flex-direction: row-reverse
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
+  .#{$laptop-down-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}jc#{$separator}flex#{$separator}start
+  .#{$laptop-down-prefix}#{$separator}jc#{$separator}flex#{$separator}start
     justify-content: flex-start !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}jc#{$separator}center
+  .#{$laptop-down-prefix}#{$separator}jc#{$separator}center
     justify-content: center !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}jc#{$separator}flex#{$separator}end
+  .#{$laptop-down-prefix}#{$separator}jc#{$separator}flex#{$separator}end
     justify-content: flex-end !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}jc#{$separator}space#{$separator}between
+  .#{$laptop-down-prefix}#{$separator}jc#{$separator}space#{$separator}between
     justify-content: space-between !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}jc#{$separator}space#{$separator}around
+  .#{$laptop-down-prefix}#{$separator}jc#{$separator}space#{$separator}around
     justify-content: space-around !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
+  .#{$laptop-down-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
     justify-content: space-evenly !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}js#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}js#{$separator}auto
     justify-self: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}js#{$separator}start
+  .#{$laptop-down-prefix}#{$separator}js#{$separator}start
     justify-self: start !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}js#{$separator}center
+  .#{$laptop-down-prefix}#{$separator}js#{$separator}center
     justify-self: center !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}js#{$separator}end
+  .#{$laptop-down-prefix}#{$separator}js#{$separator}end
     justify-self: end !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}js#{$separator}stretch
+  .#{$laptop-down-prefix}#{$separator}js#{$separator}stretch
     justify-self: stretch !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}ai#{$separator}start
+  .#{$laptop-down-prefix}#{$separator}ai#{$separator}start
     align-items: start !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}ai#{$separator}center
+  .#{$laptop-down-prefix}#{$separator}ai#{$separator}center
     align-items: center !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}ai#{$separator}end
+  .#{$laptop-down-prefix}#{$separator}ai#{$separator}end
     align-items: end !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}ai#{$separator}flex#{$separator}start
+  .#{$laptop-down-prefix}#{$separator}ai#{$separator}flex#{$separator}start
     align-items: flex-start !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}ai#{$separator}flex#{$separator}end
+  .#{$laptop-down-prefix}#{$separator}ai#{$separator}flex#{$separator}end
     align-items: flex-end !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}as#{$separator}start
+  .#{$laptop-down-prefix}#{$separator}as#{$separator}start
     align-self: start !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}as#{$separator}center
+  .#{$laptop-down-prefix}#{$separator}as#{$separator}center
     align-self: center !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}as#{$separator}end
+  .#{$laptop-down-prefix}#{$separator}as#{$separator}end
     align-self: end !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}as#{$separator}flex#{$separator}start
+  .#{$laptop-down-prefix}#{$separator}as#{$separator}flex#{$separator}start
     align-self: flex-start !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}as#{$separator}flex#{$separator}end
+  .#{$laptop-down-prefix}#{$separator}as#{$separator}flex#{$separator}end
     align-self: flex-end !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pc#{$separator}baseline
+  .#{$laptop-down-prefix}#{$separator}pc#{$separator}baseline
     place-content: baseline !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pc#{$separator}center
+  .#{$laptop-down-prefix}#{$separator}pc#{$separator}center
     place-content: center !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pc#{$separator}end
+  .#{$laptop-down-prefix}#{$separator}pc#{$separator}end
     place-content: end !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pc#{$separator}flex#{$separator}end
+  .#{$laptop-down-prefix}#{$separator}pc#{$separator}flex#{$separator}end
     place-content: flex-end !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pc#{$separator}flex#{$separator}start
+  .#{$laptop-down-prefix}#{$separator}pc#{$separator}flex#{$separator}start
     place-content: flex-start !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pc#{$separator}space#{$separator}around
+  .#{$laptop-down-prefix}#{$separator}pc#{$separator}space#{$separator}around
     place-content: space-around !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pc#{$separator}space#{$separator}between
+  .#{$laptop-down-prefix}#{$separator}pc#{$separator}space#{$separator}between
     place-content: space-between !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
+  .#{$laptop-down-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
     place-content: space-evenly !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pc#{$separator}start
+  .#{$laptop-down-prefix}#{$separator}pc#{$separator}start
     place-content: start !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pc#{$separator}stretch
+  .#{$laptop-down-prefix}#{$separator}pc#{$separator}stretch
     place-content: stretch !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pi#{$separator}baseline
+  .#{$laptop-down-prefix}#{$separator}pi#{$separator}baseline
     place-items: baseline !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pi#{$separator}center
+  .#{$laptop-down-prefix}#{$separator}pi#{$separator}center
     place-items: center !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pi#{$separator}end
+  .#{$laptop-down-prefix}#{$separator}pi#{$separator}end
     place-items: end !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pi#{$separator}flex#{$separator}end
+  .#{$laptop-down-prefix}#{$separator}pi#{$separator}flex#{$separator}end
     place-items: flex-end !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pi#{$separator}flex#{$separator}start
+  .#{$laptop-down-prefix}#{$separator}pi#{$separator}flex#{$separator}start
     place-items: flex-start !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pi#{$separator}space#{$separator}around
+  .#{$laptop-down-prefix}#{$separator}pi#{$separator}space#{$separator}around
     place-items: space-around !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pi#{$separator}space#{$separator}between
+  .#{$laptop-down-prefix}#{$separator}pi#{$separator}space#{$separator}between
     place-items: space-between !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
+  .#{$laptop-down-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
     place-items: space-evenly !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pi#{$separator}start
+  .#{$laptop-down-prefix}#{$separator}pi#{$separator}start
     place-items: start !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pi#{$separator}stretch
+  .#{$laptop-down-prefix}#{$separator}pi#{$separator}stretch
     place-items: stretch !important
 
   @for $index from 1 to 13
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}ord#{$separator}#{$index}
+    .#{$laptop-down-prefix}#{$separator}ord#{$separator}#{$index}
       order: $index !important
 
 @media screen and (min-width: $desktop-min-width)
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}flx#{$separator}wrap
+  .#{$desktop-prefix}#{$separator}flx#{$separator}wrap
     flex-wrap: wrap
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
+  .#{$desktop-prefix}#{$separator}flx#{$separator}wrap#{$separator}reverse
     flex-wrap: wrap-reverse !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}flx#{$separator}row
+  .#{$desktop-prefix}#{$separator}flx#{$separator}row
     flex-direction: row !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}flx#{$separator}col
+  .#{$desktop-prefix}#{$separator}flx#{$separator}col
     flex-direction: column !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
+  .#{$desktop-prefix}#{$separator}flx#{$separator}row#{$separator}reverse
     flex-direction: row-reverse
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
+  .#{$desktop-prefix}#{$separator}flx#{$separator}col#{$separator}reverse
     flex-direction: column-reverse !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}jc#{$separator}flex#{$separator}start
+  .#{$desktop-prefix}#{$separator}jc#{$separator}flex#{$separator}start
     justify-content: flex-start !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}jc#{$separator}center
+  .#{$desktop-prefix}#{$separator}jc#{$separator}center
     justify-content: center !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}jc#{$separator}flex#{$separator}end
+  .#{$desktop-prefix}#{$separator}jc#{$separator}flex#{$separator}end
     justify-content: flex-end !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}jc#{$separator}space#{$separator}between
+  .#{$desktop-prefix}#{$separator}jc#{$separator}space#{$separator}between
     justify-content: space-between !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}jc#{$separator}space#{$separator}around
+  .#{$desktop-prefix}#{$separator}jc#{$separator}space#{$separator}around
     justify-content: space-around !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
+  .#{$desktop-prefix}#{$separator}jc#{$separator}space#{$separator}evenly
     justify-content: space-evenly !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}js#{$separator}auto
+  .#{$desktop-prefix}#{$separator}js#{$separator}auto
     justify-self: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}js#{$separator}start
+  .#{$desktop-prefix}#{$separator}js#{$separator}start
     justify-self: start !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}js#{$separator}center
+  .#{$desktop-prefix}#{$separator}js#{$separator}center
     justify-self: center !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}js#{$separator}end
+  .#{$desktop-prefix}#{$separator}js#{$separator}end
     justify-self: end !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}js#{$separator}stretch
+  .#{$desktop-prefix}#{$separator}js#{$separator}stretch
     justify-self: stretch !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}ai#{$separator}start
+  .#{$desktop-prefix}#{$separator}ai#{$separator}start
     align-items: start !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}ai#{$separator}center
+  .#{$desktop-prefix}#{$separator}ai#{$separator}center
     align-items: center !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}ai#{$separator}end
+  .#{$desktop-prefix}#{$separator}ai#{$separator}end
     align-items: end !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}ai#{$separator}flex#{$separator}start
+  .#{$desktop-prefix}#{$separator}ai#{$separator}flex#{$separator}start
     align-items: flex-start !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}ai#{$separator}flex#{$separator}end
+  .#{$desktop-prefix}#{$separator}ai#{$separator}flex#{$separator}end
     align-items: flex-end !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}as#{$separator}start
+  .#{$desktop-prefix}#{$separator}as#{$separator}start
     align-self: start !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}as#{$separator}center
+  .#{$desktop-prefix}#{$separator}as#{$separator}center
     align-self: center !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}as#{$separator}end
+  .#{$desktop-prefix}#{$separator}as#{$separator}end
     align-self: end !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}as#{$separator}flex#{$separator}start
+  .#{$desktop-prefix}#{$separator}as#{$separator}flex#{$separator}start
     align-self: flex-start !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}as#{$separator}flex#{$separator}end
+  .#{$desktop-prefix}#{$separator}as#{$separator}flex#{$separator}end
     align-self: flex-end !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pc#{$separator}baseline
+  .#{$desktop-prefix}#{$separator}pc#{$separator}baseline
     place-content: baseline !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pc#{$separator}center
+  .#{$desktop-prefix}#{$separator}pc#{$separator}center
     place-content: center !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pc#{$separator}end
+  .#{$desktop-prefix}#{$separator}pc#{$separator}end
     place-content: end !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pc#{$separator}flex#{$separator}end
+  .#{$desktop-prefix}#{$separator}pc#{$separator}flex#{$separator}end
     place-content: flex-end !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pc#{$separator}flex#{$separator}start
+  .#{$desktop-prefix}#{$separator}pc#{$separator}flex#{$separator}start
     place-content: flex-start !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pc#{$separator}space#{$separator}around
+  .#{$desktop-prefix}#{$separator}pc#{$separator}space#{$separator}around
     place-content: space-around !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pc#{$separator}space#{$separator}between
+  .#{$desktop-prefix}#{$separator}pc#{$separator}space#{$separator}between
     place-content: space-between !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
+  .#{$desktop-prefix}#{$separator}pc#{$separator}space#{$separator}evenly
     place-content: space-evenly !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pc#{$separator}start
+  .#{$desktop-prefix}#{$separator}pc#{$separator}start
     place-content: start !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pc#{$separator}stretch
+  .#{$desktop-prefix}#{$separator}pc#{$separator}stretch
     place-content: stretch !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pi#{$separator}baseline
+  .#{$desktop-prefix}#{$separator}pi#{$separator}baseline
     place-items: baseline !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pi#{$separator}center
+  .#{$desktop-prefix}#{$separator}pi#{$separator}center
     place-items: center !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pi#{$separator}end
+  .#{$desktop-prefix}#{$separator}pi#{$separator}end
     place-items: end !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pi#{$separator}flex#{$separator}end
+  .#{$desktop-prefix}#{$separator}pi#{$separator}flex#{$separator}end
     place-items: flex-end !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pi#{$separator}flex#{$separator}start
+  .#{$desktop-prefix}#{$separator}pi#{$separator}flex#{$separator}start
     place-items: flex-start !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pi#{$separator}space#{$separator}around
+  .#{$desktop-prefix}#{$separator}pi#{$separator}space#{$separator}around
     place-items: space-around !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pi#{$separator}space#{$separator}between
+  .#{$desktop-prefix}#{$separator}pi#{$separator}space#{$separator}between
     place-items: space-between !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
+  .#{$desktop-prefix}#{$separator}pi#{$separator}space#{$separator}evenly
     place-items: space-evenly !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pi#{$separator}start
+  .#{$desktop-prefix}#{$separator}pi#{$separator}start
     place-items: start !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pi#{$separator}stretch
+  .#{$desktop-prefix}#{$separator}pi#{$separator}stretch
     place-items: stretch !important
 
   @for $index from 1 to 13
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}ord#{$separator}#{$index}
+    .#{$desktop-prefix}#{$separator}ord#{$separator}#{$index}
       order: $index !important
 

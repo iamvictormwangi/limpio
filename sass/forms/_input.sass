@@ -1,74 +1,74 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}input
+.input
   border: 1.7px solid var(#{$variable-prefix}-border-color)
   border-radius: var(#{$variable-prefix}-input-border-radius)
   @if $enable-padding == true
     padding: 0.5rem
 
-  .#{$class-prefix}input#{$separator}7xs
+  .input#{$separator}7xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.8rem)
 
-  .#{$class-prefix}input#{$separator}6xs
+  .input#{$separator}6xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.75rem)
 
-  .#{$class-prefix}input#{$separator}5xs
+  .input#{$separator}5xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.65rem)
 
-  .#{$class-prefix}input#{$separator}4xs
+  .input#{$separator}4xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.55rem)
 
-  .#{$class-prefix}input#{$separator}3xs
+  .input#{$separator}3xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.45rem)
 
-  .#{$class-prefix}input#{$separator}2xs
+  .input#{$separator}2xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.35rem)
 
-  .#{$class-prefix}input#{$separator}xs
+  .input#{$separator}xs
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.25rem)
 
-  .#{$class-prefix}input#{$separator}sm
+  .input#{$separator}sm
     font-size: calc(var(#{$variable-prefix}-font-size) - 0.15rem)
 
-  .#{$class-prefix}input#{$separator}md
+  .input#{$separator}md
     font-size: var(#{$variable-prefix}-font-size)
 
-  .#{$class-prefix}input#{$separator}lg
+  .input#{$separator}lg
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.25rem)
 
-  .#{$class-prefix}input#{$separator}xl
+  .input#{$separator}xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.5rem)
 
-  .#{$class-prefix}input#{$separator}2xl
+  .input#{$separator}2xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 0.75rem)
 
-  .#{$class-prefix}input#{$separator}3xl
+  .input#{$separator}3xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1rem)
 
-  .#{$class-prefix}input#{$separator}4xl
+  .input#{$separator}4xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.25rem)
 
-  .#{$class-prefix}input#{$separator}5xl
+  .input#{$separator}5xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 1.5rem)
 
-  .#{$class-prefix}input#{$separator}6xl
+  .input#{$separator}6xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 2rem)
 
-  .#{$class-prefix}input#{$separator}7xl
+  .input#{$separator}7xl
     font-size: calc(var(#{$variable-prefix}-font-size) + 3rem)
 
-  .#{$class-prefix}input#{$separator}full#{$separator}width
+  .input#{$separator}full#{$separator}width
     width: 100% !important
 
-.#{$class-prefix}input#{$separator}iconized#{$separator}wrapper
+.input#{$separator}iconized#{$separator}wrapper
   position: relative
 
-  .#{$class-prefix}input#{$separator}iconized
+  .input#{$separator}iconized
     @if $enable-padding == true
       padding-left: 3.4rem
     height: 2.7rem
 
-  .#{$class-prefix}input#{$separator}icon#{$separator}wrapper
+  .input#{$separator}icon#{$separator}wrapper
     position: absolute
     top: 0
     left: 0
@@ -80,5 +80,5 @@
     justify-content: center
     align-items: center
 
-    .#{$class-prefix}input#{$separator}icon
+    .input#{$separator}icon
       text-align: center

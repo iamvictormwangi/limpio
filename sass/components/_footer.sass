@@ -1,15 +1,15 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}footer *
+.footer *
   margin-bottom: 0
 
-.#{$class-prefix}footer
-  & .#{$class-prefix}footer#{$separator}wrapper
+.footer
+  & .footer#{$separator}wrapper
     display: flex
     justify-content: space-between
     @if $enable-padding == true
       padding: 1rem 0
 
-    & .#{$class-prefix}footer#{$separator}brand
+    & .footer#{$separator}brand
       font-weight: 500
       cursor: pointer

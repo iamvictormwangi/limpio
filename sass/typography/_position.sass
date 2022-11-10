@@ -1,316 +1,334 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}pos#{$separator}relative
+.pos#{$separator}relative
   position: relative !important
 
-.#{$class-prefix}pos#{$separator}absolute
+.pos#{$separator}absolute
   position: absolute !important
 
-.#{$class-prefix}pos#{$separator}fixed
+.pos#{$separator}fixed
   position: fixed !important
 
-.#{$class-prefix}pos#{$separator}sticky
+.pos#{$separator}sticky
   position: sticky !important
 
-.#{$class-prefix}pos#{$separator}static
+.pos#{$separator}static
   position: static !important
 
-.#{$class-prefix}sticky#{$separator}top, .#{$class-prefix}sticky#{$separator}bottom
+.sticky#{$separator}top,
+.sticky#{$separator}bottom
   position: sticky !important
 
-.#{$class-prefix}sticky#{$separator}top
+.sticky#{$separator}top
   top: 0 !important
 
-.#{$class-prefix}sticky#{$separator}bottom
+.sticky#{$separator}bottom
   bottom: 0 !important
 
-.#{$class-prefix}fixed#{$separator}top, .#{$class-prefix}fixed#{$separator}bottom
+.fixed#{$separator}top,
+.fixed#{$separator}bottom
   position: fixed !important
 
-.#{$class-prefix}fixed#{$separator}top
+.fixed#{$separator}top
   top: 0 !important
 
-.#{$class-prefix}fixed#{$separator}bottom
+.fixed#{$separator}bottom
   bottom: 0 !important
 
 @media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pos#{$separator}relative
+  .#{$mobile-prefix}#{$separator}pos#{$separator}relative
     position: relative !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pos#{$separator}absolute
+  .#{$mobile-prefix}#{$separator}pos#{$separator}absolute
     position: absolute !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pos#{$separator}fixed
+  .#{$mobile-prefix}#{$separator}pos#{$separator}fixed
     position: fixed !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pos#{$separator}sticky
+  .#{$mobile-prefix}#{$separator}pos#{$separator}sticky
     position: sticky !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pos#{$separator}static
+  .#{$mobile-prefix}#{$separator}pos#{$separator}static
     position: static !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}sticky#{$separator}top, .#{$class-prefix}#{$mobile-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$mobile-prefix}#{$separator}sticky#{$separator}top,
+  .#{$mobile-prefix}#{$separator}sticky#{$separator}bottom
     position: sticky !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}sticky#{$separator}top
+  .#{$mobile-prefix}#{$separator}sticky#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$mobile-prefix}#{$separator}sticky#{$separator}bottom
     bottom: 0 !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}fixed#{$separator}top, .#{$class-prefix}#{$mobile-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$mobile-prefix}#{$separator}fixed#{$separator}top,
+  .#{$mobile-prefix}#{$separator}fixed#{$separator}bottom
     position: fixed !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}fixed#{$separator}top
+  .#{$mobile-prefix}#{$separator}fixed#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$mobile-prefix}#{$separator}fixed#{$separator}bottom
     bottom: 0 !important
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pos#{$separator}relative
+  .#{$tablet-prefix}#{$separator}pos#{$separator}relative
     position: relative !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pos#{$separator}absolute
+  .#{$tablet-prefix}#{$separator}pos#{$separator}absolute
     position: absolute !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pos#{$separator}fixed
+  .#{$tablet-prefix}#{$separator}pos#{$separator}fixed
     position: fixed !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pos#{$separator}sticky
+  .#{$tablet-prefix}#{$separator}pos#{$separator}sticky
     position: sticky !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pos#{$separator}static
+  .#{$tablet-prefix}#{$separator}pos#{$separator}static
     position: static !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}sticky#{$separator}top, .#{$class-prefix}#{$tablet-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$tablet-prefix}#{$separator}sticky#{$separator}top,
+  .#{$tablet-prefix}#{$separator}sticky#{$separator}bottom
     position: sticky !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}sticky#{$separator}top
+  .#{$tablet-prefix}#{$separator}sticky#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$tablet-prefix}#{$separator}sticky#{$separator}bottom
     bottom: 0 !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}fixed#{$separator}top, .#{$class-prefix}#{$tablet-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$tablet-prefix}#{$separator}fixed#{$separator}top,
+  .#{$tablet-prefix}#{$separator}fixed#{$separator}bottom
     position: fixed !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}fixed#{$separator}top
+  .#{$tablet-prefix}#{$separator}fixed#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$tablet-prefix}#{$separator}fixed#{$separator}bottom
     bottom: 0 !important
 
 @media screen and (min-width: $tablet-min-width)
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pos#{$separator}relative
+  .#{$tablet-up-prefix}#{$separator}pos#{$separator}relative
     position: relative !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pos#{$separator}absolute
+  .#{$tablet-up-prefix}#{$separator}pos#{$separator}absolute
     position: absolute !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pos#{$separator}fixed
+  .#{$tablet-up-prefix}#{$separator}pos#{$separator}fixed
     position: fixed !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pos#{$separator}sticky
+  .#{$tablet-up-prefix}#{$separator}pos#{$separator}sticky
     position: sticky !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pos#{$separator}static
+  .#{$tablet-up-prefix}#{$separator}pos#{$separator}static
     position: static !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}sticky#{$separator}top, .#{$class-prefix}#{$tablet-up-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$tablet-up-prefix}#{$separator}sticky#{$separator}top,
+  .#{$tablet-up-prefix}#{$separator}sticky#{$separator}bottom
     position: sticky !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}sticky#{$separator}top
+  .#{$tablet-up-prefix}#{$separator}sticky#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$tablet-up-prefix}#{$separator}sticky#{$separator}bottom
     bottom: 0 !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}fixed#{$separator}top, .#{$class-prefix}#{$tablet-up-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$tablet-up-prefix}#{$separator}fixed#{$separator}top,
+  .#{$tablet-up-prefix}#{$separator}fixed#{$separator}bottom
     position: fixed !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}fixed#{$separator}top
+  .#{$tablet-up-prefix}#{$separator}fixed#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$tablet-up-prefix}#{$separator}fixed#{$separator}bottom
     bottom: 0 !important
 
 @media screen and (max-width: $tablet-max-width)
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pos#{$separator}relative
+  .#{$tablet-down-prefix}#{$separator}pos#{$separator}relative
     position: relative !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pos#{$separator}absolute
+  .#{$tablet-down-prefix}#{$separator}pos#{$separator}absolute
     position: absolute !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pos#{$separator}fixed
+  .#{$tablet-down-prefix}#{$separator}pos#{$separator}fixed
     position: fixed !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pos#{$separator}sticky
+  .#{$tablet-down-prefix}#{$separator}pos#{$separator}sticky
     position: sticky !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pos#{$separator}static
+  .#{$tablet-down-prefix}#{$separator}pos#{$separator}static
     position: static !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}sticky#{$separator}top, .#{$class-prefix}#{$tablet-down-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$tablet-down-prefix}#{$separator}sticky#{$separator}top,
+  .#{$tablet-down-prefix}#{$separator}sticky#{$separator}bottom
     position: sticky !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}sticky#{$separator}top
+  .#{$tablet-down-prefix}#{$separator}sticky#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$tablet-down-prefix}#{$separator}sticky#{$separator}bottom
     bottom: 0 !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}fixed#{$separator}top, .#{$class-prefix}#{$tablet-down-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$tablet-down-prefix}#{$separator}fixed#{$separator}top,
+  .#{$tablet-down-prefix}#{$separator}fixed#{$separator}bottom
     position: fixed !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}fixed#{$separator}top
+  .#{$tablet-down-prefix}#{$separator}fixed#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$tablet-down-prefix}#{$separator}fixed#{$separator}bottom
     bottom: 0 !important
 
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pos#{$separator}relative
+  .#{$laptop-prefix}#{$separator}pos#{$separator}relative
     position: relative !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pos#{$separator}absolute
+  .#{$laptop-prefix}#{$separator}pos#{$separator}absolute
     position: absolute !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pos#{$separator}fixed
+  .#{$laptop-prefix}#{$separator}pos#{$separator}fixed
     position: fixed !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pos#{$separator}sticky
+  .#{$laptop-prefix}#{$separator}pos#{$separator}sticky
     position: sticky !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pos#{$separator}static
+  .#{$laptop-prefix}#{$separator}pos#{$separator}static
     position: static !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}sticky#{$separator}top, .#{$class-prefix}#{$laptop-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$laptop-prefix}#{$separator}sticky#{$separator}top,
+  .#{$laptop-prefix}#{$separator}sticky#{$separator}bottom
     position: sticky !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}sticky#{$separator}top
+  .#{$laptop-prefix}#{$separator}sticky#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$laptop-prefix}#{$separator}sticky#{$separator}bottom
     bottom: 0 !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}fixed#{$separator}top, .#{$class-prefix}#{$laptop-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$laptop-prefix}#{$separator}fixed#{$separator}top,
+  .#{$laptop-prefix}#{$separator}fixed#{$separator}bottom
     position: fixed !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}fixed#{$separator}top
+  .#{$laptop-prefix}#{$separator}fixed#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$laptop-prefix}#{$separator}fixed#{$separator}bottom
     bottom: 0 !important
 
 @media screen and (min-width: $laptop-min-width)
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pos#{$separator}relative
+  .#{$laptop-up-prefix}#{$separator}pos#{$separator}relative
     position: relative !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pos#{$separator}absolute
+  .#{$laptop-up-prefix}#{$separator}pos#{$separator}absolute
     position: absolute !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pos#{$separator}fixed
+  .#{$laptop-up-prefix}#{$separator}pos#{$separator}fixed
     position: fixed !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pos#{$separator}sticky
+  .#{$laptop-up-prefix}#{$separator}pos#{$separator}sticky
     position: sticky !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pos#{$separator}static
+  .#{$laptop-up-prefix}#{$separator}pos#{$separator}static
     position: static !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}sticky#{$separator}top, .#{$class-prefix}#{$laptop-up-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$laptop-up-prefix}#{$separator}sticky#{$separator}top,
+  .#{$laptop-up-prefix}#{$separator}sticky#{$separator}bottom
     position: sticky !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}sticky#{$separator}top
+  .#{$laptop-up-prefix}#{$separator}sticky#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$laptop-up-prefix}#{$separator}sticky#{$separator}bottom
     bottom: 0 !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}fixed#{$separator}top, .#{$class-prefix}#{$tablet-up-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$laptop-up-prefix}#{$separator}fixed#{$separator}top,
+  .#{$tablet-up-prefix}#{$separator}fixed#{$separator}bottom
     position: fixed !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}fixed#{$separator}top
+  .#{$laptop-up-prefix}#{$separator}fixed#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$laptop-up-prefix}#{$separator}fixed#{$separator}bottom
     bottom: 0 !important
 
 @media screen and (max-width: $laptop-max-width)
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pos#{$separator}relative
+  .#{$laptop-down-prefix}#{$separator}pos#{$separator}relative
     position: relative !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pos#{$separator}absolute
+  .#{$laptop-down-prefix}#{$separator}pos#{$separator}absolute
     position: absolute !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pos#{$separator}fixed
+  .#{$laptop-down-prefix}#{$separator}pos#{$separator}fixed
     position: fixed !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pos#{$separator}sticky
+  .#{$laptop-down-prefix}#{$separator}pos#{$separator}sticky
     position: sticky !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pos#{$separator}static
+  .#{$laptop-down-prefix}#{$separator}pos#{$separator}static
     position: static !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}sticky#{$separator}top, .#{$class-prefix}#{$laptop-down-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$laptop-down-prefix}#{$separator}sticky#{$separator}top,
+  .#{$laptop-down-prefix}#{$separator}sticky#{$separator}bottom
     position: sticky !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}sticky#{$separator}top
+  .#{$laptop-down-prefix}#{$separator}sticky#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$laptop-down-prefix}#{$separator}sticky#{$separator}bottom
     bottom: 0 !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}fixed#{$separator}top, .#{$class-prefix}#{$laptop-down-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$laptop-down-prefix}#{$separator}fixed#{$separator}top,
+  .#{$laptop-down-prefix}#{$separator}fixed#{$separator}bottom
     position: fixed !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}fixed#{$separator}top
+  .#{$laptop-down-prefix}#{$separator}fixed#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$laptop-down-prefix}#{$separator}fixed#{$separator}bottom
     bottom: 0 !important
 
 @media screen and (min-width: $desktop-min-width)
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pos#{$separator}relative
+  .#{$desktop-prefix}#{$separator}pos#{$separator}relative
     position: relative !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pos#{$separator}absolute
+  .#{$desktop-prefix}#{$separator}pos#{$separator}absolute
     position: absolute !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pos#{$separator}fixed
+  .#{$desktop-prefix}#{$separator}pos#{$separator}fixed
     position: fixed !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pos#{$separator}sticky
+  .#{$desktop-prefix}#{$separator}pos#{$separator}sticky
     position: sticky !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pos#{$separator}static
+  .#{$desktop-prefix}#{$separator}pos#{$separator}static
     position: static !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}sticky#{$separator}top, .#{$class-prefix}#{$desktop-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$desktop-prefix}#{$separator}sticky#{$separator}top,
+  .#{$desktop-prefix}#{$separator}sticky#{$separator}bottom
     position: sticky !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}sticky#{$separator}top
+  .#{$desktop-prefix}#{$separator}sticky#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}sticky#{$separator}bottom
+  .#{$desktop-prefix}#{$separator}sticky#{$separator}bottom
     bottom: 0 !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}fixed#{$separator}top, .#{$class-prefix}#{$desktop-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$desktop-prefix}#{$separator}fixed#{$separator}top,
+  .#{$desktop-prefix}#{$separator}fixed#{$separator}bottom
     position: fixed !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}fixed#{$separator}top
+  .#{$desktop-prefix}#{$separator}fixed#{$separator}top
     top: 0 !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}fixed#{$separator}bottom
+  .#{$desktop-prefix}#{$separator}fixed#{$separator}bottom
     bottom: 0 !important
 
 

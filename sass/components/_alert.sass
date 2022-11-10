@@ -1,6 +1,6 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}alert
+.alert
   min-height: 3rem
   width: 20rem
   position: absolute
@@ -9,21 +9,21 @@
   z-index: 1500
   opacity: var(#{$variable-prefix}-modal-opacity)
 
-  & .#{$class-prefix}alert#{$separator}wrapper
+  & .alert#{$separator}wrapper
     @if $enable-padding == true
       padding: 1rem .8rem
 
-    & .#{$class-prefix}alert#{$separator}title
+    & .alert#{$separator}title
       font-weight: inherit
       font-size: 1.3rem
       margin-bottom: 0.5rem
 
-    & .#{$class-prefix}alert#{$separator}subtitle
+    & .alert#{$separator}subtitle
       font-weight: inherit
       font-size: 1.2rem
       margin-bottom: 0.4rem
 
-    & .#{$class-prefix}alert#{$separator}text
+    & .alert#{$separator}text
       font-size: inherit
       margin-bottom: 0.4rem
 

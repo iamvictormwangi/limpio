@@ -3,657 +3,657 @@
 @use "sass:string"
 
 @each $key, $value in $value-props
-  .#{$class-prefix}m#{$separator}#{$key}
+  .m#{$separator}#{$key}
     margin: $value !important
 
-  .#{$class-prefix}mt#{$separator}#{$key}
+  .mt#{$separator}#{$key}
     margin-top: $value !important
 
-  .#{$class-prefix}mr#{$separator}#{$key}
+  .mr#{$separator}#{$key}
     margin-right: $value !important
 
-  .#{$class-prefix}mb#{$separator}#{$key}
+  .mb#{$separator}#{$key}
     margin-bottom: $value !important
 
-  .#{$class-prefix}ml#{$separator}#{$key}
+  .ml#{$separator}#{$key}
     margin-left: $value !important
 
-  .#{$class-prefix}my#{$separator}#{$key}
+  .my#{$separator}#{$key}
     margin-top: $value !important
     margin-bottom: $value !important
 
-  .#{$class-prefix}mx#{$separator}#{$key}
+  .mx#{$separator}#{$key}
     margin-right: $value !important
     margin-left: $value !important
 
 @for $i from 1 through 30
-  .#{$class-prefix}m#{$separator}#{$i * 5}\%
+  .m#{$separator}#{$i * 5}\%
     margin: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}mt#{$separator}#{$i * 5}\%
+  .mt#{$separator}#{$i * 5}\%
     margin-top: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}mr#{$separator}#{$i * 5}\%
+  .mr#{$separator}#{$i * 5}\%
     margin-right: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}mb#{$separator}#{$i * 5}\%
+  .mb#{$separator}#{$i * 5}\%
     margin-bottom: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}ml#{$separator}#{$i * 5}\%
+  .ml#{$separator}#{$i * 5}\%
     margin-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}my#{$separator}#{$i * 5}\%
+  .my#{$separator}#{$i * 5}\%
     margin-top: #{$i * 5} + '%' !important
     margin-bottom: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}mx#{$separator}#{$i * 5}\%
+  .mx#{$separator}#{$i * 5}\%
     margin-right: #{$i * 5} + '%' !important
     margin-left: #{$i * 5} + '%' !important
 
-.#{$class-prefix}m#{$separator}auto
+.m#{$separator}auto
   margin: auto !important
 
-.#{$class-prefix}mt#{$separator}auto
+.mt#{$separator}auto
   margin-top: auto !important
 
-.#{$class-prefix}mr#{$separator}auto
+.mr#{$separator}auto
   margin-right: auto !important
 
-.#{$class-prefix}mb#{$separator}auto
+.mb#{$separator}auto
   margin-bottom: auto !important
 
-.#{$class-prefix}ml#{$separator}auto
+.ml#{$separator}auto
   margin-left: auto !important
 
-.#{$class-prefix}my#{$separator}auto
+.my#{$separator}auto
   margin-top: auto !important
   margin-bottom: auto !important
 
-.#{$class-prefix}mx#{$separator}auto
+.mx#{$separator}auto
   margin-right: auto !important
   margin-left: auto !important
 
 @media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}m#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}m#{$separator}#{$key}
       margin: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}mt#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}mt#{$separator}#{$key}
       margin-top: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}mr#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}mr#{$separator}#{$key}
       margin-right: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}mb#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}mb#{$separator}#{$key}
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}ml#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}ml#{$separator}#{$key}
       margin-left: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}my#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}my#{$separator}#{$key}
       margin-top: $value !important
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}mx#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}mx#{$separator}#{$key}
       margin-right: $value !important
       margin-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}m#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}m#{$separator}#{$i * 5}\%
       margin: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
       margin-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}my#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}my#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
       margin-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}m#{$separator}auto
+  .#{$mobile-prefix}#{$separator}m#{$separator}auto
     margin: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}mt#{$separator}auto
+  .#{$mobile-prefix}#{$separator}mt#{$separator}auto
     margin-top: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}mr#{$separator}auto
+  .#{$mobile-prefix}#{$separator}mr#{$separator}auto
     margin-right: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}mb#{$separator}auto
+  .#{$mobile-prefix}#{$separator}mb#{$separator}auto
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}ml#{$separator}auto
+  .#{$mobile-prefix}#{$separator}ml#{$separator}auto
     margin-left: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}my#{$separator}auto
+  .#{$mobile-prefix}#{$separator}my#{$separator}auto
     margin-top: auto !important
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}mx#{$separator}auto
+  .#{$mobile-prefix}#{$separator}mx#{$separator}auto
     margin-right: auto !important
     margin-left: auto !important
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}m#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}m#{$separator}#{$key}
       margin: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}mt#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}mt#{$separator}#{$key}
       margin-top: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}mr#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}mr#{$separator}#{$key}
       margin-right: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}mb#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}mb#{$separator}#{$key}
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}ml#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}ml#{$separator}#{$key}
       margin-left: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}my#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}my#{$separator}#{$key}
       margin-top: $value !important
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}mx#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}mx#{$separator}#{$key}
       margin-right: $value !important
       margin-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}m#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}m#{$separator}#{$i * 5}\%
       margin: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
       margin-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}my#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}my#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
       margin-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}m#{$separator}auto
+  .#{$tablet-prefix}#{$separator}m#{$separator}auto
     margin: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}mt#{$separator}auto
+  .#{$tablet-prefix}#{$separator}mt#{$separator}auto
     margin-top: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}mr#{$separator}auto
+  .#{$tablet-prefix}#{$separator}mr#{$separator}auto
     margin-right: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}mb#{$separator}auto
+  .#{$tablet-prefix}#{$separator}mb#{$separator}auto
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}ml#{$separator}auto
+  .#{$tablet-prefix}#{$separator}ml#{$separator}auto
     margin-left: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}my#{$separator}auto
+  .#{$tablet-prefix}#{$separator}my#{$separator}auto
     margin-top: auto !important
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}mx#{$separator}auto
+  .#{$tablet-prefix}#{$separator}mx#{$separator}auto
     margin-right: auto !important
     margin-left: auto !important
 
 @media screen and (min-width: $tablet-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}m#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}m#{$separator}#{$key}
       margin: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mt#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}mt#{$separator}#{$key}
       margin-top: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mr#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}mr#{$separator}#{$key}
       margin-right: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mb#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}mb#{$separator}#{$key}
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}ml#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}ml#{$separator}#{$key}
       margin-left: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}my#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}my#{$separator}#{$key}
       margin-top: $value !important
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mx#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}mx#{$separator}#{$key}
       margin-right: $value !important
       margin-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}m#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}m#{$separator}#{$i * 5}\%
       margin: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
       margin-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}my#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}my#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
       margin-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}m#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}m#{$separator}auto
     margin: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mt#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}mt#{$separator}auto
     margin-top: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mr#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}mr#{$separator}auto
     margin-right: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mb#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}mb#{$separator}auto
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}ml#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}ml#{$separator}auto
     margin-left: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}my#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}my#{$separator}auto
     margin-top: auto !important
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}mx#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}mx#{$separator}auto
     margin-right: auto !important
     margin-left: auto !important
 
 @media screen and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}m#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}m#{$separator}#{$key}
       margin: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mt#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}mt#{$separator}#{$key}
       margin-top: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mr#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}mr#{$separator}#{$key}
       margin-right: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mb#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}mb#{$separator}#{$key}
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}ml#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}ml#{$separator}#{$key}
       margin-left: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}my#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}my#{$separator}#{$key}
       margin-top: $value !important
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mx#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}mx#{$separator}#{$key}
       margin-right: $value !important
       margin-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}m#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}m#{$separator}#{$i * 5}\%
       margin: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
       margin-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}my#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}my#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
       margin-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}m#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}m#{$separator}auto
     margin: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mt#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}mt#{$separator}auto
     margin-top: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mr#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}mr#{$separator}auto
     margin-right: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mb#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}mb#{$separator}auto
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}ml#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}ml#{$separator}auto
     margin-left: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}my#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}my#{$separator}auto
     margin-top: auto !important
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}mx#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}mx#{$separator}auto
     margin-right: auto !important
     margin-left: auto !important
 
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}m#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}m#{$separator}#{$key}
       margin: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}mt#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}mt#{$separator}#{$key}
       margin-top: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}mr#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}mr#{$separator}#{$key}
       margin-right: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}mb#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}mb#{$separator}#{$key}
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}ml#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}ml#{$separator}#{$key}
       margin-left: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}my#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}my#{$separator}#{$key}
       margin-top: $value !important
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}mx#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}mx#{$separator}#{$key}
       margin-right: $value !important
       margin-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}m#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}m#{$separator}#{$i * 5}\%
       margin: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
       margin-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}my#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}my#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
       margin-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}m#{$separator}auto
+  .#{$laptop-prefix}#{$separator}m#{$separator}auto
     margin: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}mt#{$separator}auto
+  .#{$laptop-prefix}#{$separator}mt#{$separator}auto
     margin-top: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}mr#{$separator}auto
+  .#{$laptop-prefix}#{$separator}mr#{$separator}auto
     margin-right: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}mb#{$separator}auto
+  .#{$laptop-prefix}#{$separator}mb#{$separator}auto
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}ml#{$separator}auto
+  .#{$laptop-prefix}#{$separator}ml#{$separator}auto
     margin-left: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}my#{$separator}auto
+  .#{$laptop-prefix}#{$separator}my#{$separator}auto
     margin-top: auto !important
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}mx#{$separator}auto
+  .#{$laptop-prefix}#{$separator}mx#{$separator}auto
     margin-right: auto !important
     margin-left: auto !important
 
 @media screen and (min-width: $laptop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}m#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}m#{$separator}#{$key}
       margin: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mt#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}mt#{$separator}#{$key}
       margin-top: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mr#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}mr#{$separator}#{$key}
       margin-right: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mb#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}mb#{$separator}#{$key}
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}ml#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}ml#{$separator}#{$key}
       margin-left: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}my#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}my#{$separator}#{$key}
       margin-top: $value !important
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mx#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}mx#{$separator}#{$key}
       margin-right: $value !important
       margin-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}m#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}m#{$separator}#{$i * 5}\%
       margin: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
       margin-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}my#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}my#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
       margin-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}m#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}m#{$separator}auto
     margin: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mt#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}mt#{$separator}auto
     margin-top: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mr#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}mr#{$separator}auto
     margin-right: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mb#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}mb#{$separator}auto
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}ml#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}ml#{$separator}auto
     margin-left: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}my#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}my#{$separator}auto
     margin-top: auto !important
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}mx#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}mx#{$separator}auto
     margin-right: auto !important
     margin-left: auto !important
 
 @media screen and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}m#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}m#{$separator}#{$key}
       margin: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mt#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}mt#{$separator}#{$key}
       margin-top: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mr#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}mr#{$separator}#{$key}
       margin-right: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mb#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}mb#{$separator}#{$key}
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}ml#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}ml#{$separator}#{$key}
       margin-left: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}my#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}my#{$separator}#{$key}
       margin-top: $value !important
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mx#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}mx#{$separator}#{$key}
       margin-right: $value !important
       margin-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}m#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}m#{$separator}#{$i * 5}\%
       margin: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
       margin-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}my#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}my#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
       margin-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}m#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}m#{$separator}auto
     margin: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mt#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}mt#{$separator}auto
     margin-top: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mr#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}mr#{$separator}auto
     margin-right: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mb#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}mb#{$separator}auto
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}ml#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}ml#{$separator}auto
     margin-left: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}my#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}my#{$separator}auto
     margin-top: auto !important
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}mx#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}mx#{$separator}auto
     margin-right: auto !important
     margin-left: auto !important
 
 @media screen and (min-width: $desktop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}m#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}m#{$separator}#{$key}
       margin: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}mt#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}mt#{$separator}#{$key}
       margin-top: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}mr#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}mr#{$separator}#{$key}
       margin-right: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}mb#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}mb#{$separator}#{$key}
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}ml#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}ml#{$separator}#{$key}
       margin-left: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}my#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}my#{$separator}#{$key}
       margin-top: $value !important
       margin-bottom: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}mx#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}mx#{$separator}#{$key}
       margin-right: $value !important
       margin-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}m#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}m#{$separator}#{$i * 5}\%
       margin: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}mt#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}mr#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}mb#{$separator}#{$i * 5}\%
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}ml#{$separator}#{$i * 5}\%
       margin-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}my#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}my#{$separator}#{$i * 5}\%
       margin-top: #{$i * 5} + '%' !important
       margin-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}mx#{$separator}#{$i * 5}\%
       margin-right: #{$i * 5} + '%' !important
       margin-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}m#{$separator}auto
+  .#{$desktop-prefix}#{$separator}m#{$separator}auto
     margin: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}mt#{$separator}auto
+  .#{$desktop-prefix}#{$separator}mt#{$separator}auto
     margin-top: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}mr#{$separator}auto
+  .#{$desktop-prefix}#{$separator}mr#{$separator}auto
     margin-right: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}mb#{$separator}auto
+  .#{$desktop-prefix}#{$separator}mb#{$separator}auto
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}ml#{$separator}auto
+  .#{$desktop-prefix}#{$separator}ml#{$separator}auto
     margin-left: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}my#{$separator}auto
+  .#{$desktop-prefix}#{$separator}my#{$separator}auto
     margin-top: auto !important
     margin-bottom: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}mx#{$separator}auto
+  .#{$desktop-prefix}#{$separator}mx#{$separator}auto
     margin-right: auto !important
     margin-left: auto !important
 

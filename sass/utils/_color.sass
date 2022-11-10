@@ -1,40 +1,40 @@
 @use "./../abstracts/" as *
 
 @each $color in $color-list
-  .#{$class-prefix}c#{$separator}#{'' + $color}
+  .c#{$separator}#{'' + $color}
     color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}c#{$separator}#{'' + $color}\:hvr:hover
+  .c#{$separator}#{'' + $color}\:hvr:hover
     color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}c#{$separator}#{'' + $color}\:fcs:focus
+  .c#{$separator}#{'' + $color}\:fcs:focus
     color: var(#{$variable-prefix}-#{$color})
 
   @for $index from 1 to 7
-    .#{$class-prefix}c#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}
+    .c#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}
       color: var(#{$variable-prefix}-#{$color}-ltn-#{$index})
 
-    .#{$class-prefix}c#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:hvr:hover
+    .c#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:hvr:hover
       color: var(#{$variable-prefix}-#{$color}-ltn-#{$index})
 
-    .#{$class-prefix}c#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:fcs:focus
+    .c#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:fcs:focus
       color: var(#{$variable-prefix}-#{$color}-ltn-#{$index})
 
-    .#{$class-prefix}c#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}
+    .c#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}
       color: var(#{$variable-prefix}-#{$color}-dkn-#{$index})
 
-    .#{$class-prefix}c#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}\:hvr:hover
+    .c#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}\:hvr:hover
       color: var(#{$variable-prefix}-#{$color}-dkn-#{$index})
 
-    .#{$class-prefix}c#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}\:fcs:focus
+    .c#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}\:fcs:focus
       color: var(#{$variable-prefix}-#{$color}-dkn-#{$index})
 
 @each $color in $brands
-  .#{$class-prefix}c#{$separator}#{'' + $color}
+  .c#{$separator}#{'' + $color}
     color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}c#{$separator}#{'' + $color}\:hvr:hover
+  .c#{$separator}#{'' + $color}\:hvr:hover
     color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}c#{$separator}#{'' + $color}\:fcs:focus
+  .c#{$separator}#{'' + $color}\:fcs:focus
     color: var(#{$variable-prefix}-#{$color})

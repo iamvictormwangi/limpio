@@ -1,27 +1,27 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}notification *
+.notification *
     margin-bottom: 0
 
-.#{$class-prefix}notification
+.notification
   width: 100%
   z-index: 1000
   position: fixed
   bottom: 0
   opacity: var(#{$variable-prefix}-modal-opacity)
 
-  & .#{$class-prefix}notification#{$separator}wrapper
+  & .notification#{$separator}wrapper
     @if $enable-padding == true
       padding: 0.25rem 0.8rem
 
-    & .#{$class-prefix}notification#{$separator}title
+    & .notification#{$separator}title
       font-weight: inherit
       font-size: 1.3rem
 
-    & .#{$class-prefix}notification#{$separator}subtitle
+    & .notification#{$separator}subtitle
       font-weight: inherit
       font-size: 1.2rem
 
-    & .#{$class-prefix}notification#{$separator}text
+    & .notification#{$separator}text
       font-size: inherit
 

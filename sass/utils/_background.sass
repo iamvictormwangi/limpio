@@ -1,42 +1,42 @@
 @use "./../abstracts/" as *
 
 @each $color in $color-list
-  .#{$class-prefix}bgc#{$separator}#{'' + $color}
+  .bgc#{$separator}#{'' + $color}
     background-color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}bgc#{$separator}#{'' + $color}\:hvr:hover
+  .bgc#{$separator}#{'' + $color}\:hvr:hover
     background-color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}bgc#{$separator}#{'' + $color}\:fcs:focus
+  .bgc#{$separator}#{'' + $color}\:fcs:focus
     background-color: var(#{$variable-prefix}-#{$color})
 
   @for $index from 1 to 7
-    .#{$class-prefix}bgc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}
+    .bgc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}
       background-color: var(#{$variable-prefix}-#{$color}-ltn-#{$index})
 
-    .#{$class-prefix}bgc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:hvr:hover
+    .bgc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:hvr:hover
       background-color: var(#{$variable-prefix}-#{$color}-ltn-#{$index})
 
-    .#{$class-prefix}bgc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:fcs:focus
+    .bgc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:fcs:focus
       background-color: var(#{$variable-prefix}-#{$color}-ltn-#{$index})
 
-    .#{$class-prefix}bgc#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}
+    .bgc#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}
       background-color: var(#{$variable-prefix}-#{$color}-dkn-#{$index})
 
-    .#{$class-prefix}bgc#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}\:hvr:hover
+    .bgc#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}\:hvr:hover
       background-color: var(#{$variable-prefix}-#{$color}-dkn-#{$index})
 
-    .#{$class-prefix}bgc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:fcs:focus
+    .bgc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:fcs:focus
       background-color: var(#{$variable-prefix}-#{$color}-dkn-#{$index})
 
 @each $color in $brands
-  .#{$class-prefix}bgc#{$separator}#{'' + $color}
+  .bgc#{$separator}#{'' + $color}
     background-color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}bgc#{$separator}#{'' + $color}\:hvr:hover
+  .bgc#{$separator}#{'' + $color}\:hvr:hover
     background-color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}bgc#{$separator}#{'' + $color}\:fcs:focus
+  .bgc#{$separator}#{'' + $color}\:fcs:focus
     background-color: var(#{$variable-prefix}-#{$color})
 
 

@@ -3,657 +3,657 @@
 @use "sass:string"
 
 @each $key, $value in $value-props
-  .#{$class-prefix}p#{$separator}#{$key}
+  .p#{$separator}#{$key}
     padding: $value !important
 
-  .#{$class-prefix}pt#{$separator}#{$key}
+  .pt#{$separator}#{$key}
     padding-top: $value !important
 
-  .#{$class-prefix}pr#{$separator}#{$key}
+  .pr#{$separator}#{$key}
     padding-right: $value !important
 
-  .#{$class-prefix}pb#{$separator}#{$key}
+  .pb#{$separator}#{$key}
     padding-bottom: $value !important
 
-  .#{$class-prefix}pl#{$separator}#{$key}
+  .pl#{$separator}#{$key}
     padding-left: $value !important
 
-  .#{$class-prefix}py#{$separator}#{$key}
+  .py#{$separator}#{$key}
     padding-top: $value !important
     padding-bottom: $value !important
 
-  .#{$class-prefix}px#{$separator}#{$key}
+  .px#{$separator}#{$key}
     padding-right: $value !important
     padding-left: $value !important
 
 @for $i from 1 through 30
-  .#{$class-prefix}p#{$separator}#{$i * 5}\%
+  .p#{$separator}#{$i * 5}\%
     padding: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}pt#{$separator}#{$i * 5}\%
+  .pt#{$separator}#{$i * 5}\%
     padding-top: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}pr#{$separator}#{$i * 5}\%
+  .pr#{$separator}#{$i * 5}\%
     padding-right: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}pb#{$separator}#{$i * 5}\%
+  .pb#{$separator}#{$i * 5}\%
     padding-bottom: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}pl#{$separator}#{$i * 5}\%
+  .pl#{$separator}#{$i * 5}\%
     padding-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}py#{$separator}#{$i * 5}\%
+  .py#{$separator}#{$i * 5}\%
     padding-top: #{$i * 5} + '%' !important
     padding-bottom: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}px#{$separator}#{$i * 5}\%
+  .px#{$separator}#{$i * 5}\%
     padding-right: #{$i * 5} + '%' !important
     padding-left: #{$i * 5} + '%' !important
 
-.#{$class-prefix}p#{$separator}auto
+.p#{$separator}auto
   padding: auto !important
 
-.#{$class-prefix}pt#{$separator}auto
+.pt#{$separator}auto
   padding-top: auto !important
 
-.#{$class-prefix}pr#{$separator}auto
+.pr#{$separator}auto
   padding-right: auto !important
 
-.#{$class-prefix}pb#{$separator}auto
+.pb#{$separator}auto
   padding-bottom: auto !important
 
-.#{$class-prefix}pl#{$separator}auto
+.pl#{$separator}auto
   padding-left: auto !important
 
-.#{$class-prefix}py#{$separator}auto
+.py#{$separator}auto
   padding-top: auto !important
   padding-bottom: auto !important
 
-.#{$class-prefix}px#{$separator}auto
+.px#{$separator}auto
   padding-right: auto !important
   padding-left: auto !important
 
 @media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}p#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}p#{$separator}#{$key}
       padding: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}pt#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}pt#{$separator}#{$key}
       padding-top: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}pr#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}pr#{$separator}#{$key}
       padding-right: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}pb#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}pb#{$separator}#{$key}
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}pl#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}pl#{$separator}#{$key}
       padding-left: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}py#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}py#{$separator}#{$key}
       padding-top: $value !important
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}px#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}px#{$separator}#{$key}
       padding-right: $value !important
       padding-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}p#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}p#{$separator}#{$i * 5}\%
       padding: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
       padding-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}py#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}py#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}px#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}px#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
       padding-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}p#{$separator}auto
+  .#{$mobile-prefix}#{$separator}p#{$separator}auto
     padding: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pt#{$separator}auto
+  .#{$mobile-prefix}#{$separator}pt#{$separator}auto
     padding-top: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pr#{$separator}auto
+  .#{$mobile-prefix}#{$separator}pr#{$separator}auto
     padding-right: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pb#{$separator}auto
+  .#{$mobile-prefix}#{$separator}pb#{$separator}auto
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}pl#{$separator}auto
+  .#{$mobile-prefix}#{$separator}pl#{$separator}auto
     padding-left: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}py#{$separator}auto
+  .#{$mobile-prefix}#{$separator}py#{$separator}auto
     padding-top: auto !important
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}px#{$separator}auto
+  .#{$mobile-prefix}#{$separator}px#{$separator}auto
     padding-right: auto !important
     padding-left: auto !important
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}p#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}p#{$separator}#{$key}
       padding: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}pt#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}pt#{$separator}#{$key}
       padding-top: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}pr#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}pr#{$separator}#{$key}
       padding-right: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}pb#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}pb#{$separator}#{$key}
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}pl#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}pl#{$separator}#{$key}
       padding-left: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}py#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}py#{$separator}#{$key}
       padding-top: $value !important
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}px#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}px#{$separator}#{$key}
       padding-right: $value !important
       padding-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}p#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}p#{$separator}#{$i * 5}\%
       padding: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
       padding-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}py#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}py#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}px#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}px#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
       padding-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}p#{$separator}auto
+  .#{$tablet-prefix}#{$separator}p#{$separator}auto
     padding: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pt#{$separator}auto
+  .#{$tablet-prefix}#{$separator}pt#{$separator}auto
     padding-top: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pr#{$separator}auto
+  .#{$tablet-prefix}#{$separator}pr#{$separator}auto
     padding-right: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pb#{$separator}auto
+  .#{$tablet-prefix}#{$separator}pb#{$separator}auto
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}pl#{$separator}auto
+  .#{$tablet-prefix}#{$separator}pl#{$separator}auto
     padding-left: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}py#{$separator}auto
+  .#{$tablet-prefix}#{$separator}py#{$separator}auto
     padding-top: auto !important
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}px#{$separator}auto
+  .#{$tablet-prefix}#{$separator}px#{$separator}auto
     padding-right: auto !important
     padding-left: auto !important
 
 @media screen and (min-width: $tablet-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}p#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}p#{$separator}#{$key}
       padding: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pt#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}pt#{$separator}#{$key}
       padding-top: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pr#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}pr#{$separator}#{$key}
       padding-right: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pb#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}pb#{$separator}#{$key}
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pl#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}pl#{$separator}#{$key}
       padding-left: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}py#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}py#{$separator}#{$key}
       padding-top: $value !important
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}px#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}px#{$separator}#{$key}
       padding-right: $value !important
       padding-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}p#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}p#{$separator}#{$i * 5}\%
       padding: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
       padding-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}py#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}py#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}px#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}px#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
       padding-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}p#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}p#{$separator}auto
     padding: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pt#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}pt#{$separator}auto
     padding-top: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pr#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}pr#{$separator}auto
     padding-right: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pb#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}pb#{$separator}auto
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}pl#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}pl#{$separator}auto
     padding-left: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}py#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}py#{$separator}auto
     padding-top: auto !important
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}px#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}px#{$separator}auto
     padding-right: auto !important
     padding-left: auto !important
 
 @media screen and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}p#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}p#{$separator}#{$key}
       padding: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pt#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}pt#{$separator}#{$key}
       padding-top: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pr#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}pr#{$separator}#{$key}
       padding-right: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pb#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}pb#{$separator}#{$key}
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pl#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}pl#{$separator}#{$key}
       padding-left: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}py#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}py#{$separator}#{$key}
       padding-top: $value !important
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}px#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}px#{$separator}#{$key}
       padding-right: $value !important
       padding-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}p#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}p#{$separator}#{$i * 5}\%
       padding: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
       padding-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}py#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}py#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}px#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}px#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
       padding-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}p#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}p#{$separator}auto
     padding: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pt#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}pt#{$separator}auto
     padding-top: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pr#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}pr#{$separator}auto
     padding-right: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pb#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}pb#{$separator}auto
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}pl#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}pl#{$separator}auto
     padding-left: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}py#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}py#{$separator}auto
     padding-top: auto !important
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}px#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}px#{$separator}auto
     padding-right: auto !important
     padding-left: auto !important
 
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}p#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}p#{$separator}#{$key}
       padding: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}pt#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}pt#{$separator}#{$key}
       padding-top: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}pr#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}pr#{$separator}#{$key}
       padding-right: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}pb#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}pb#{$separator}#{$key}
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}pl#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}pl#{$separator}#{$key}
       padding-left: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}py#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}py#{$separator}#{$key}
       padding-top: $value !important
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}px#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}px#{$separator}#{$key}
       padding-right: $value !important
       padding-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}p#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}p#{$separator}#{$i * 5}\%
       padding: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
       padding-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}py#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}py#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}px#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}px#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
       padding-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}p#{$separator}auto
+  .#{$laptop-prefix}#{$separator}p#{$separator}auto
     padding: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pt#{$separator}auto
+  .#{$laptop-prefix}#{$separator}pt#{$separator}auto
     padding-top: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pr#{$separator}auto
+  .#{$laptop-prefix}#{$separator}pr#{$separator}auto
     padding-right: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pb#{$separator}auto
+  .#{$laptop-prefix}#{$separator}pb#{$separator}auto
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}pl#{$separator}auto
+  .#{$laptop-prefix}#{$separator}pl#{$separator}auto
     padding-left: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}py#{$separator}auto
+  .#{$laptop-prefix}#{$separator}py#{$separator}auto
     padding-top: auto !important
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}px#{$separator}auto
+  .#{$laptop-prefix}#{$separator}px#{$separator}auto
     padding-right: auto !important
     padding-left: auto !important
 
 @media screen and (min-width: $laptop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}p#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}p#{$separator}#{$key}
       padding: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pt#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}pt#{$separator}#{$key}
       padding-top: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pr#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}pr#{$separator}#{$key}
       padding-right: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pb#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}pb#{$separator}#{$key}
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pl#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}pl#{$separator}#{$key}
       padding-left: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}py#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}py#{$separator}#{$key}
       padding-top: $value !important
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}px#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}px#{$separator}#{$key}
       padding-right: $value !important
       padding-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}p#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}p#{$separator}#{$i * 5}\%
       padding: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
       padding-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}py#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}py#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}px#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}px#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
       padding-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}p#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}p#{$separator}auto
     padding: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pt#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}pt#{$separator}auto
     padding-top: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pr#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}pr#{$separator}auto
     padding-right: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pb#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}pb#{$separator}auto
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}pl#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}pl#{$separator}auto
     padding-left: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}py#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}py#{$separator}auto
     padding-top: auto !important
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}px#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}px#{$separator}auto
     padding-right: auto !important
     padding-left: auto !important
 
 @media screen and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}p#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}p#{$separator}#{$key}
       padding: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pt#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}pt#{$separator}#{$key}
       padding-top: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pr#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}pr#{$separator}#{$key}
       padding-right: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pb#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}pb#{$separator}#{$key}
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pl#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}pl#{$separator}#{$key}
       padding-left: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}py#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}py#{$separator}#{$key}
       padding-top: $value !important
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}px#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}px#{$separator}#{$key}
       padding-right: $value !important
       padding-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}p#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}p#{$separator}#{$i * 5}\%
       padding: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
       padding-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}py#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}py#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}px#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}px#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
       padding-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}p#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}p#{$separator}auto
     padding: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pt#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}pt#{$separator}auto
     padding-top: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pr#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}pr#{$separator}auto
     padding-right: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pb#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}pb#{$separator}auto
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}pl#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}pl#{$separator}auto
     padding-left: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}py#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}py#{$separator}auto
     padding-top: auto !important
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}px#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}px#{$separator}auto
     padding-right: auto !important
     padding-left: auto !important
 
 @media screen and (min-width: $desktop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}p#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}p#{$separator}#{$key}
       padding: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}pt#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}pt#{$separator}#{$key}
       padding-top: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}pr#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}pr#{$separator}#{$key}
       padding-right: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}pb#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}pb#{$separator}#{$key}
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}pl#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}pl#{$separator}#{$key}
       padding-left: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}py#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}py#{$separator}#{$key}
       padding-top: $value !important
       padding-bottom: $value !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}px#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}px#{$separator}#{$key}
       padding-right: $value !important
       padding-left: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}p#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}p#{$separator}#{$i * 5}\%
       padding: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}pt#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}pr#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}pb#{$separator}#{$i * 5}\%
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}pl#{$separator}#{$i * 5}\%
       padding-left: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}py#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}py#{$separator}#{$i * 5}\%
       padding-top: #{$i * 5} + '%' !important
       padding-bottom: #{$i * 5} + '%' !important
 
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}px#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}px#{$separator}#{$i * 5}\%
       padding-right: #{$i * 5} + '%' !important
       padding-left: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}p#{$separator}auto
+  .#{$desktop-prefix}#{$separator}p#{$separator}auto
     padding: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pt#{$separator}auto
+  .#{$desktop-prefix}#{$separator}pt#{$separator}auto
     padding-top: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pr#{$separator}auto
+  .#{$desktop-prefix}#{$separator}pr#{$separator}auto
     padding-right: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pb#{$separator}auto
+  .#{$desktop-prefix}#{$separator}pb#{$separator}auto
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}pl#{$separator}auto
+  .#{$desktop-prefix}#{$separator}pl#{$separator}auto
     padding-left: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}py#{$separator}auto
+  .#{$desktop-prefix}#{$separator}py#{$separator}auto
     padding-top: auto !important
     padding-bottom: auto !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}px#{$separator}auto
+  .#{$desktop-prefix}#{$separator}px#{$separator}auto
     padding-right: auto !important
     padding-left: auto !important
 

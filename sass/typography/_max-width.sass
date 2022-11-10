@@ -3,154 +3,154 @@
 @use "sass:string"
 
 @each $key, $value in $value-props
-  .#{$class-prefix}maw#{$separator}#{$key}
+  .maw#{$separator}#{$key}
     max-width: $value !important
 
 @for $i from 1 through 30
-  .#{$class-prefix}maw#{$separator}#{$i * 5}\%
+  .maw#{$separator}#{$i * 5}\%
     max-width: #{$i * 5} + '%' !important
 
 @for $i from 1 to 41
-  .#{$class-prefix}maw#{$separator}#{$i * 5}vw
+  .maw#{$separator}#{$i * 5}vw
     max-width: #{$i * 5}vw !important
 
-.#{$class-prefix}maw#{$separator}auto
+.maw#{$separator}auto
   max-width: auto !important
 
 @media screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}maw#{$separator}#{$key}
+    .#{$mobile-prefix}#{$separator}maw#{$separator}#{$key}
       max-width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
+    .#{$mobile-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
       max-width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$mobile-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
+    .#{$mobile-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
       max-width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$mobile-prefix}#{$separator}maw#{$separator}auto
+  .#{$mobile-prefix}#{$separator}maw#{$separator}auto
     max-width: auto !important
 
 @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}maw#{$separator}#{$key}
+    .#{$tablet-prefix}#{$separator}maw#{$separator}#{$key}
       max-width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
+    .#{$tablet-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
       max-width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$tablet-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
+    .#{$tablet-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
       max-width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$tablet-prefix}#{$separator}maw#{$separator}auto
+  .#{$tablet-prefix}#{$separator}maw#{$separator}auto
     max-width: auto !important
 
 @media screen and (min-width: $tablet-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}maw#{$separator}#{$key}
+    .#{$tablet-up-prefix}#{$separator}maw#{$separator}#{$key}
       max-width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
+    .#{$tablet-up-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
       max-width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$tablet-up-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
+    .#{$tablet-up-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
       max-width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$tablet-up-prefix}#{$separator}maw#{$separator}auto
+  .#{$tablet-up-prefix}#{$separator}maw#{$separator}auto
     max-width: auto !important
 
 @media screen and (max-width: $tablet-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}maw#{$separator}#{$key}
+    .#{$tablet-down-prefix}#{$separator}maw#{$separator}#{$key}
       max-width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
+    .#{$tablet-down-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
       max-width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$tablet-down-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
+    .#{$tablet-down-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
       max-width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$tablet-down-prefix}#{$separator}maw#{$separator}auto
+  .#{$tablet-down-prefix}#{$separator}maw#{$separator}auto
     max-width: auto !important
 
 @media screen and (min-width: $laptop-min-width) and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}maw#{$separator}#{$key}
+    .#{$laptop-prefix}#{$separator}maw#{$separator}#{$key}
       max-width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
+    .#{$laptop-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
       max-width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$laptop-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
+    .#{$laptop-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
       max-width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$laptop-prefix}#{$separator}maw#{$separator}auto
+  .#{$laptop-prefix}#{$separator}maw#{$separator}auto
     max-width: auto !important
 
 @media screen and (min-width: $laptop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}maw#{$separator}#{$key}
+    .#{$laptop-up-prefix}#{$separator}maw#{$separator}#{$key}
       max-width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
+    .#{$laptop-up-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
       max-width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$laptop-up-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
+    .#{$laptop-up-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
       max-width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$laptop-up-prefix}#{$separator}maw#{$separator}auto
+  .#{$laptop-up-prefix}#{$separator}maw#{$separator}auto
     max-width: auto !important
 
 @media screen and (max-width: $laptop-max-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}maw#{$separator}#{$key}
+    .#{$laptop-down-prefix}#{$separator}maw#{$separator}#{$key}
       max-width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
+    .#{$laptop-down-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
       max-width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$laptop-down-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
+    .#{$laptop-down-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
       max-width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$laptop-down-prefix}#{$separator}maw#{$separator}auto
+  .#{$laptop-down-prefix}#{$separator}maw#{$separator}auto
     max-width: auto !important
 
 @media screen and (min-width: $desktop-min-width)
 
   @each $key, $value in $value-props
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}maw#{$separator}#{$key}
+    .#{$desktop-prefix}#{$separator}maw#{$separator}#{$key}
       max-width: $value !important
 
   @for $i from 1 through 30
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
+    .#{$desktop-prefix}#{$separator}maw#{$separator}#{$i * 5}\%
       max-width: #{$i * 5} + '%' !important
 
   @for $i from 1 to 41
-    .#{$class-prefix}#{$desktop-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
+    .#{$desktop-prefix}#{$separator}maw#{$separator}#{$i * 5}vw
       max-width: #{$i * 5}vw !important
 
-  .#{$class-prefix}#{$desktop-prefix}#{$separator}maw#{$separator}auto
+  .#{$desktop-prefix}#{$separator}maw#{$separator}auto
     max-width: auto !important
 
 

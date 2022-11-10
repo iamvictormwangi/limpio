@@ -1,153 +1,153 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}bd
+.bd
   border: var(#{$variable-prefix}-border-width) var(#{$variable-prefix}-border-style) var(#{$variable-prefix}-border-color)
 
-.#{$class-prefix}borderless
+.borderless
   border: none !important
 
-.#{$class-prefix}bd#{$separator}t
+.bd#{$separator}t
   border-top: var(#{$variable-prefix}-border-width) var(#{$variable-prefix}-border-style) var(#{$variable-prefix}-border-color)
 
-.#{$class-prefix}bd#{$separator}r
+.bd#{$separator}r
   border-right: var(#{$variable-prefix}-border-width) var(#{$variable-prefix}-border-style) var(#{$variable-prefix}-border-color)
 
-.#{$class-prefix}bd#{$separator}b
+.bd#{$separator}b
   border-bottom: var(#{$variable-prefix}-border-width) var(#{$variable-prefix}-border-style) var(#{$variable-prefix}-border-color)
 
-.#{$class-prefix}bd#{$separator}l
+.bd#{$separator}l
   border-left: var(#{$variable-prefix}-border-width) var(#{$variable-prefix}-border-style) var(#{$variable-prefix}-border-color)
 
-.#{$class-prefix}bd#{$separator}none
+.bd#{$separator}none
   border-style: none !important
 
-.#{$class-prefix}bd#{$separator}dotted
+.bd#{$separator}dotted
   border-style: dotted !important
 
-.#{$class-prefix}bd#{$separator}dashed
+.bd#{$separator}dashed
   border-style: dashed !important
 
-.#{$class-prefix}bd#{$separator}solid
+.bd#{$separator}solid
   border-style: solid !important
 
-.#{$class-prefix}bd#{$separator}groove
+.bd#{$separator}groove
   border-style: groove !important
 
-.#{$class-prefix}bd#{$separator}ridge
+.bd#{$separator}ridge
   border-style: ridge !important
 
-.#{$class-prefix}bd#{$separator}double
+.bd#{$separator}double
   border-style: double !important
 
-.#{$class-prefix}bd#{$separator}inset
+.bd#{$separator}inset
   border-style: inset !important
 
-.#{$class-prefix}bd#{$separator}outset
+.bd#{$separator}outset
   border-style: outset !important
 
 @each $color in $color-list
-  .#{$class-prefix}bdc#{$separator}#{'' + $color}
+  .bdc#{$separator}#{'' + $color}
     border-color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}bdc#{$separator}#{'' + $color}\:hvr:hover
+  .bdc#{$separator}#{'' + $color}\:hvr:hover
     border-color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}bdc#{$separator}#{'' + $color}\:fcs:focus
+  .bdc#{$separator}#{'' + $color}\:fcs:focus
     border-color: var(#{$variable-prefix}-#{$color})
 
   @for $index from 1 to 7
-    .#{$class-prefix}bdc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}
+    .bdc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}
       border-color: var(#{$variable-prefix}-#{$color}-ltn-#{$index})
 
-    .#{$class-prefix}bdc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:hvr:hover
+    .bdc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:hvr:hover
       border-color: var(#{$variable-prefix}-#{$color}-ltn-#{$index})
 
-    .#{$class-prefix}bdc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:fcs:focus
+    .bdc#{$separator}#{'' + $color}#{$separator}ltn#{$separator}#{$index}\:fcs:focus
       border-color: var(#{$variable-prefix}-#{$color}-ltn-#{$index})
 
-    .#{$class-prefix}bdc#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}
+    .bdc#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}
       border-color: var(#{$variable-prefix}-#{$color}-dkn-#{$index})
 
-    .#{$class-prefix}bdc#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}\:hvr:hover
+    .bdc#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}\:hvr:hover
       border-color: var(#{$variable-prefix}-#{$color}-dkn-#{$index})
 
-    .#{$class-prefix}bdc#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}\:fcs:focus
+    .bdc#{$separator}#{'' + $color}#{$separator}dkn#{$separator}#{$index}\:fcs:focus
       border-color: var(#{$variable-prefix}-#{$color}-dkn-#{$index})
 
 @each $color in $brands
-  .#{$class-prefix}bdc#{$separator}#{'' + $color}
+  .bdc#{$separator}#{'' + $color}
     border-color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}bdc#{$separator}#{'' + $color}\:hvr:hover
+  .bdc#{$separator}#{'' + $color}\:hvr:hover
     border-color: var(#{$variable-prefix}-#{$color})
 
-  .#{$class-prefix}bdc#{$separator}#{'' + $color}\:fcs:focus
+  .bdc#{$separator}#{'' + $color}\:fcs:focus
     border-color: var(#{$variable-prefix}-#{$color})
 
 @each $i, $value in $border-list
-  .#{$class-prefix}bd#{$separator}#{$i}
+  .bd#{$separator}#{$i}
     border-width: $value !important
 
 @each $i, $value in $border-list
-  .#{$class-prefix}bdrds#{$separator}#{$i}
+  .bdrds#{$separator}#{$i}
     border-radius: $value !important
 
-  .#{$class-prefix}bdrds#{$separator}t#{$separator}#{$i}
+  .bdrds#{$separator}t#{$separator}#{$i}
     border-top-right-radius: $value !important
     border-top-left-radius: $value !important
 
-  .#{$class-prefix}bdrds#{$separator}r#{$separator}#{$i}
+  .bdrds#{$separator}r#{$separator}#{$i}
     border-top-right-radius: $value !important
     border-bottom-right-radius: $value !important
 
-  .#{$class-prefix}bdrds#{$separator}b#{$separator}#{$i}
+  .bdrds#{$separator}b#{$separator}#{$i}
     border-bottom-right-radius: $value !important
     border-bottom-left-radius: $value !important
 
-  .#{$class-prefix}bdrds#{$separator}l#{$separator}#{$i}
+  .bdrds#{$separator}l#{$separator}#{$i}
     border-top-left-radius: $value !important
     border-bottom-left-radius: $value !important
 
-  .#{$class-prefix}bdrds#{$separator}t#{$separator}r#{$separator}#{$i}
+  .bdrds#{$separator}t#{$separator}r#{$separator}#{$i}
     border-top-right-radius: $value !important
 
-  .#{$class-prefix}bdrds#{$separator}t#{$separator}l#{$separator}#{$i}
+  .bdrds#{$separator}t#{$separator}l#{$separator}#{$i}
     border-top-left-radius: $value !important
 
-  .#{$class-prefix}bdrds#{$separator}b#{$separator}r#{$separator}#{$i}
+  .bdrds#{$separator}b#{$separator}r#{$separator}#{$i}
     border-bottom-right-radius: $value !important
 
-  .#{$class-prefix}bdrds#{$separator}b#{$separator}l#{$separator}#{$i}
+  .bdrds#{$separator}b#{$separator}l#{$separator}#{$i}
     border-bottom-left-radius: $value !important
 
 @for $i from 1 through 20
-  .#{$class-prefix}bdrds#{$separator}#{$i * 5}\%
+  .bdrds#{$separator}#{$i * 5}\%
     border-radius: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}bdrds#{$separator}t#{$separator}#{$i * 5}\%
+  .bdrds#{$separator}t#{$separator}#{$i * 5}\%
     border-top-right-radius: #{$i * 5} + '%' !important
     border-top-left-radius: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}bdrds#{$separator}r#{$separator}#{$i * 5}\%
+  .bdrds#{$separator}r#{$separator}#{$i * 5}\%
     border-top-right-radius: #{$i * 5} + '%' !important
     border-bottom-right-radius: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}bdrds#{$separator}b#{$separator}#{$i * 5}\%
+  .bdrds#{$separator}b#{$separator}#{$i * 5}\%
     border-bottom-right-radius: #{$i * 5} + '%' !important
     border-bottom-left-radius: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}bdrds#{$separator}l#{$separator}#{$i * 5}\%
+  .bdrds#{$separator}l#{$separator}#{$i * 5}\%
     border-top-left-radius: #{$i * 5} + '%' !important
     border-bottom-left-radius: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}bdrds#{$separator}t#{$separator}r#{$separator}#{$i * 5}\%
+  .bdrds#{$separator}t#{$separator}r#{$separator}#{$i * 5}\%
     border-top-right-radius: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}bdrds#{$separator}t#{$separator}l#{$separator}#{$i * 5}\%
+  .bdrds#{$separator}t#{$separator}l#{$separator}#{$i * 5}\%
     border-top-left-radius: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}bdrds#{$separator}b#{$separator}r#{$separator}#{$i * 5}\%
+  .bdrds#{$separator}b#{$separator}r#{$separator}#{$i * 5}\%
     border-bottom-right-radius: #{$i * 5} + '%' !important
 
-  .#{$class-prefix}bdrds#{$separator}b#{$separator}l#{$separator}#{$i * 5}\%
+  .bdrds#{$separator}b#{$separator}l#{$separator}#{$i * 5}\%
     border-bottom-left-radius: #{$i * 5} + '%' !important

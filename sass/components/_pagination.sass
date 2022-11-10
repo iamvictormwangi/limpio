@@ -1,11 +1,11 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}pagination
+.pagination
   list-style: none
   display: flex
   flex-wrap: wrap
 
-  & .#{$class-prefix}pagination#{$separator}item
+  & .pagination#{$separator}item
     @if $enable-margin == true
       margin: 0 0.08rem
 

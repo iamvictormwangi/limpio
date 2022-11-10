@@ -1,39 +1,39 @@
 @use "./../abstracts/" as *
 
-.#{$class-prefix}carousel
+.carousel
   position: relative
   min-height: 50vh
   width: 100%
 
-  & .#{$class-prefix}carousel#{$separator}wrapper
+  & .carousel#{$separator}wrapper
     position: relative
     height: 100%
     width: 100%
 
-    & .#{$class-prefix}carousel#{$separator}item
+    & .carousel#{$separator}item
       object-fit: cover
       position: absolute
       width: 10rem
 
-  & .#{$class-prefix}carousel#{$separator}toggler#{$separator}right
+  & .carousel#{$separator}toggler#{$separator}right
     position: absolute
     right: 1rem
     top: 50%
     transform: translateY(-50%)
 
-  & .#{$class-prefix}carousel#{$separator}toggler#{$separator}left
+  & .carousel#{$separator}toggler#{$separator}left
     position: absolute
     left: 1rem
     top: 50%
     transform: translateY(-50%)
 
-  & .#{$class-prefix}carousel#{$separator}indicator#{$separator}wrapper
+  & .carousel#{$separator}indicator#{$separator}wrapper
     display: flex
     justify-content: center
     @if $enable-padding == true
       padding: 0.8rem 0
 
-    & .#{$class-prefix}carousel#{$separator}indicator
+    & .carousel#{$separator}indicator
       border: 0
       border-radius: 50%
       width: 15%

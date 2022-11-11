@@ -336,8 +336,6 @@
 }
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   background-repeat: no-repeat;
   border: none;
@@ -468,17 +466,14 @@ textarea {
 }
 
 button, [type=button], [type=reset], [type=submit] {
-  -webkit-appearance: button;
   appearance: button;
 }
 
 [type=checkbox] {
-  -webkit-appearance: checkbox;
   appearance: checkbox;
 }
 
 [type=radio] {
-  -webkit-appearance: radio;
   appearance: radio;
 }
 
@@ -539,7 +534,6 @@ html, body {
 
 @media (prefers-reduced-motion: reduce) {
   * {
-    -webkit-transition: none;
     transition: none;
   }
   html {
@@ -1094,16 +1088,8 @@ html, body {
 }
 
 .box-group {
-  -webkit-display: flex !important;
-  -moz-display: flex !important;
-  -ms-display: flex !important;
-  -o-display: flex !important;
-  display: flex !important;
-  -webkit-flex-wrap: wrap !important;
-  -moz-flex-wrap: wrap !important;
-  -ms-flex-wrap: wrap !important;
-  -o-flex-wrap: wrap !important;
-  flex-wrap: wrap !important;
+  display: flex;
+  flex-wrap: wrap;
   align-items: stretch;
   position: relative;
 }
@@ -1245,11 +1231,7 @@ html, body {
   transform: translateY(-50%);
 }
 .carousel .carousel-indicator-wrapper {
-  -webkit-display: flex !important;
-  -moz-display: flex !important;
-  -ms-display: flex !important;
-  -o-display: flex !important;
-  display: flex !important;
+  display: flex;
   justify-content: center;
   padding: 0.8rem 0;
 }
@@ -1290,11 +1272,7 @@ html, body {
 }
 
 .footer .footer-wrapper {
-  -webkit-display: flex !important;
-  -moz-display: flex !important;
-  -ms-display: flex !important;
-  -o-display: flex !important;
-  display: flex !important;
+  display: flex;
   justify-content: space-between;
   padding: 1rem 0;
 }
@@ -1305,16 +1283,8 @@ html, body {
 
 .group {
   position: relative;
-  -webkit-display: flex !important;
-  -moz-display: flex !important;
-  -ms-display: flex !important;
-  -o-display: flex !important;
-  display: flex !important;
-  -webkit-flex-wrap: wrap !important;
-  -moz-flex-wrap: wrap !important;
-  -ms-flex-wrap: wrap !important;
-  -o-flex-wrap: wrap !important;
-  flex-wrap: wrap !important;
+  display: flex;
+  flex-wrap: wrap;
   vertical-align: middle;
   align-items: stretch;
 }
@@ -1340,11 +1310,7 @@ html, body {
 
 .hero {
   position: relative;
-  -webkit-display: flex !important;
-  -moz-display: flex !important;
-  -ms-display: flex !important;
-  -o-display: flex !important;
-  display: flex !important;
+  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 20rem;
@@ -1447,16 +1413,8 @@ html, body {
 
 .pagination {
   list-style: none;
-  -webkit-display: flex !important;
-  -moz-display: flex !important;
-  -ms-display: flex !important;
-  -o-display: flex !important;
-  display: flex !important;
-  -webkit-flex-wrap: wrap !important;
-  -moz-flex-wrap: wrap !important;
-  -ms-flex-wrap: wrap !important;
-  -o-flex-wrap: wrap !important;
-  flex-wrap: wrap !important;
+  display: flex;
+  flex-wrap: wrap;
 }
 .pagination .pagination-item {
   margin: 0 0.08rem;
@@ -1478,11 +1436,7 @@ html, body {
 }
 .panel .panel-wrapper {
   padding: 1rem 0rem;
-  -webkit-display: flex !important;
-  -moz-display: flex !important;
-  -ms-display: flex !important;
-  -o-display: flex !important;
-  display: flex !important;
+  display: flex;
   justify-content: space-between;
 }
 .panel .panel-wrapper .panel-brand {
@@ -1732,12 +1686,16 @@ table tr.highlight {
   width: 100% !important;
 }
 
-.img, .video, .img-thumb, .thumb {
+.img,
+.video,
+.img-thumb,
+.thumb {
   height: auto;
   width: auto;
 }
 
-.img-responsive, .video-responsive {
+.img-responsive,
+.video-responsive {
   height: auto;
   width: 100%;
 }
@@ -1751,16 +1709,8 @@ table tr.highlight {
 }
 
 .row {
-  -webkit-display: flex !important;
-  -moz-display: flex !important;
-  -ms-display: flex !important;
-  -o-display: flex !important;
-  display: flex !important;
-  -webkit-flex-wrap: wrap !important;
-  -moz-flex-wrap: wrap !important;
-  -ms-flex-wrap: wrap !important;
-  -o-flex-wrap: wrap !important;
-  flex-wrap: wrap !important;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .col-1 {
@@ -1813,16 +1763,8 @@ table tr.highlight {
 
 @media screen and (min-width: 10rem) and (max-width: 37.5rem) {
   .\@mobile-row {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    flex-wrap: wrap;
   }
   .\@mobile-col-1 {
     width: 8.3333333333% !important;
@@ -1863,16 +1805,8 @@ table tr.highlight {
 }
 @media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-row {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    flex-wrap: wrap;
   }
   .\@tablet-col-1 {
     width: 8.3333333333% !important;
@@ -1913,16 +1847,8 @@ table tr.highlight {
 }
 @media screen and (min-width: 37.505rem) {
   .\@tablet-up-row {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    flex-wrap: wrap;
   }
   .\@tablet-up-col-1 {
     width: 8.3333333333% !important;
@@ -1963,16 +1889,8 @@ table tr.highlight {
 }
 @media screen and (max-width: 75rem) {
   .\@tablet-down-row {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    flex-wrap: wrap;
   }
   .\@tablet-down-col-1 {
     width: 8.3333333333% !important;
@@ -2013,16 +1931,8 @@ table tr.highlight {
 }
 @media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-row {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    flex-wrap: wrap;
   }
   .\@laptop-col-1 {
     width: 8.3333333333% !important;
@@ -2063,16 +1973,8 @@ table tr.highlight {
 }
 @media screen and (min-width: 75.005rem) {
   .\@laptop-up-row {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    flex-wrap: wrap;
   }
   .\@laptop-up-col-1 {
     width: 8.3333333333% !important;
@@ -2113,16 +2015,8 @@ table tr.highlight {
 }
 @media screen and (max-width: 112.5rem) {
   .\@laptop-down-row {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    flex-wrap: wrap;
   }
   .\@laptop-down-col-1 {
     width: 8.3333333333% !important;
@@ -2163,16 +2057,8 @@ table tr.highlight {
 }
 @media screen and (min-width: 112.505rem) {
   .\@desktop-row {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    flex-wrap: wrap;
   }
   .\@desktop-col-1 {
     width: 8.3333333333% !important;
@@ -13588,11 +13474,7 @@ table tr.highlight {
 
 .d-flx,
 .d-flex {
-  -webkit-display: flex !important;
-  -moz-display: flex !important;
-  -ms-display: flex !important;
-  -o-display: flex !important;
-  display: flex !important;
+  display: flex;
 }
 
 @media screen and (min-width: 10rem) and (max-width: 37.5rem) {
@@ -13620,11 +13502,7 @@ table tr.highlight {
   }
   .\@mobile-d-flx,
   .\@mobile-d-flex {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
+    display: flex;
   }
 }
 @media screen and (min-width: 37.505rem) and (max-width: 75rem) {
@@ -13652,11 +13530,7 @@ table tr.highlight {
   }
   .\@tablet-d-flx,
   .\@tablet-d-flex {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
+    display: flex;
   }
 }
 @media screen and (min-width: 37.505rem) {
@@ -13684,11 +13558,7 @@ table tr.highlight {
   }
   .\@tablet-up-d-flx,
   .\@tablet-up-d-flex {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
+    display: flex;
   }
 }
 @media screen and (max-width: 75rem) {
@@ -13716,11 +13586,7 @@ table tr.highlight {
   }
   .\@tablet-down-d-flx,
   .\@tablet-down-d-flex {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
+    display: flex;
   }
 }
 @media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
@@ -13748,11 +13614,7 @@ table tr.highlight {
   }
   .\@laptop-d-flx,
   .\@laptop-d-flex {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
+    display: flex;
   }
 }
 @media screen and (min-width: 75.005rem) {
@@ -13780,11 +13642,7 @@ table tr.highlight {
   }
   .\@laptop-up-d-flx,
   .\@laptop-up-d-flex {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
+    display: flex;
   }
 }
 @media screen and (max-width: 112.5rem) {
@@ -13812,11 +13670,7 @@ table tr.highlight {
   }
   .\@laptop-down-d-flx,
   .\@laptop-down-d-flex {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
+    display: flex;
   }
 }
 @media screen and (min-width: 112.505rem) {
@@ -13844,19 +13698,11 @@ table tr.highlight {
   }
   .\@desktop-d-flx,
   .\@desktop-d-flex {
-    -webkit-display: flex !important;
-    -moz-display: flex !important;
-    -ms-display: flex !important;
-    -o-display: flex !important;
-    display: flex !important;
+    display: flex;
   }
 }
 .flx-wrap {
-  -webkit-flex-wrap: wrap !important;
-  -moz-flex-wrap: wrap !important;
-  -ms-flex-wrap: wrap !important;
-  -o-flex-wrap: wrap !important;
-  flex-wrap: wrap !important;
+  flex-wrap: wrap;
 }
 
 .flx-wrap-reverse {
@@ -13872,11 +13718,7 @@ table tr.highlight {
 }
 
 .flx-row-reverse {
-  -webkit-flex-direction: row-reverse !important;
-  -moz-flex-direction: row-reverse !important;
-  -ms-flex-direction: row-reverse !important;
-  -o-flex-direction: row-reverse !important;
-  flex-direction: row-reverse !important;
+  flex-direction: row-reverse;
 }
 
 .flx-col-reverse {
@@ -14097,11 +13939,7 @@ table tr.highlight {
 
 @media screen and (max-width: 37.5rem) {
   .\@mobile-flx-wrap {
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    flex-wrap: wrap;
   }
   .\@mobile-flx-wrap-reverse {
     flex-wrap: wrap-reverse !important;
@@ -14113,11 +13951,7 @@ table tr.highlight {
     flex-direction: column !important;
   }
   .\@mobile-flx-row-reverse {
-    -webkit-flex-direction: row-reverse !important;
-    -moz-flex-direction: row-reverse !important;
-    -ms-flex-direction: row-reverse !important;
-    -o-flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+    flex-direction: row-reverse;
   }
   .\@mobile-flx-col-reverse {
     flex-direction: column-reverse !important;
@@ -14284,11 +14118,7 @@ table tr.highlight {
 }
 @media screen and (min-width: 37.505rem) and (max-width: 75rem) {
   .\@tablet-flx-wrap {
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    flex-wrap: wrap;
   }
   .\@tablet-flx-wrap-reverse {
     flex-wrap: wrap-reverse !important;
@@ -14300,11 +14130,7 @@ table tr.highlight {
     flex-direction: column !important;
   }
   .\@tablet-flx-row-reverse {
-    -webkit-flex-direction: row-reverse !important;
-    -moz-flex-direction: row-reverse !important;
-    -ms-flex-direction: row-reverse !important;
-    -o-flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+    flex-direction: row-reverse;
   }
   .\@tablet-flx-col-reverse {
     flex-direction: column-reverse !important;
@@ -14471,11 +14297,7 @@ table tr.highlight {
 }
 @media screen and (min-width: 37.505rem) {
   .\@tablet-up-flx-wrap {
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    flex-wrap: wrap;
   }
   .\@tablet-up-flx-wrap-reverse {
     flex-wrap: wrap-reverse !important;
@@ -14487,11 +14309,7 @@ table tr.highlight {
     flex-direction: column !important;
   }
   .\@tablet-up-flx-row-reverse {
-    -webkit-flex-direction: row-reverse !important;
-    -moz-flex-direction: row-reverse !important;
-    -ms-flex-direction: row-reverse !important;
-    -o-flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+    flex-direction: row-reverse;
   }
   .\@tablet-up-flx-col-reverse {
     flex-direction: column-reverse !important;
@@ -14658,11 +14476,7 @@ table tr.highlight {
 }
 @media screen and (max-width: 75rem) {
   .\@tablet-down-flx-wrap {
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    flex-wrap: wrap;
   }
   .\@tablet-down-flx-wrap-reverse {
     flex-wrap: wrap-reverse !important;
@@ -14674,11 +14488,7 @@ table tr.highlight {
     flex-direction: column !important;
   }
   .\@tablet-down-flx-row-reverse {
-    -webkit-flex-direction: row-reverse !important;
-    -moz-flex-direction: row-reverse !important;
-    -ms-flex-direction: row-reverse !important;
-    -o-flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+    flex-direction: row-reverse;
   }
   .\@tablet-down-flx-col-reverse {
     flex-direction: column-reverse !important;
@@ -14845,11 +14655,7 @@ table tr.highlight {
 }
 @media screen and (min-width: 75.005rem) and (max-width: 112.5rem) {
   .\@laptop-flx-wrap {
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    flex-wrap: wrap;
   }
   .\@laptop-flx-wrap-reverse {
     flex-wrap: wrap-reverse !important;
@@ -14861,11 +14667,7 @@ table tr.highlight {
     flex-direction: column !important;
   }
   .\@laptop-flx-row-reverse {
-    -webkit-flex-direction: row-reverse !important;
-    -moz-flex-direction: row-reverse !important;
-    -ms-flex-direction: row-reverse !important;
-    -o-flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+    flex-direction: row-reverse;
   }
   .\@laptop-flx-col-reverse {
     flex-direction: column-reverse !important;
@@ -15032,11 +14834,7 @@ table tr.highlight {
 }
 @media screen and (min-width: 75.005rem) {
   .\@laptop-up-flx-wrap {
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    flex-wrap: wrap;
   }
   .\@laptop-up-flx-wrap-reverse {
     flex-wrap: wrap-reverse !important;
@@ -15048,11 +14846,7 @@ table tr.highlight {
     flex-direction: column !important;
   }
   .\@laptop-up-flx-row-reverse {
-    -webkit-flex-direction: row-reverse !important;
-    -moz-flex-direction: row-reverse !important;
-    -ms-flex-direction: row-reverse !important;
-    -o-flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+    flex-direction: row-reverse;
   }
   .\@laptop-up-flx-col-reverse {
     flex-direction: column-reverse !important;
@@ -15219,11 +15013,7 @@ table tr.highlight {
 }
 @media screen and (max-width: 112.5rem) {
   .\@laptop-down-flx-wrap {
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    flex-wrap: wrap;
   }
   .\@laptop-down-flx-wrap-reverse {
     flex-wrap: wrap-reverse !important;
@@ -15235,11 +15025,7 @@ table tr.highlight {
     flex-direction: column !important;
   }
   .\@laptop-down-flx-row-reverse {
-    -webkit-flex-direction: row-reverse !important;
-    -moz-flex-direction: row-reverse !important;
-    -ms-flex-direction: row-reverse !important;
-    -o-flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+    flex-direction: row-reverse;
   }
   .\@laptop-down-flx-col-reverse {
     flex-direction: column-reverse !important;
@@ -15406,11 +15192,7 @@ table tr.highlight {
 }
 @media screen and (min-width: 112.505rem) {
   .\@desktop-flx-wrap {
-    -webkit-flex-wrap: wrap !important;
-    -moz-flex-wrap: wrap !important;
-    -ms-flex-wrap: wrap !important;
-    -o-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+    flex-wrap: wrap;
   }
   .\@desktop-flx-wrap-reverse {
     flex-wrap: wrap-reverse !important;
@@ -15422,11 +15204,7 @@ table tr.highlight {
     flex-direction: column !important;
   }
   .\@desktop-flx-row-reverse {
-    -webkit-flex-direction: row-reverse !important;
-    -moz-flex-direction: row-reverse !important;
-    -ms-flex-direction: row-reverse !important;
-    -o-flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+    flex-direction: row-reverse;
   }
   .\@desktop-flx-col-reverse {
     flex-direction: column-reverse !important;
@@ -18978,7 +18756,8 @@ table tr.highlight {
   box-shadow: var(--limpio-shadow-lg);
 }
 
-.bshdw, .bshdw-md {
+.bshdw,
+.bshdw-md {
   box-shadow: var(--limpio-shadow-md);
 }
 
@@ -19046,7 +18825,8 @@ table tr.highlight {
   box-shadow: var(--limpio-shadow-lg);
 }
 
-.bshdw-\:hvr:hover, .bshdw-md-\:hvr:hover {
+.bshdw-\:hvr:hover,
+.bshdw-md-\:hvr:hover {
   box-shadow: var(--limpio-shadow-md);
 }
 
@@ -19114,7 +18894,8 @@ table tr.highlight {
   box-shadow: var(--limpio-shadow-lg);
 }
 
-.bshdw-\:fcs:focus, .bshdw-md-\:fcs:focus {
+.bshdw-\:fcs:focus,
+.bshdw-md-\:fcs:focus {
   box-shadow: var(--limpio-shadow-md);
 }
 
@@ -20485,7 +20266,8 @@ pre {
   box-shadow: var(--limpio-text-shadow-lg);
 }
 
-.tshdw, .tshdw-md {
+.tshdw,
+.tshdw-md {
   box-shadow: var(--limpio-text-shadow-md);
 }
 
@@ -20553,7 +20335,8 @@ pre {
   box-shadow: var(--limpio-text-shadow-lg);
 }
 
-.tshdw-\:hvr:hover, .tshdw-md-\:hvr:hover {
+.tshdw-\:hvr:hover,
+.tshdw-md-\:hvr:hover {
   box-shadow: var(--limpio-text-shadow-md);
 }
 
@@ -20621,7 +20404,8 @@ pre {
   box-shadow: var(--limpio-text-shadow-lg);
 }
 
-.tshdw-\:fcs:focus, .tshdw-md-\:fcs:focus {
+.tshdw-\:fcs:focus,
+.tshdw-md-\:fcs:focus {
   box-shadow: var(--limpio-text-shadow-md);
 }
 
@@ -21020,11 +20804,15 @@ pre {
   margin-right: 0.2rem;
 }
 
-h1, .h1, .title {
+h1,
+.h1,
+.title {
   font-size: var(--limpio-title-font-size);
 }
 
-h2, .h2, .subtitle {
+h2,
+.h2,
+.subtitle {
   font-size: calc(var(--limpio-title-font-size) - 0.25rem);
 }
 
@@ -21045,10 +20833,14 @@ h6, .h6 {
 }
 
 @media only screen and (max-width: 45rem) {
-  h1, .h1, .title {
+  h1,
+  .h1,
+  .title {
     font-size: calc(var(--limpio-title-font-size) - 0.5rem);
   }
-  h2, .h2, .subtitle {
+  h2,
+  .h2,
+  .subtitle {
     font-size: calc(var(--limpio-title-font-size) - 0.75rem);
   }
   h3, .h3 {
@@ -101256,7 +101048,8 @@ h6, .h6 {
   position: static !important;
 }
 
-.sticky-top, .sticky-bottom {
+.sticky-top,
+.sticky-bottom {
   position: sticky !important;
 }
 
@@ -101268,7 +101061,8 @@ h6, .h6 {
   bottom: 0 !important;
 }
 
-.fixed-top, .fixed-bottom {
+.fixed-top,
+.fixed-bottom {
   position: fixed !important;
 }
 
@@ -101296,7 +101090,8 @@ h6, .h6 {
   .\@mobile-pos-static {
     position: static !important;
   }
-  .\@mobile-sticky-top, .\@mobile-sticky-bottom {
+  .\@mobile-sticky-top,
+  .\@mobile-sticky-bottom {
     position: sticky !important;
   }
   .\@mobile-sticky-top {
@@ -101305,7 +101100,8 @@ h6, .h6 {
   .\@mobile-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@mobile-fixed-top, .\@mobile-fixed-bottom {
+  .\@mobile-fixed-top,
+  .\@mobile-fixed-bottom {
     position: fixed !important;
   }
   .\@mobile-fixed-top {
@@ -101331,7 +101127,8 @@ h6, .h6 {
   .\@tablet-pos-static {
     position: static !important;
   }
-  .\@tablet-sticky-top, .\@tablet-sticky-bottom {
+  .\@tablet-sticky-top,
+  .\@tablet-sticky-bottom {
     position: sticky !important;
   }
   .\@tablet-sticky-top {
@@ -101340,7 +101137,8 @@ h6, .h6 {
   .\@tablet-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@tablet-fixed-top, .\@tablet-fixed-bottom {
+  .\@tablet-fixed-top,
+  .\@tablet-fixed-bottom {
     position: fixed !important;
   }
   .\@tablet-fixed-top {
@@ -101366,7 +101164,8 @@ h6, .h6 {
   .\@tablet-up-pos-static {
     position: static !important;
   }
-  .\@tablet-up-sticky-top, .\@tablet-up-sticky-bottom {
+  .\@tablet-up-sticky-top,
+  .\@tablet-up-sticky-bottom {
     position: sticky !important;
   }
   .\@tablet-up-sticky-top {
@@ -101375,7 +101174,8 @@ h6, .h6 {
   .\@tablet-up-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@tablet-up-fixed-top, .\@tablet-up-fixed-bottom {
+  .\@tablet-up-fixed-top,
+  .\@tablet-up-fixed-bottom {
     position: fixed !important;
   }
   .\@tablet-up-fixed-top {
@@ -101401,7 +101201,8 @@ h6, .h6 {
   .\@tablet-down-pos-static {
     position: static !important;
   }
-  .\@tablet-down-sticky-top, .\@tablet-down-sticky-bottom {
+  .\@tablet-down-sticky-top,
+  .\@tablet-down-sticky-bottom {
     position: sticky !important;
   }
   .\@tablet-down-sticky-top {
@@ -101410,7 +101211,8 @@ h6, .h6 {
   .\@tablet-down-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@tablet-down-fixed-top, .\@tablet-down-fixed-bottom {
+  .\@tablet-down-fixed-top,
+  .\@tablet-down-fixed-bottom {
     position: fixed !important;
   }
   .\@tablet-down-fixed-top {
@@ -101436,7 +101238,8 @@ h6, .h6 {
   .\@laptop-pos-static {
     position: static !important;
   }
-  .\@laptop-sticky-top, .\@laptop-sticky-bottom {
+  .\@laptop-sticky-top,
+  .\@laptop-sticky-bottom {
     position: sticky !important;
   }
   .\@laptop-sticky-top {
@@ -101445,7 +101248,8 @@ h6, .h6 {
   .\@laptop-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@laptop-fixed-top, .\@laptop-fixed-bottom {
+  .\@laptop-fixed-top,
+  .\@laptop-fixed-bottom {
     position: fixed !important;
   }
   .\@laptop-fixed-top {
@@ -101471,7 +101275,8 @@ h6, .h6 {
   .\@laptop-up-pos-static {
     position: static !important;
   }
-  .\@laptop-up-sticky-top, .\@laptop-up-sticky-bottom {
+  .\@laptop-up-sticky-top,
+  .\@laptop-up-sticky-bottom {
     position: sticky !important;
   }
   .\@laptop-up-sticky-top {
@@ -101480,7 +101285,8 @@ h6, .h6 {
   .\@laptop-up-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@laptop-up-fixed-top, .\@tablet-up-fixed-bottom {
+  .\@laptop-up-fixed-top,
+  .\@tablet-up-fixed-bottom {
     position: fixed !important;
   }
   .\@laptop-up-fixed-top {
@@ -101506,7 +101312,8 @@ h6, .h6 {
   .\@laptop-down-pos-static {
     position: static !important;
   }
-  .\@laptop-down-sticky-top, .\@laptop-down-sticky-bottom {
+  .\@laptop-down-sticky-top,
+  .\@laptop-down-sticky-bottom {
     position: sticky !important;
   }
   .\@laptop-down-sticky-top {
@@ -101515,7 +101322,8 @@ h6, .h6 {
   .\@laptop-down-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@laptop-down-fixed-top, .\@laptop-down-fixed-bottom {
+  .\@laptop-down-fixed-top,
+  .\@laptop-down-fixed-bottom {
     position: fixed !important;
   }
   .\@laptop-down-fixed-top {
@@ -101541,7 +101349,8 @@ h6, .h6 {
   .\@desktop-pos-static {
     position: static !important;
   }
-  .\@desktop-sticky-top, .\@desktop-sticky-bottom {
+  .\@desktop-sticky-top,
+  .\@desktop-sticky-bottom {
     position: sticky !important;
   }
   .\@desktop-sticky-top {
@@ -101550,7 +101359,8 @@ h6, .h6 {
   .\@desktop-sticky-bottom {
     bottom: 0 !important;
   }
-  .\@desktop-fixed-top, .\@desktop-fixed-bottom {
+  .\@desktop-fixed-top,
+  .\@desktop-fixed-bottom {
     position: fixed !important;
   }
   .\@desktop-fixed-top {

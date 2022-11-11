@@ -1,8 +1,6 @@
 @use "./../abstracts/" as *
 
 *
-  -webkit-box-sizing: border-box
-  -moz-box-sizing: border-box
   box-sizing: border-box
   background-repeat: no-repeat
   border: none
@@ -81,7 +79,7 @@ sub
 blockquote
   font-family: sans-serif
   font-style: italic
-  @if $enable-padding == true
+  @if $enable-padding
     padding-left: 1em
 
 u
@@ -110,15 +108,12 @@ textarea
   resize: vertical
 
 button, [type="button"], [type="reset"], [type="submit"]
-  -webkit-appearance: button
   appearance: button
 
 [type="checkbox"]
-  -webkit-appearance: checkbox
   appearance: checkbox
 
 [type="radio"]
-  -webkit-appearance: radio
   appearance: radio
 
 select
@@ -167,7 +162,6 @@ input:disabled, input[readonly], textarea:disabled, textarea[readonly]
 
 @media (prefers-reduced-motion: reduce)
   *
-    -webkit-transition: none
     transition: none
 
   html

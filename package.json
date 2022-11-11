@@ -32,7 +32,7 @@
   "style": "dist/css/limpio.css",
   "scripts": {
     "compile:css": "sass src/limpio.sass build/css/limpio.css",
-    "deploy:css": "postcss build/css/limpio.css -o dist/css/limpio.css"
+    "build:css": "postcss build/css/limpio.css -o dist/css/limpio.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
